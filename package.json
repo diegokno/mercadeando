@@ -1,0 +1,15 @@
+{
+  "name": "mercadeando",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Web app mobile-first para planificar almuerzos peruanos y lista de compras.",
+  "scripts": {
+    "dev": "node local-server.js",
+    "extract:data": "node scripts/extract-data.mjs",
+    "build:public": "node scripts/build-public.mjs",
+    "check": "node scripts/check-app.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

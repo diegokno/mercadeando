@@ -1,0 +1,3603 @@
+{
+  "generated_at": "2026-09-15T01:37:03.341Z",
+  "dishes": [
+    {
+      "slug": "aji-de-gallina",
+      "name": "Ají de gallina",
+      "base": "Pollo",
+      "preparation": "Crema",
+      "category": "pollo",
+      "preparation_key": "crema",
+      "image_path": "imagenes-platos/generadas/aji-gallina.png",
+      "ingredients": [
+        {
+          "name": "Pechuga de pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Pan",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 5
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 6
+        },
+        {
+          "name": "Aceituna",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 7
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 8
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha y deshilacha la pechuga. Reserva parte del caldo."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa pan remojado con leche, ají amarillo y un poco de caldo."
+        },
+        {
+          "step_number": 3,
+          "body": "Haz un aderezo con cebolla, ajo y ají; agrega la crema y el pollo."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz, papa sancochada, huevo y aceituna."
+        }
+      ]
+    },
+    {
+      "slug": "lomo-saltado",
+      "name": "Lomo saltado",
+      "base": "Res",
+      "preparation": "Saltado",
+      "category": "res",
+      "preparation_key": "saltado",
+      "image_path": "imagenes-platos/generadas/lomo-saltado.png",
+      "ingredients": [
+        {
+          "name": "Lomo de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        },
+        {
+          "name": "Sillao",
+          "unit": "ml",
+          "quantity": 60,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Corta la carne, cebolla y tomate en tiras gruesas."
+        },
+        {
+          "step_number": 2,
+          "body": "Sella la carne a fuego alto y retírala."
+        },
+        {
+          "step_number": 3,
+          "body": "Saltea cebolla y tomate, agrega sillao y vuelve a unir la carne."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con papas fritas y arroz."
+        }
+      ]
+    },
+    {
+      "slug": "tallarin-saltado",
+      "name": "Tallarín saltado",
+      "base": "Res",
+      "preparation": "Saltado",
+      "category": "res",
+      "preparation_key": "saltado",
+      "image_path": "imagenes-platos/generadas/tallarin-saltado.png",
+      "ingredients": [
+        {
+          "name": "Tallarín",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Sillao",
+          "unit": "ml",
+          "quantity": 60,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha los tallarines al dente y reserva."
+        },
+        {
+          "step_number": 2,
+          "body": "Saltea la carne a fuego alto hasta dorarla."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega cebolla, tomate y sillao; mezcla con los tallarines."
+        },
+        {
+          "step_number": 4,
+          "body": "Rectifica sal y sirve caliente."
+        }
+      ]
+    },
+    {
+      "slug": "pollo-al-horno",
+      "name": "Pollo al horno",
+      "base": "Pollo",
+      "preparation": "Horno",
+      "category": "pollo",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/generadas/pollo-horno.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Camote",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Ensalada",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona el pollo con ajo, sal, pimienta y especias."
+        },
+        {
+          "step_number": 2,
+          "body": "Acomoda pollo, papa y camote en una fuente."
+        },
+        {
+          "step_number": 3,
+          "body": "Hornea hasta que el pollo dore y quede jugoso."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz o ensalada fresca."
+        }
+      ]
+    },
+    {
+      "slug": "salpicon-de-pollo",
+      "name": "Salpicón de pollo",
+      "base": "Pollo",
+      "preparation": "Frío",
+      "category": "pollo",
+      "preparation_key": "frio",
+      "image_path": "imagenes-platos/generadas/salpicon-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pechuga de pollo",
+          "unit": "presa",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Mayonesa",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 5
+        },
+        {
+          "name": "Limón",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha el pollo y deshiláchalo."
+        },
+        {
+          "step_number": 2,
+          "body": "Cocina papa, zanahoria y arvejas hasta que estén tiernas."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla todo con mayonesa, limón, sal y pimienta."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve frío y ajusta limón al gusto."
+        }
+      ]
+    },
+    {
+      "slug": "lentejas",
+      "name": "Lentejas",
+      "base": "Menestra",
+      "preparation": "Guiso",
+      "category": "menestra",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/lentejas.png",
+      "ingredients": [
+        {
+          "name": "Lenteja",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Ajo",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Remoja las lentejas si tienes tiempo y enjuágalas."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara un aderezo de cebolla, ajo y zanahoria."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega las lentejas con agua y cocina hasta que ablanden."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y el acompañamiento que prefieras."
+        }
+      ]
+    },
+    {
+      "slug": "porotos",
+      "name": "Porotos",
+      "base": "Menestra",
+      "preparation": "Guiso",
+      "category": "menestra",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/porotos.png",
+      "ingredients": [
+        {
+          "name": "Frejol",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Ajo",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Remoja los frejoles desde la noche anterior."
+        },
+        {
+          "step_number": 2,
+          "body": "Cocínalos hasta que estén suaves."
+        },
+        {
+          "step_number": 3,
+          "body": "Haz un aderezo con cebolla y ajo, y mézclalo con los porotos."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y ajusta la sal al final."
+        }
+      ]
+    },
+    {
+      "slug": "saltado-de-atun",
+      "name": "Saltado de atún",
+      "base": "Pescado",
+      "preparation": "Saltado",
+      "category": "pescado",
+      "preparation_key": "saltado",
+      "image_path": "imagenes-platos/generadas/saltado-atun.png",
+      "ingredients": [
+        {
+          "name": "Atún",
+          "unit": "lata",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Fríe las papas o dóralas al horno."
+        },
+        {
+          "step_number": 2,
+          "body": "Saltea cebolla y tomate a fuego alto."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega el atún escurrido y sillao solo para integrar."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y limón."
+        }
+      ]
+    },
+    {
+      "slug": "lawa-de-chuno",
+      "name": "Lawa de chuño",
+      "base": "Res",
+      "preparation": "Sopa",
+      "category": "res",
+      "preparation_key": "sopa",
+      "image_path": "imagenes-platos/generadas/lawa-chuño.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Chuño",
+          "unit": "kg",
+          "quantity": 0.25,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Hierbabuena",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Remoja y enjuaga el chuño."
+        },
+        {
+          "step_number": 2,
+          "body": "Cocina la carne con papa y zanahoria hasta hacer caldo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega el chuño y remueve hasta que tome cuerpo."
+        },
+        {
+          "step_number": 4,
+          "body": "Termina con hierbabuena y sirve caliente."
+        }
+      ]
+    },
+    {
+      "slug": "tarwi",
+      "name": "Tarwi",
+      "base": "Menestra",
+      "preparation": "Frío",
+      "category": "menestra",
+      "preparation_key": "frio",
+      "image_path": "imagenes-platos/generadas/tarwi.png",
+      "ingredients": [
+        {
+          "name": "Tarwi",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Limón",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.25,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Lava el tarwi y escúrrelo bien."
+        },
+        {
+          "step_number": 2,
+          "body": "Pica cebolla y tomate en cubos pequeños."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla con limón, sal y un chorrito de aceite."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve frío con arroz o papa sancochada."
+        }
+      ]
+    },
+    {
+      "slug": "caldo-de-pollo",
+      "name": "Caldo de pollo",
+      "base": "Pollo",
+      "preparation": "Sopa",
+      "category": "pollo",
+      "preparation_key": "sopa",
+      "image_path": "imagenes-platos/generadas/caldo-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Fideo",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Apio",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Hierve el pollo con apio, sal y ajo."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega papa y zanahoria."
+        },
+        {
+          "step_number": 3,
+          "body": "Incorpora fideo al final para que no se recocine."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve caliente con hierbas frescas."
+        }
+      ]
+    },
+    {
+      "slug": "torrejas-de-verduras-arequipenas-con-arroz",
+      "name": "Torrejas de verduras arequipeñas con arroz",
+      "base": "Vegetariano",
+      "preparation": "Frito",
+      "category": "vegetariano",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/generadas/torrejas-verduras.png",
+      "ingredients": [
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Harina",
+          "unit": "taza",
+          "quantity": 0.75,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Zapallito italiano",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Cebolla china",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 5
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 6
+        },
+        {
+          "name": "Aceite",
+          "unit": "ml",
+          "quantity": 250,
+          "sort_order": 7
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Ralla o pica fino las verduras y retira exceso de líquido."
+        },
+        {
+          "step_number": 2,
+          "body": "Mezcla con huevo, harina, sal y pimienta hasta formar una masa ligera."
+        },
+        {
+          "step_number": 3,
+          "body": "Fríe porciones en aceite caliente hasta dorar ambos lados."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y ensalada."
+        }
+      ]
+    },
+    {
+      "slug": "soltero-de-queso",
+      "name": "Soltero de queso",
+      "base": "Vegetariano",
+      "preparation": "Frío",
+      "category": "vegetariano",
+      "preparation_key": "frio",
+      "image_path": "imagenes-platos/generadas/soltero-queso.png",
+      "ingredients": [
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 250,
+          "sort_order": 1
+        },
+        {
+          "name": "Haba",
+          "unit": "taza",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Choclo",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        },
+        {
+          "name": "Aceituna",
+          "unit": "unid",
+          "quantity": 6,
+          "sort_order": 6
+        },
+        {
+          "name": "Limón",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 7
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Cocina las habas y el choclo, luego deja enfriar."
+        },
+        {
+          "step_number": 2,
+          "body": "Corta queso, tomate y cebolla en cubos."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla con aceitunas, limón, sal y aceite."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve fresco, cuidando que el queso quede entero."
+        }
+      ]
+    },
+    {
+      "slug": "pastel-de-berenjena",
+      "name": "Pastel de berenjena",
+      "base": "Res",
+      "preparation": "Horno",
+      "category": "res",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/generadas/pastel-berenjena.png",
+      "ingredients": [
+        {
+          "name": "Berenjena",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Queso",
+          "unit": "g",
+          "quantity": 150,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Corta la berenjena en láminas y dóralas ligeramente."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara una salsa con carne molida, tomate y cebolla."
+        },
+        {
+          "step_number": 3,
+          "body": "Arma capas de berenjena, salsa y queso."
+        },
+        {
+          "step_number": 4,
+          "body": "Hornea hasta gratinar."
+        }
+      ]
+    },
+    {
+      "slug": "fetuccini-en-salsa-roja",
+      "name": "Fetuccini en salsa roja",
+      "base": "Res",
+      "preparation": "Pasta",
+      "category": "res",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/generadas/fetuccini-rojo.png",
+      "ingredients": [
+        {
+          "name": "Fetuccini",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha el fetuccini al dente."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara una salsa roja con tomate, cebolla y carne."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla la pasta con la salsa hasta cubrirla bien."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve caliente con queso si deseas."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-chaufa-de-pollo",
+      "name": "Arroz chaufa de pollo",
+      "base": "Pollo",
+      "preparation": "Arroz",
+      "category": "pollo",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/generadas/arroz-chaufa-pollo.png",
+      "ingredients": [
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla china",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Sillao",
+          "unit": "ml",
+          "quantity": 80,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Usa arroz graneado y frío para que no se pegue."
+        },
+        {
+          "step_number": 2,
+          "body": "Dora el pollo en trozos pequeños."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega huevo, cebolla china y sillao."
+        },
+        {
+          "step_number": 4,
+          "body": "Saltea todo con el arroz a fuego alto."
+        }
+      ]
+    },
+    {
+      "slug": "aji-de-fideos-fideitos",
+      "name": "Ají de fideos / fideitos",
+      "base": "Vegetariano",
+      "preparation": "Pasta",
+      "category": "vegetariano",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/generadas/aji-fideos.png",
+      "ingredients": [
+        {
+          "name": "Fideo",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Ají panca",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 120,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Prepara un aderezo con ají panca, ajo y cebolla."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega papa en cubos y un poco de agua o caldo."
+        },
+        {
+          "step_number": 3,
+          "body": "Incorpora los fideos y cocina hasta que absorban sabor."
+        },
+        {
+          "step_number": 4,
+          "body": "Termina con queso fresco desmenuzado."
+        }
+      ]
+    },
+    {
+      "slug": "matasca",
+      "name": "Matasca",
+      "base": "Res",
+      "preparation": "Guiso",
+      "category": "res",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/matasca.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.4,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora la carne en cubos pequeños."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla, ajo y tomate."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa y cocina hasta que todo quede suave."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "estofado-de-pollo",
+      "name": "Estofado de pollo",
+      "base": "Pollo",
+      "preparation": "Guiso",
+      "category": "pollo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/estofado-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora las presas de pollo."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara aderezo con cebolla, ajo y tomate."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa, zanahoria y arvejas con un poco de caldo."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que el pollo esté tierno y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "palta-rellena",
+      "name": "Palta rellena",
+      "base": "Pollo",
+      "preparation": "Frío",
+      "category": "pollo",
+      "preparation_key": "frio",
+      "image_path": "imagenes-platos/generadas/palta-rellena.png",
+      "ingredients": [
+        {
+          "name": "Palta",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Mayonesa",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha y deshilacha el pollo."
+        },
+        {
+          "step_number": 2,
+          "body": "Cocina papa y zanahoria en cubos."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla con mayonesa, limón, sal y pimienta."
+        },
+        {
+          "step_number": 4,
+          "body": "Rellena las paltas y sirve frío."
+        }
+      ]
+    },
+    {
+      "slug": "tallarin-al-pesto",
+      "name": "Tallarín al pesto",
+      "base": "Vegetariano",
+      "preparation": "Pasta",
+      "category": "vegetariano",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/generadas/tallarin-pesto.png",
+      "ingredients": [
+        {
+          "name": "Tallarín",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Albahaca",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Espinaca",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 150,
+          "sort_order": 4
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha los tallarines al dente."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa albahaca, espinaca, queso y leche hasta formar salsa."
+        },
+        {
+          "step_number": 3,
+          "body": "Calienta la salsa suavemente sin secarla."
+        },
+        {
+          "step_number": 4,
+          "body": "Mezcla con los tallarines y sirve."
+        }
+      ]
+    },
+    {
+      "slug": "higado-frito-con-arroz",
+      "name": "Hígado frito con arroz",
+      "base": "Res",
+      "preparation": "Frito",
+      "category": "res",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/generadas/higado-frito.png",
+      "ingredients": [
+        {
+          "name": "Hígado de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona el hígado con ajo, sal y pimienta."
+        },
+        {
+          "step_number": 2,
+          "body": "Fríe o dora las papas."
+        },
+        {
+          "step_number": 3,
+          "body": "Cocina el hígado rápido para que no se endurezca."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y cebolla salteada."
+        }
+      ]
+    },
+    {
+      "slug": "bistec-a-lo-pobre",
+      "name": "Bistec a lo pobre",
+      "base": "Res",
+      "preparation": "Plancha",
+      "category": "res",
+      "preparation_key": "plancha",
+      "image_path": "imagenes-platos/generadas/bistec-pobre.png",
+      "ingredients": [
+        {
+          "name": "Bistec de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Plátano",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona y fríe los bistecs."
+        },
+        {
+          "step_number": 2,
+          "body": "Fríe papas, huevo y plátano por separado."
+        },
+        {
+          "step_number": 3,
+          "body": "Granea el arroz."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve todo junto en el plato."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-a-la-cubana",
+      "name": "Arroz a la cubana",
+      "base": "Vegetariano",
+      "preparation": "Arroz",
+      "category": "vegetariano",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/generadas/arroz-cubana.png",
+      "ingredients": [
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Plátano",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Granea el arroz."
+        },
+        {
+          "step_number": 2,
+          "body": "Fríe los huevos dejando la yema al gusto."
+        },
+        {
+          "step_number": 3,
+          "body": "Dora los plátanos en tajadas."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con tomate o ensalada simple."
+        }
+      ]
+    },
+    {
+      "slug": "locro-de-zapallo",
+      "name": "Locro de zapallo",
+      "base": "Vegetariano",
+      "preparation": "Guiso",
+      "category": "vegetariano",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/locro-zapallo.png",
+      "ingredients": [
+        {
+          "name": "Zapallo",
+          "unit": "kg",
+          "quantity": 0.7,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Choclo",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 150,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Haz un aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega zapallo, papa y choclo con un poco de agua."
+        },
+        {
+          "step_number": 3,
+          "body": "Cocina hasta que el zapallo se deshaga y tome cuerpo."
+        },
+        {
+          "step_number": 4,
+          "body": "Termina con queso fresco y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "ocopa-arequipena",
+      "name": "Ocopa arequipeña",
+      "base": "Vegetariano",
+      "preparation": "Crema",
+      "category": "vegetariano",
+      "preparation_key": "crema",
+      "image_path": "imagenes-platos/generadas/ocopa.png",
+      "ingredients": [
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 1
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 180,
+          "sort_order": 3
+        },
+        {
+          "name": "Maní",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 5
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha las papas y huevos."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa ají amarillo, queso, maní y leche hasta lograr una crema."
+        },
+        {
+          "step_number": 3,
+          "body": "Ajusta sal y espesor con leche o galleta si hace falta."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve la crema sobre papas con huevo."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-tapado",
+      "name": "Arroz tapado",
+      "base": "Res",
+      "preparation": "Arroz",
+      "category": "res",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/generadas/arroz-tapado.png",
+      "ingredients": [
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Aceituna",
+          "unit": "unid",
+          "quantity": 6,
+          "sort_order": 4
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Granea el arroz."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara relleno con carne molida, cebolla, huevo y aceituna."
+        },
+        {
+          "step_number": 3,
+          "body": "Arma capas de arroz, relleno y arroz en un molde."
+        },
+        {
+          "step_number": 4,
+          "body": "Desmolda y sirve caliente."
+        }
+      ]
+    },
+    {
+      "slug": "seco-de-res",
+      "name": "Seco de res",
+      "base": "Res",
+      "preparation": "Guiso",
+      "category": "res",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/seco-res.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Licúa culantro con un poco de caldo."
+        },
+        {
+          "step_number": 2,
+          "body": "Dora la carne y prepara aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega culantro licuado, papa y zanahoria."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina lento hasta que la carne ablande y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "olluquito-con-carne",
+      "name": "Olluquito con carne",
+      "base": "Res",
+      "preparation": "Guiso",
+      "category": "res",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/olluquito-carne.png",
+      "ingredients": [
+        {
+          "name": "Olluco",
+          "unit": "kg",
+          "quantity": 0.6,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Corta la carne y el olluco en tiras."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla, ajo y ají panca."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega la carne y luego el olluco."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que quede jugoso y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-con-pollo",
+      "name": "Arroz con pollo",
+      "base": "Pollo",
+      "preparation": "Arroz",
+      "category": "pollo",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/generadas/arroz-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 2
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Licúa culantro con un poco de agua."
+        },
+        {
+          "step_number": 2,
+          "body": "Dora el pollo y reserva."
+        },
+        {
+          "step_number": 3,
+          "body": "Adereza, agrega arroz, verduras y culantro licuado."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que el arroz granee y el pollo termine de hacerse."
+        }
+      ]
+    },
+    {
+      "slug": "caigua-rellena",
+      "name": "Caigua rellena",
+      "base": "Res",
+      "preparation": "Relleno",
+      "category": "res",
+      "preparation_key": "relleno",
+      "image_path": "imagenes-platos/generadas/caigua-rellena.png",
+      "ingredients": [
+        {
+          "name": "Caigua",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Limpia las caiguas y retira semillas."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara relleno con carne, cebolla y huevo."
+        },
+        {
+          "step_number": 3,
+          "body": "Rellena las caiguas y cocínalas en salsa ligera."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "guiso-de-quinua",
+      "name": "Guiso de quinua",
+      "base": "Menestra",
+      "preparation": "Guiso",
+      "category": "menestra",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/generadas/guiso-quinua.png",
+      "ingredients": [
+        {
+          "name": "Quinua",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 120,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.25,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Lava la quinua hasta que el agua salga clara."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega quinua, papa y agua; cocina hasta espesar."
+        },
+        {
+          "step_number": 4,
+          "body": "Termina con queso fresco y sirve con arroz si deseas."
+        }
+      ]
+    },
+    {
+      "slug": "pepian-de-choclo",
+      "name": "Pepián de choclo",
+      "base": "Vegetariano",
+      "preparation": "Crema",
+      "category": "vegetariano",
+      "preparation_key": "crema",
+      "image_path": "imagenes-platos/generadas/pepian-choclo.png",
+      "ingredients": [
+        {
+          "name": "Choclo",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 1
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 120,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Licúa o ralla el choclo."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega el choclo y cocina moviendo hasta que espese."
+        },
+        {
+          "step_number": 4,
+          "body": "Termina con queso y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "tallarin-rojo-con-pollo",
+      "name": "Tallarín rojo con pollo",
+      "base": "Pollo",
+      "preparation": "Pasta",
+      "category": "pollo",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/generadas/tallarin-rojo-pollo.png",
+      "ingredients": [
+        {
+          "name": "Tallarín",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el pollo y reserva."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara salsa roja con tomate, cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Cocina el pollo dentro de la salsa."
+        },
+        {
+          "step_number": 4,
+          "body": "Mezcla o sirve sobre tallarines sancochados."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-a-la-jardinera",
+      "name": "Arroz a la jardinera",
+      "base": "Pollo",
+      "preparation": "Arroz",
+      "category": "pollo",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/arroz-a-la-jardinera.png",
+      "ingredients": [
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Choclo",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el pollo y reserva."
+        },
+        {
+          "step_number": 2,
+          "body": "Adereza con ajo y cebolla, agrega verduras."
+        },
+        {
+          "step_number": 3,
+          "body": "Incorpora arroz y líquido, luego acomoda el pollo."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina tapado hasta que el arroz granee."
+        }
+      ]
+    },
+    {
+      "slug": "arroz-con-chancho",
+      "name": "Arroz con chancho",
+      "base": "Cerdo",
+      "preparation": "Arroz",
+      "category": "cerdo",
+      "preparation_key": "arroz",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/arroz-con-chancho.png",
+      "ingredients": [
+        {
+          "name": "Cerdo",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 2
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el chancho en trozos."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa culantro y prepara un aderezo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega arroz, arvejas y el chancho dorado."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que el arroz quede graneado."
+        }
+      ]
+    },
+    {
+      "slug": "asado-al-vino",
+      "name": "Asado al vino",
+      "base": "Res",
+      "preparation": "Horno",
+      "category": "res",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/asado-al-vino-sin-arroz.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Vino",
+          "unit": "taza",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sella la carne por todos sus lados."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega vino y cocina lento hasta que la carne ablande."
+        },
+        {
+          "step_number": 4,
+          "body": "Corta en tajadas y sirve con papa."
+        }
+      ]
+    },
+    {
+      "slug": "asado-de-res-con-pure",
+      "name": "Asado de res con puré",
+      "base": "Res",
+      "preparation": "Horno",
+      "category": "res",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/asado-de-res-con-pure-sin-arroz.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 2
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 3
+        },
+        {
+          "name": "Mantequilla",
+          "unit": "g",
+          "quantity": 50,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sella la carne y cocínala lentamente con aderezo."
+        },
+        {
+          "step_number": 2,
+          "body": "Sancocha papas y prénsalas."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla papa con leche y mantequilla para el puré."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve la carne en tajadas con su jugo y puré."
+        }
+      ]
+    },
+    {
+      "slug": "cau-cau-de-pollo",
+      "name": "Cau cau de pollo",
+      "base": "Pollo",
+      "preparation": "Guiso",
+      "category": "pollo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/cau-cau-de-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Hierbabuena",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el pollo en trozos."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara aderezo con ajo, cebolla y palillo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa en cubos y hierbabuena."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que quede jugoso y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "cauche-de-queso",
+      "name": "Cauche de queso",
+      "base": "Vegetariano",
+      "preparation": "Crema",
+      "category": "vegetariano",
+      "preparation_key": "crema",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/cauche-de-queso.png",
+      "ingredients": [
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 280,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.25,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha las papas en rodajas."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara un aderezo suave con ají amarillo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega leche y queso fresco sin deshacerlo demasiado."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve caliente con papa y arroz."
+        }
+      ]
+    },
+    {
+      "slug": "chaque",
+      "name": "Chaque",
+      "base": "Res",
+      "preparation": "Sopa",
+      "category": "res",
+      "preparation_key": "sopa",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/chaque.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.4,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Chuño",
+          "unit": "kg",
+          "quantity": 0.25,
+          "sort_order": 3
+        },
+        {
+          "name": "Trigo",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Verduras",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Cocina la carne hasta formar un caldo sabroso."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega papa, chuño, trigo y verduras."
+        },
+        {
+          "step_number": 3,
+          "body": "Deja hervir hasta que todo esté tierno y espeso."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve caliente."
+        }
+      ]
+    },
+    {
+      "slug": "escabeche-de-pollo",
+      "name": "Escabeche de pollo",
+      "base": "Pollo",
+      "preparation": "Escabeche",
+      "category": "pollo",
+      "preparation_key": "escabeche",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/escabeche-de-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Vinagre",
+          "unit": "ml",
+          "quantity": 80,
+          "sort_order": 4
+        },
+        {
+          "name": "Camote",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 5
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el pollo y reserva."
+        },
+        {
+          "step_number": 2,
+          "body": "Saltea cebolla y ají amarillo en tiras."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega vinagre y vuelve a poner el pollo para integrar."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con camote y arroz."
+        }
+      ]
+    },
+    {
+      "slug": "causa-rellena-de-pollo",
+      "name": "Causa rellena de pollo",
+      "base": "Pollo",
+      "preparation": "Frío",
+      "category": "pollo",
+      "preparation_key": "frio",
+      "image_path": "imagenes-platos/nuevos-platos-escabeche-malaya-causa/causa-rellena-pollo.png",
+      "ingredients": [
+        {
+          "name": "Papa amarilla",
+          "unit": "unid",
+          "quantity": 5,
+          "sort_order": 1
+        },
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Limón",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 4
+        },
+        {
+          "name": "Palta",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 5
+        },
+        {
+          "name": "Mayonesa",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha y prensa la papa amarilla."
+        },
+        {
+          "step_number": 2,
+          "body": "Sazona con ají amarillo, limón y sal."
+        },
+        {
+          "step_number": 3,
+          "body": "Mezcla pollo deshilachado con mayonesa."
+        },
+        {
+          "step_number": 4,
+          "body": "Arma capas de causa, pollo y palta."
+        }
+      ]
+    },
+    {
+      "slug": "escabeche-de-pescado",
+      "name": "Escabeche de pescado",
+      "base": "Pescado",
+      "preparation": "Escabeche",
+      "category": "pescado",
+      "preparation_key": "escabeche",
+      "image_path": "imagenes-platos/nuevos-platos-escabeche-malaya-causa/escabeche-de-pescado.png",
+      "ingredients": [
+        {
+          "name": "Pescado",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Ají amarillo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Vinagre",
+          "unit": "ml",
+          "quantity": 80,
+          "sort_order": 4
+        },
+        {
+          "name": "Camote",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 5
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona y fríe el pescado."
+        },
+        {
+          "step_number": 2,
+          "body": "Saltea cebolla y ají amarillo en tiras."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega vinagre y acomoda el pescado en la salsa."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con camote y arroz."
+        }
+      ]
+    },
+    {
+      "slug": "malaya-dorada",
+      "name": "Malaya dorada",
+      "base": "Res",
+      "preparation": "Frito",
+      "category": "res",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/nuevos-platos-escabeche-malaya-causa/malaya-dorada.png",
+      "ingredients": [
+        {
+          "name": "Malaya de res",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 3
+        },
+        {
+          "name": "Ensalada",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Cocina la malaya hasta que esté tierna."
+        },
+        {
+          "step_number": 2,
+          "body": "Sazona y dora la carne por ambos lados."
+        },
+        {
+          "step_number": 3,
+          "body": "Prepara papas y arroz como acompañamiento."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con ensalada fresca."
+        }
+      ]
+    },
+    {
+      "slug": "estofado-de-carne",
+      "name": "Estofado de carne",
+      "base": "Res",
+      "preparation": "Guiso",
+      "category": "res",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/estofado-de-carne.png",
+      "ingredients": [
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora la carne en trozos."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara un aderezo con cebolla, ajo y tomate."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa, zanahoria y arvejas con caldo."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que la carne esté suave y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "frejoles-con-seco-de-res",
+      "name": "Frejoles con seco de res",
+      "base": "Menestra",
+      "preparation": "Guiso",
+      "category": "menestra",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/frejoles-con-seco-de-res.png",
+      "ingredients": [
+        {
+          "name": "Frejol",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne de res",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Cocina los frejoles hasta que estén suaves."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara seco de res con culantro y aderezo."
+        },
+        {
+          "step_number": 3,
+          "body": "Une sabores ajustando sal al final."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "garbanzos-con-acelga",
+      "name": "Garbanzos con acelga",
+      "base": "Menestra",
+      "preparation": "Guiso",
+      "category": "menestra",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/garbanzos-con-acelga.png",
+      "ingredients": [
+        {
+          "name": "Garbanzo",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 1
+        },
+        {
+          "name": "Acelga",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Remoja y cocina los garbanzos."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega acelga picada y los garbanzos cocidos."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina unos minutos y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "guiso-de-coliflor",
+      "name": "Guiso de coliflor",
+      "base": "Vegetariano",
+      "preparation": "Guiso",
+      "category": "vegetariano",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/guiso-de-coliflor.png",
+      "ingredients": [
+        {
+          "name": "Coliflor",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Arveja",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Separa la coliflor en ramitos."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara aderezo con cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa, arvejas y coliflor con poco líquido."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que quede tierno y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "locro-de-pecho",
+      "name": "Locro de pecho",
+      "base": "Res",
+      "preparation": "Guiso",
+      "category": "res",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/locro-de-pecho.png",
+      "ingredients": [
+        {
+          "name": "Pecho de res",
+          "unit": "kg",
+          "quantity": 0.45,
+          "sort_order": 1
+        },
+        {
+          "name": "Zapallo",
+          "unit": "kg",
+          "quantity": 0.6,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Choclo",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Cocina el pecho de res hasta que ablande."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega zapallo, papa y choclo al caldo."
+        },
+        {
+          "step_number": 3,
+          "body": "Deja que el zapallo se deshaga y espese."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "matasquita-de-pollo",
+      "name": "Matasquita de pollo",
+      "base": "Pollo",
+      "preparation": "Guiso",
+      "category": "pollo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/matasca-de-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Corta el pollo y la papa en cubos."
+        },
+        {
+          "step_number": 2,
+          "body": "Haz un aderezo con cebolla, ajo y tomate."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega pollo y papa, cocina hasta que quede jugoso."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "milanesa-de-pollo",
+      "name": "Milanesa de pollo",
+      "base": "Pollo",
+      "preparation": "Frito",
+      "category": "pollo",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/milanesa-de-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pechuga de pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Pan rallado",
+          "unit": "taza",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Aplana y sazona las pechugas."
+        },
+        {
+          "step_number": 2,
+          "body": "Pásalas por huevo y pan rallado."
+        },
+        {
+          "step_number": 3,
+          "body": "Fríe hasta dorar por ambos lados."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz, papa o ensalada."
+        }
+      ]
+    },
+    {
+      "slug": "papa-rellena-con-arroz",
+      "name": "Papa rellena con arroz",
+      "base": "Res",
+      "preparation": "Frito",
+      "category": "res",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/papa-rellena-con-arroz.png",
+      "ingredients": [
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 5,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Aceituna",
+          "unit": "unid",
+          "quantity": 6,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha y prensa la papa."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara relleno con carne, huevo y aceituna."
+        },
+        {
+          "step_number": 3,
+          "body": "Forma papas rellenas y fríelas hasta dorar."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y salsa criolla."
+        }
+      ]
+    },
+    {
+      "slug": "rocoto-relleno-con-pastel-de-papa",
+      "name": "Rocoto relleno con pastel de papa",
+      "base": "Res",
+      "preparation": "Horno",
+      "category": "res",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/rocoto-relleno-pastel-papa.png",
+      "ingredients": [
+        {
+          "name": "Rocoto",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Queso fresco",
+          "unit": "g",
+          "quantity": 180,
+          "sort_order": 3
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 4,
+          "sort_order": 4
+        },
+        {
+          "name": "Leche",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Limpia y blanquea los rocotos."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara relleno con carne, cebolla y especias."
+        },
+        {
+          "step_number": 3,
+          "body": "Rellena los rocotos y cúbrelos con queso."
+        },
+        {
+          "step_number": 4,
+          "body": "Hornea con pastel de papa hasta gratinar."
+        }
+      ]
+    },
+    {
+      "slug": "seco-de-pollo",
+      "name": "Seco de pollo",
+      "base": "Pollo",
+      "preparation": "Guiso",
+      "category": "pollo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/seco-de-pollo.png",
+      "ingredients": [
+        {
+          "name": "Pollo",
+          "unit": "presa",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Zanahoria",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora las presas de pollo."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa culantro y prepara aderezo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa, zanahoria y el pollo."
+        },
+        {
+          "step_number": 4,
+          "body": "Cocina hasta que quede jugoso y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "tallarines-a-la-bolonesa",
+      "name": "Tallarines a la boloñesa",
+      "base": "Res",
+      "preparation": "Pasta",
+      "category": "res",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/tallarines-a-la-bolonesa.png",
+      "ingredients": [
+        {
+          "name": "Tallarín",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Carne molida",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha los tallarines al dente."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara salsa con carne molida, tomate y cebolla."
+        },
+        {
+          "step_number": 3,
+          "body": "Cocina hasta que la salsa tome cuerpo."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve la salsa sobre la pasta."
+        }
+      ]
+    },
+    {
+      "slug": "chuleta-de-chancho-al-horno",
+      "name": "Chuleta de chancho al horno",
+      "base": "Cerdo",
+      "preparation": "Horno",
+      "category": "cerdo",
+      "preparation_key": "horno",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/chuleta-chancho-horno.png",
+      "ingredients": [
+        {
+          "name": "Chuleta de chancho",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Ensalada",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona las chuletas con ajo, sal y especias."
+        },
+        {
+          "step_number": 2,
+          "body": "Acomódalas con papas en una fuente."
+        },
+        {
+          "step_number": 3,
+          "body": "Hornea hasta dorar y cocinar por completo."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y ensalada."
+        }
+      ]
+    },
+    {
+      "slug": "chuleta-de-chancho-frita-con-arroz-y-ensalada",
+      "name": "Chuleta de chancho frita con arroz y ensalada",
+      "base": "Cerdo",
+      "preparation": "Frito",
+      "category": "cerdo",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/chuleta-chancho-frita.png",
+      "ingredients": [
+        {
+          "name": "Chuleta de chancho",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 2
+        },
+        {
+          "name": "Ensalada",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 3
+        },
+        {
+          "name": "Aceite",
+          "unit": "ml",
+          "quantity": 250,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sazona las chuletas."
+        },
+        {
+          "step_number": 2,
+          "body": "Fríelas hasta que queden doradas y cocidas."
+        },
+        {
+          "step_number": 3,
+          "body": "Prepara arroz y ensalada fresca."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve todo junto."
+        }
+      ]
+    },
+    {
+      "slug": "chancho-a-la-olla",
+      "name": "Chancho a la olla",
+      "base": "Cerdo",
+      "preparation": "Guiso",
+      "category": "cerdo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/chancho-a-la-olla.png",
+      "ingredients": [
+        {
+          "name": "Cerdo",
+          "unit": "kg",
+          "quantity": 0.55,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 2
+        },
+        {
+          "name": "Camote",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sella el cerdo en trozos."
+        },
+        {
+          "step_number": 2,
+          "body": "Agrega aderezo, papa y camote."
+        },
+        {
+          "step_number": 3,
+          "body": "Cocina tapado a fuego bajo hasta que esté tierno."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz y su jugo."
+        }
+      ]
+    },
+    {
+      "slug": "seco-de-cerdo",
+      "name": "Seco de cerdo",
+      "base": "Cerdo",
+      "preparation": "Guiso",
+      "category": "cerdo",
+      "preparation_key": "guiso",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/seco-de-cerdo.png",
+      "ingredients": [
+        {
+          "name": "Cerdo",
+          "unit": "kg",
+          "quantity": 0.5,
+          "sort_order": 1
+        },
+        {
+          "name": "Culantro",
+          "unit": "unidad",
+          "quantity": 1,
+          "sort_order": 2
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Dora el cerdo."
+        },
+        {
+          "step_number": 2,
+          "body": "Licúa culantro y prepara un aderezo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega papa y cocina hasta que el cerdo quede suave."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "croquetas-de-atun-con-arroz",
+      "name": "Croquetas de atún con arroz",
+      "base": "Pescado",
+      "preparation": "Frito",
+      "category": "pescado",
+      "preparation_key": "frito",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/croquetas-de-atun.png",
+      "ingredients": [
+        {
+          "name": "Atún",
+          "unit": "lata",
+          "quantity": 2,
+          "sort_order": 1
+        },
+        {
+          "name": "Papa",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Huevo",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 3
+        },
+        {
+          "name": "Pan rallado",
+          "unit": "taza",
+          "quantity": 0.5,
+          "sort_order": 4
+        },
+        {
+          "name": "Arroz",
+          "unit": "kg",
+          "quantity": 0.35,
+          "sort_order": 5
+        },
+        {
+          "name": "Limón",
+          "unit": "unid",
+          "quantity": 2,
+          "sort_order": 6
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Escurre el atún y desmenúzalo en un bol."
+        },
+        {
+          "step_number": 2,
+          "body": "Cocina las papas, machácalas y mézclalas con el atún."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega huevo, sal y pimienta; forma croquetas."
+        },
+        {
+          "step_number": 4,
+          "body": "Pasa por pan rallado, fríe y sirve con arroz."
+        }
+      ]
+    },
+    {
+      "slug": "tallarines-rojos-con-atun",
+      "name": "Tallarines rojos con atún",
+      "base": "Pescado",
+      "preparation": "Pasta",
+      "category": "pescado",
+      "preparation_key": "pasta",
+      "image_path": "imagenes-platos/nuevos-platos-cerdo-pescado/tallarines-rojos-con-atun.png",
+      "ingredients": [
+        {
+          "name": "Tallarín",
+          "unit": "paquete",
+          "quantity": 1,
+          "sort_order": 1
+        },
+        {
+          "name": "Atún",
+          "unit": "lata",
+          "quantity": 2,
+          "sort_order": 2
+        },
+        {
+          "name": "Tomate",
+          "unit": "unid",
+          "quantity": 3,
+          "sort_order": 3
+        },
+        {
+          "name": "Cebolla roja",
+          "unit": "unid",
+          "quantity": 1,
+          "sort_order": 4
+        }
+      ],
+      "recipe_steps": [
+        {
+          "step_number": 1,
+          "body": "Sancocha los tallarines al dente."
+        },
+        {
+          "step_number": 2,
+          "body": "Prepara salsa roja con tomate, cebolla y ajo."
+        },
+        {
+          "step_number": 3,
+          "body": "Agrega el atún escurrido al final para que no se seque."
+        },
+        {
+          "step_number": 4,
+          "body": "Sirve la salsa sobre los tallarines."
+        }
+      ]
+    }
+  ]
+}

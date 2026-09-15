@@ -1,0 +1,34 @@
+# Local/runtime
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Large local source assets. Production currently uses optimized files in public/.
+/imagenes-platos/
+
+# Local assistant transcript export. Do not commit raw or full chat history to a public repository.
+docs/codex-thread-transcript.jsonl
+docs/codex-thread-transcript.md
+
+# Local prototype history and QA output
+backups/
+output/
+qa*.png
+qa*-*.png
+_check*.png
+app.backup-*.html
+*-mobile.html
+flujo-*.html
+onboarding-platos-*.html
+menu-semanal-demo.html
+badges-demo.html
+restricciones-demo.html
+Captura de pantalla *.png
+index.html
+conversacion_planificador_almuerzos_peru.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.log
