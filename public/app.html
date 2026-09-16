@@ -1641,6 +1641,7 @@
 <body>
 <main class="phone" id="phone"></main>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const $phone=document.getElementById('phone');
 document.addEventListener('gesturestart',e=>e.preventDefault(),{passive:false});
@@ -1649,6 +1650,7 @@ document.addEventListener('touchmove',e=>{if(e.touches&&e.touches.length>1)e.pre
 let lastTouchEnd=0;document.addEventListener('touchend',e=>{const now=Date.now();if(now-lastTouchEnd<300)e.preventDefault();lastTouchEnd=now},{passive:false});
 const SUPABASE_URL='https://fmvqjuffiubzzjmtgekm.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY='sb_publishable_OZca_lyldUIuNEC5RBXcDw_eWJ1PetS';
+const sbClient=window.supabase?.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
 const imgBase='imagenes-platos/webp/';
 const dishes=[
 {n:'Ají de gallina',img:'imagenes-platos/webp/aji-de-gallina.webp',base:'Pollo',prep:'Crema',cat:'pollo',p:'crema'},
@@ -1907,7 +1909,7 @@ const baseIngredients=[
 let manualProducts=[];
 function cls(d){return d.skipShopping?'':`<div class="badges"><span class="badge base-${d.cat}">${d.base}</span><span class="badge prep-${d.p}">${d.prep}</span></div>`}
 function render(){ if(state.route==='login') return login(); if(state.route==='onboard') return onboard(); if(state.route==='loading') return loading(); if(state.route==='ready') return ready(); app(); }
-function login(){$phone.innerHTML=`<section class="screen active gradient login-screen"><div class="login-block"><img class="logo" src="assets/figma-logo.svg"><p class="login-copy">Olvídate del “¿Qué cocinamos?” y planifica tus almuerzos y tus compras de forma inteligente</p></div><div class="bottom-stack"><button class="btn google" disabled><span class="g">G</span>Continuar con Google</button><button class="btn ghost" onclick="state.route='onboard';state.on=0;render()">Explorar como invitado</button></div></section>`}
+function login(){$phone.innerHTML=`<section class="screen active gradient login-screen"><div class="login-block"><img class="logo" src="assets/figma-logo.svg"><p class="login-copy">Olvídate del “¿Qué cocinamos?” y planifica tus almuerzos y tus compras de forma inteligente</p></div><div class="bottom-stack"><button class="btn google" disabled><span class="g">G</span>Continuar con Google</button><button class="btn ghost" onclick="startGuest()">Explorar como invitado</button></div></section>`}
 function head(step){return `<div class="progress-head"><small>Paso ${step} de 8</small><div class="progress"><i style="width:${step/8*100}%"></i></div></div>${step>1?'<button class="back-onboard" onclick="state.on=Math.max(0,state.on-1);render()" aria-label="Volver"></button>':''}`}
 function onboard(){const s=state.on+1;let body='',button='Siguiente',disabled=false;
  if(s===1){button='Empezar';body=`${head(1)}<h1 class="title">Bienvenid@</h1><p class="copy">Cada hogar tiene su propia forma de comer y organizarse. Con unas cuantas respuestas podremos preparar una experiencia más acorde a tu día a día.<br><br>No te tomará más de 2 minutos.</p><img class="hero-img" src="assets/welcome.png">`}
@@ -1930,7 +1932,7 @@ function swipeStep(){
   : `<div class="deck">${dishes.slice(state.deck,state.deck+3).map((d,i)=>`<article class="dish-card" style="z-index:${3-i}" data-i="${i}"><span class="stamp si">SÍ</span><span class="stamp no">NO</span><div class="dish-photo"><img src="${img(d)}"><b class="dish-name">${d.n}</b><span class="dish-count">${state.deck+i+1}/${dishes.length}</span></div><div class="swipe-actions"><button class="no" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(false)"><img src="assets/icon-xmark.svg" alt="">No</button><button class="yes" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(true)"><img src="assets/icon-checkmark.svg" alt="">Sí</button></div></article>`).join('')}</div>`;
  return `${head(8)}${progress}${content}`;
 }
-function nextOnboard(){if(state.on<7){state.on++;render()}else{buildWeek();state.route='loading';render();startLoader()}}
+async function nextOnboard(){if(state.on<7){state.on++;render()}else{buildWeek();try{await saveOnboarding()}catch(err){console.warn('Onboarding save fallback',err);toast('Seguimos en modo local')}state.route='loading';render();startLoader()}}
 function toggleArr(a,v){const i=a.indexOf(v);i>-1?a.splice(i,1):a.push(v)}
 function preserveOnboardScroll(id,fn){const el=document.getElementById(id),top=el?el.scrollTop:0;fn();state.onboardScroll[id]=top;render();requestAnimationFrame(()=>{const next=document.getElementById(id);if(next)next.scrollTop=state.onboardScroll[id]||0})}
 function foldText(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
@@ -2078,12 +2080,15 @@ function openDeleteDrawer(){openDrawer(`<button class="x" onclick="closeDrawer()
 function sharePlan(){navigator.share?navigator.share({title:'Mi plan semanal',text:week.map((d,i)=>days[i]+': '+d.n).join('\\n')}):toast('Resumen copiado')}
 function toast(t){const old=document.querySelector('.toast');if(old)old.remove();const el=document.createElement('div');el.className='toast show';el.textContent=t;$phone.appendChild(el);setTimeout(()=>el.remove(),1500)}
 function drawerKeyboard(on){const d=document.getElementById('drawer');if(d)d.classList.toggle('keyboard',!!on);syncViewportHeight()}
+async function currentUser(){if(!sbClient)return null;const {data}=await sbClient.auth.getSession();return data.session?.user||null}
+async function startGuest(){try{let user=await currentUser();if(!user&&sbClient){const {data,error}=await sbClient.auth.signInAnonymously();if(error)throw error;user=data.user}state.userId=user?.id||null;if(state.userId)await sbClient.from('profiles').upsert({id:state.userId,display_name:'Invitado'},{onConflict:'id'})}catch(err){console.warn('Guest auth fallback',err);state.userId=null;toast('Modo invitado local')}state.route='onboard';state.on=0;render()}
+async function saveOnboarding(){const user=await currentUser();if(!user||!sbClient)return false;state.userId=user.id;const prefs={user_id:user.id,onboarding_completed:true,people:state.people,portion:state.portion,market_frequency:state.market||'1 vez por semana',no_cook_days:state.noCook,quick_days:state.quick,variety:state.variety};const {error:prefError}=await sbClient.from('user_preferences').upsert(prefs,{onConflict:'user_id'});if(prefError)throw prefError;const choices=[...state.sel.map(n=>({name:n,status:'accepted'})),...state.rej.map(n=>({name:n,status:'rejected'}))].map(x=>{const d=dishes.find(d=>d.n===x.name);return d?.id?{user_id:user.id,dish_id:d.id,status:x.status,enabled:x.status==='accepted'}:null}).filter(Boolean);if(choices.length){const {error}=await sbClient.from('user_dishes').upsert(choices,{onConflict:'user_id,dish_id'});if(error)throw error}return true}
 async function supabaseTable(path){if(!SUPABASE_URL||!SUPABASE_PUBLISHABLE_KEY)return null;const res=await fetch(`${SUPABASE_URL}/rest/v1/${path}`,{headers:{apikey:SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${SUPABASE_PUBLISHABLE_KEY}`}});if(!res.ok)throw new Error(`Supabase ${res.status}: ${path}`);return res.json()}
 async function loadSupabaseCatalog(){try{const [remoteDishes,remoteIngs,remoteSteps]=await Promise.all([
- supabaseTable('dishes?select=slug,name,base,preparation,category,preparation_key,image_path&is_active=eq.true&order=created_at.asc'),
+ supabaseTable('dishes?select=id,slug,name,base,preparation,category,preparation_key,image_path&is_active=eq.true&order=created_at.asc'),
  supabaseTable('dish_ingredients?select=quantity,unit,sort_order,dishes(slug,name),ingredients(name,category)&order=sort_order.asc'),
  supabaseTable('recipe_steps?select=step_number,body,dishes(slug,name)&order=step_number.asc')
-]);if(!remoteDishes?.length)return;const next=remoteDishes.map(d=>({slug:d.slug,n:d.name,img:d.image_path,base:d.base,prep:d.preparation,cat:d.category,p:d.preparation_key}));dishes.splice(0,dishes.length,...next);const recipes={},steps={};(remoteIngs||[]).forEach(row=>{const name=row.dishes?.name,ing=row.ingredients?.name;if(!name||!ing)return;(recipes[name]??=[]).push({n:ing,u:row.unit,q:Number(row.quantity),sort:row.sort_order})});Object.entries(recipes).forEach(([name,list])=>{dishRecipes[name]=list.sort((a,b)=>a.sort-b.sort).map(x=>[x.n,x.u,x.q])});(remoteSteps||[]).forEach(row=>{const name=row.dishes?.name;if(!name)return;(steps[name]??=[])[Number(row.step_number)-1]=row.body});Object.assign(dishSteps,steps);state.catalogSource='supabase'}catch(err){console.warn('Using local catalog fallback',err);state.catalogSource='local'}}
+]);if(!remoteDishes?.length)return;const next=remoteDishes.map(d=>({id:d.id,slug:d.slug,n:d.name,img:d.image_path,base:d.base,prep:d.preparation,cat:d.category,p:d.preparation_key}));dishes.splice(0,dishes.length,...next);const recipes={},steps={};(remoteIngs||[]).forEach(row=>{const name=row.dishes?.name,ing=row.ingredients?.name;if(!name||!ing)return;(recipes[name]??=[]).push({n:ing,u:row.unit,q:Number(row.quantity),sort:row.sort_order})});Object.entries(recipes).forEach(([name,list])=>{dishRecipes[name]=list.sort((a,b)=>a.sort-b.sort).map(x=>[x.n,x.u,x.q])});(remoteSteps||[]).forEach(row=>{const name=row.dishes?.name;if(!name)return;(steps[name]??=[])[Number(row.step_number)-1]=row.body});Object.assign(dishSteps,steps);state.catalogSource='supabase'}catch(err){console.warn('Using local catalog fallback',err);state.catalogSource='local'}}
 function syncViewportHeight(){const vv=window.visualViewport,h=vv?vv.height:window.innerHeight,top=vv?vv.offsetTop:0,keyboard=Math.max(0,window.innerHeight-h-top);document.documentElement.style.setProperty('--vvh',h+'px');document.documentElement.style.setProperty('--keyboard',keyboard+'px')}
 syncViewportHeight();if(window.visualViewport){window.visualViewport.addEventListener('resize',syncViewportHeight);window.visualViewport.addEventListener('scroll',syncViewportHeight)}
 const debug=new URLSearchParams(location.search).get('debug');
