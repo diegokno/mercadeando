@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node local-server.js",
     "extract:data": "node scripts/extract-data.mjs",
+    "seed:sql": "node scripts/generate-seed-sql.mjs",
     "build:public": "node scripts/build-public.mjs",
     "check": "node scripts/check-app.mjs"
   },
