@@ -2083,6 +2083,7 @@ function drawerKeyboard(on){const d=document.getElementById('drawer');if(d)d.cla
 async function currentUser(){if(!sbClient)return null;const {data}=await sbClient.auth.getSession();return data.session?.user||null}
 async function startGuest(){try{let user=await currentUser();if(!user&&sbClient){const {data,error}=await sbClient.auth.signInAnonymously();if(error)throw error;user=data.user}state.userId=user?.id||null;if(state.userId)await sbClient.from('profiles').upsert({id:state.userId,display_name:'Invitado'},{onConflict:'id'})}catch(err){console.warn('Guest auth fallback',err);state.userId=null;toast('Modo invitado local')}state.route='onboard';state.on=0;render()}
 async function saveOnboarding(){const user=await currentUser();if(!user||!sbClient)return false;state.userId=user.id;const prefs={user_id:user.id,onboarding_completed:true,people:state.people,portion:state.portion,market_frequency:state.market||'1 vez por semana',no_cook_days:state.noCook,quick_days:state.quick,variety:state.variety};const {error:prefError}=await sbClient.from('user_preferences').upsert(prefs,{onConflict:'user_id'});if(prefError)throw prefError;const choices=[...state.sel.map(n=>({name:n,status:'accepted'})),...state.rej.map(n=>({name:n,status:'rejected'}))].map(x=>{const d=dishes.find(d=>d.n===x.name);return d?.id?{user_id:user.id,dish_id:d.id,status:x.status,enabled:x.status==='accepted'}:null}).filter(Boolean);if(choices.length){const {error}=await sbClient.from('user_dishes').upsert(choices,{onConflict:'user_id,dish_id'});if(error)throw error}return true}
+async function restoreSession(){const user=await currentUser();if(!user||!sbClient)return false;state.userId=user.id;const {data:prefs,error:prefError}=await sbClient.from('user_preferences').select('*').eq('user_id',user.id).maybeSingle();if(prefError)throw prefError;if(!prefs?.onboarding_completed)return false;const {data:choices,error:choiceError}=await sbClient.from('user_dishes').select('status,enabled,dishes(name)').eq('user_id',user.id);if(choiceError)throw choiceError;state.people=prefs.people||2;state.portion=prefs.portion||'regular';state.market=prefs.market_frequency||'1 vez por semana';state.noCook=prefs.no_cook_days||[];state.quick=prefs.quick_days||[];state.variety=prefs.variety||'balanceada';state.sel=(choices||[]).filter(x=>x.status==='accepted').map(x=>x.dishes?.name).filter(Boolean);state.rej=(choices||[]).filter(x=>x.status==='rejected').map(x=>x.dishes?.name).filter(Boolean);state.activeDishes=state.sel.length?[...state.sel]:null;state.deck=0;state.route='app';state.tab='week';state.detail=false;state.acc=null;buildWeek();return true}
 async function supabaseTable(path){if(!SUPABASE_URL||!SUPABASE_PUBLISHABLE_KEY)return null;const res=await fetch(`${SUPABASE_URL}/rest/v1/${path}`,{headers:{apikey:SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${SUPABASE_PUBLISHABLE_KEY}`}});if(!res.ok)throw new Error(`Supabase ${res.status}: ${path}`);return res.json()}
 async function loadSupabaseCatalog(){try{const [remoteDishes,remoteIngs,remoteSteps]=await Promise.all([
  supabaseTable('dishes?select=id,slug,name,base,preparation,category,preparation_key,image_path&is_active=eq.true&order=created_at.asc'),
@@ -2092,6 +2093,8 @@ async function loadSupabaseCatalog(){try{const [remoteDishes,remoteIngs,remoteSt
 function syncViewportHeight(){const vv=window.visualViewport,h=vv?vv.height:window.innerHeight,top=vv?vv.offsetTop:0,keyboard=Math.max(0,window.innerHeight-h-top);document.documentElement.style.setProperty('--vvh',h+'px');document.documentElement.style.setProperty('--keyboard',keyboard+'px')}
 syncViewportHeight();if(window.visualViewport){window.visualViewport.addEventListener('resize',syncViewportHeight);window.visualViewport.addEventListener('scroll',syncViewportHeight)}
 const debug=new URLSearchParams(location.search).get('debug');
+const hasDebug=!!debug;
+function applyDebugRoute(){
 if(debug==='swipe'){state.route='onboard';state.on=7}
 if(/^on[1-8]$/.test(debug||'')){state.route='onboard';state.on=Number(debug.slice(2))-1}
 if(debug==='week'){state.route='app';state.tab='week'}
@@ -2100,7 +2103,9 @@ if(debug==='detailings'){state.route='app';state.tab='week';state.detail=true;st
 if(debug==='detailprep'){state.route='app';state.tab='week';state.detail=true;state.acc='prep'}
 if(debug==='shop'){state.route='app';state.tab='shop'}
 if(debug==='settings'){state.route='app';state.tab='settings'}
-loadSupabaseCatalog().finally(()=>{
+}
+loadSupabaseCatalog().finally(async()=>{
+if(hasDebug)applyDebugRoute();else{try{await restoreSession()}catch(err){console.warn('Session restore fallback',err)}}
 render();
 if(debug==='shopdrawer')setTimeout(()=>{state.route='app';state.tab='shop';render();openProductDrawer()},0)
 if(debug==='ingdrawer')setTimeout(()=>{state.route='app';state.tab='week';state.detail=true;state.acc='ings';render();openIngredientDrawer()},0)
