@@ -53,3 +53,6 @@ La arquitectura objetivo es:
 - Login Google: Supabase Google OAuth
 
 Nunca exponer una `service_role` key en frontend. El cliente debe usar solo la publishable/anon key.
+
+Después de ejecutar `supabase/schema.sql` y `supabase/seed.sql`, ejecutar también
+`supabase/grants.sql` si las tablas no fueron expuestas automáticamente al Data API.

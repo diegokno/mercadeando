@@ -1647,6 +1647,8 @@ document.addEventListener('gesturestart',e=>e.preventDefault(),{passive:false});
 document.addEventListener('gesturechange',e=>e.preventDefault(),{passive:false});
 document.addEventListener('touchmove',e=>{if(e.touches&&e.touches.length>1)e.preventDefault()},{passive:false});
 let lastTouchEnd=0;document.addEventListener('touchend',e=>{const now=Date.now();if(now-lastTouchEnd<300)e.preventDefault();lastTouchEnd=now},{passive:false});
+const SUPABASE_URL='https://fmvqjuffiubzzjmtgekm.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY='sb_publishable_OZca_lyldUIuNEC5RBXcDw_eWJ1PetS';
 const imgBase='imagenes-platos/generadas/';
 const dishes=[
 {n:'Ají de gallina',img:'aji-gallina.png',base:'Pollo',prep:'Crema',cat:'pollo',p:'crema'},
@@ -2076,6 +2078,12 @@ function openDeleteDrawer(){openDrawer(`<button class="x" onclick="closeDrawer()
 function sharePlan(){navigator.share?navigator.share({title:'Mi plan semanal',text:week.map((d,i)=>days[i]+': '+d.n).join('\\n')}):toast('Resumen copiado')}
 function toast(t){const old=document.querySelector('.toast');if(old)old.remove();const el=document.createElement('div');el.className='toast show';el.textContent=t;$phone.appendChild(el);setTimeout(()=>el.remove(),1500)}
 function drawerKeyboard(on){const d=document.getElementById('drawer');if(d)d.classList.toggle('keyboard',!!on);syncViewportHeight()}
+async function supabaseTable(path){if(!SUPABASE_URL||!SUPABASE_PUBLISHABLE_KEY)return null;const res=await fetch(`${SUPABASE_URL}/rest/v1/${path}`,{headers:{apikey:SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${SUPABASE_PUBLISHABLE_KEY}`}});if(!res.ok)throw new Error(`Supabase ${res.status}: ${path}`);return res.json()}
+async function loadSupabaseCatalog(){try{const [remoteDishes,remoteIngs,remoteSteps]=await Promise.all([
+ supabaseTable('dishes?select=slug,name,base,preparation,category,preparation_key,image_path&is_active=eq.true&order=created_at.asc'),
+ supabaseTable('dish_ingredients?select=quantity,unit,sort_order,dishes(slug,name),ingredients(name,category)&order=sort_order.asc'),
+ supabaseTable('recipe_steps?select=step_number,body,dishes(slug,name)&order=step_number.asc')
+]);if(!remoteDishes?.length)return;const next=remoteDishes.map(d=>({slug:d.slug,n:d.name,img:d.image_path,base:d.base,prep:d.preparation,cat:d.category,p:d.preparation_key}));dishes.splice(0,dishes.length,...next);const recipes={},steps={};(remoteIngs||[]).forEach(row=>{const name=row.dishes?.name,ing=row.ingredients?.name;if(!name||!ing)return;(recipes[name]??=[]).push({n:ing,u:row.unit,q:Number(row.quantity),sort:row.sort_order})});Object.entries(recipes).forEach(([name,list])=>{dishRecipes[name]=list.sort((a,b)=>a.sort-b.sort).map(x=>[x.n,x.u,x.q])});(remoteSteps||[]).forEach(row=>{const name=row.dishes?.name;if(!name)return;(steps[name]??=[])[Number(row.step_number)-1]=row.body});Object.assign(dishSteps,steps);state.catalogSource='supabase'}catch(err){console.warn('Using local catalog fallback',err);state.catalogSource='local'}}
 function syncViewportHeight(){const vv=window.visualViewport,h=vv?vv.height:window.innerHeight,top=vv?vv.offsetTop:0,keyboard=Math.max(0,window.innerHeight-h-top);document.documentElement.style.setProperty('--vvh',h+'px');document.documentElement.style.setProperty('--keyboard',keyboard+'px')}
 syncViewportHeight();if(window.visualViewport){window.visualViewport.addEventListener('resize',syncViewportHeight);window.visualViewport.addEventListener('scroll',syncViewportHeight)}
 const debug=new URLSearchParams(location.search).get('debug');
@@ -2087,6 +2095,7 @@ if(debug==='detailings'){state.route='app';state.tab='week';state.detail=true;st
 if(debug==='detailprep'){state.route='app';state.tab='week';state.detail=true;state.acc='prep'}
 if(debug==='shop'){state.route='app';state.tab='shop'}
 if(debug==='settings'){state.route='app';state.tab='settings'}
+loadSupabaseCatalog().finally(()=>{
 render();
 if(debug==='shopdrawer')setTimeout(()=>{state.route='app';state.tab='shop';render();openProductDrawer()},0)
 if(debug==='ingdrawer')setTimeout(()=>{state.route='app';state.tab='week';state.detail=true;state.acc='ings';render();openIngredientDrawer()},0)
@@ -2095,6 +2104,7 @@ if(debug==='newdish')setTimeout(()=>{state.route='app';state.tab='week';state.de
 if(debug==='setpeople')setTimeout(()=>{state.route='app';state.tab='settings';render();openSetting('people')},0)
 if(debug==='setportion')setTimeout(()=>{state.route='app';state.tab='settings';render();openSetting('portion')},0)
 if(debug==='setplates')setTimeout(()=>{state.route='app';state.tab='settings';render();openSetting('plates')},0)
+});
 </script>
 </body>
 </html>
