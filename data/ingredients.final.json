@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "pechuga-de-pollo",
+    "name": "Pechuga de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "zanahoria",
+    "name": "Zanahoria",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "apio",
+    "name": "Apio",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pan-blanco-sin-corteza",
+    "name": "Pan Blanco Sin Corteza",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "leche-evaporada",
+    "name": "Leche Evaporada",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "cebolla",
+    "name": "Cebolla",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "ajo",
+    "name": "Ajo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-de-aji-mirasol",
+    "name": "Pasta de Ají Mirasol",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-de-aji-panca",
+    "name": "Pasta de Ají Panca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aceituna",
+    "name": "Aceituna",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "huevo",
+    "name": "Huevo",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "pecanas",
+    "name": "Pecanas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "arroz",
+    "name": "Arroz",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "papa",
+    "name": "Papa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pimienta",
+    "name": "Pimienta",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "aceite",
+    "name": "Aceite",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "sal",
+    "name": "Sal",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "choclo",
+    "name": "Choclo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "mantequilla",
+    "name": "Mantequilla",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "lomo-fino",
+    "name": "Lomo Fino",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-amarillo",
+    "name": "Ají Amarillo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "salsa-de-soya",
+    "name": "Salsa de Soya",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "salsa-de-ostion",
+    "name": "Salsa de Ostion",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vinagre",
+    "name": "Vinagre",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "tomate",
+    "name": "Tomate",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cebolla-china",
+    "name": "Cebolla China",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "culantro",
+    "name": "Culantro",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "spaguetti",
+    "name": "Spaguetti",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pollo",
+    "name": "Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "camote",
+    "name": "Camote",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "arvejas",
+    "name": "Arvejas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "mayonesa",
+    "name": "Mayonesa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "limon",
+    "name": "Limón",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "frejol-canario",
+    "name": "Frejol Canario",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "pellejo-de-cerdo",
+    "name": "Pellejo de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "atun",
+    "name": "Atún",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "harina-de-chuno",
+    "name": "Harina de Chuño",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "habas",
+    "name": "Habas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "carne-de-res",
+    "name": "Carne de Res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "perejil",
+    "name": "Perejil",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "tarwi",
+    "name": "Tarwi",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "carne-seca",
+    "name": "Carne Seca",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pimenton",
+    "name": "Pimentón",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "fideo",
+    "name": "Fideo",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "agua",
+    "name": "Agua",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "oregano",
+    "name": "Orégano",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "harina-sin-preparar",
+    "name": "Harina Sin Preparar",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "zapallito-italiano",
+    "name": "Zapallito italiano",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "queso-fresco",
+    "name": "Queso fresco",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "haba",
+    "name": "Haba",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "berenjena",
+    "name": "Berenjena",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "carne-molida",
+    "name": "Carne Molida",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "queso",
+    "name": "Queso",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "fetuccini",
+    "name": "Fetuccini",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-panca",
+    "name": "Ají Panca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "laurel",
+    "name": "Laurel",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "comino",
+    "name": "Comino",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "palta",
+    "name": "Palta",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "albahaca",
+    "name": "Albahaca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "espinaca",
+    "name": "Espinaca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "queso-parmesano",
+    "name": "Queso Parmesano",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "aceite-de-oliva",
+    "name": "Aceite de Oliva",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "higado-de-res",
+    "name": "Hígado de Res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "bistec-de-res",
+    "name": "Bistec de res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "platano",
+    "name": "Plátano",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "platano-bellaco",
+    "name": "Plátano Bellaco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-mirasol-seco",
+    "name": "Ají mirasol seco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "mani",
+    "name": "Maní",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "huacatay",
+    "name": "Huacatay",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "galleta-de-vainilla",
+    "name": "Galleta de Vainilla",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "carne",
+    "name": "Carne",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pasas-morenas",
+    "name": "Pasas Morenas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "olluco",
+    "name": "Olluco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hojas-de-espinaca",
+    "name": "Hojas de Espinaca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-de-aji-amarillo",
+    "name": "Pasta de Ají Amarillo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "chicha-de-jora",
+    "name": "Chicha de Jora",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "caigua",
+    "name": "Caigua",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-de-tomate",
+    "name": "Pasta de Tomate",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pan-frances",
+    "name": "Pan francés",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "quinua",
+    "name": "Quinua",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "ajo-molido",
+    "name": "Ajo molido",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "choclo-desgranado",
+    "name": "Choclo desgranado",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "zapallo-loche",
+    "name": "Zapallo Loche",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "caldo-de-pollo",
+    "name": "Caldo de pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "hongos-con-laurel",
+    "name": "Hongos con Laurel",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hoja-de-perejil",
+    "name": "Hoja de Perejil",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "panceta-de-cerdo",
+    "name": "Panceta de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "leche-entera",
+    "name": "Leche Entera",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "asado-de-tira",
+    "name": "Asado de Tira",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "poro",
+    "name": "Poro",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vino-tinto",
+    "name": "Vino Tinto",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "tomillo",
+    "name": "Tomillo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hierbabuena",
+    "name": "Hierbabuena",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pecho-de-res-con-hueso",
+    "name": "Pecho de res con hueso",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "chuno-blanco-remojado-y-majado",
+    "name": "Chuño blanco remojado y majado",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "trigo-pelado-cocido",
+    "name": "Trigo pelado cocido",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "garbanzos-cocidos",
+    "name": "Garbanzos cocidos",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-panca-molido",
+    "name": "Ají panca molido",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "filete-de-bonito",
+    "name": "Filete de Bonito",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-mirasol",
+    "name": "Ají Mirasol",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vinagre-tinto",
+    "name": "Vinagre Tinto",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "canela-entera",
+    "name": "Canela Entera",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "clavo-de-olor",
+    "name": "Clavo de Olor",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "lechuga",
+    "name": "Lechuga",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "malaya",
+    "name": "Malaya",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "aji-limo",
+    "name": "Ají Limo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "costillar-de-res",
+    "name": "Costillar de Res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "garbanzo",
+    "name": "Garbanzo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "acelga",
+    "name": "Acelga",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "coliflor",
+    "name": "Coliflor",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pan-rallado",
+    "name": "Pan Rallado",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "chuno-o-fecula-de-papa",
+    "name": "Chuno o Fecula de Papa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "azucar",
+    "name": "Azúcar",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "rocoto",
+    "name": "Rocoto",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "queso-cremoso",
+    "name": "Queso Cremoso",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "nuez-moscada",
+    "name": "Nuez Moscada",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "tallarin",
+    "name": "Tallarín",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "chuleta-de-chancho",
+    "name": "Chuleta de Chancho",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "cerveza-negra",
+    "name": "Cerveza Negra",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "canela-china-polvo",
+    "name": "Canela China Polvo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cerdo",
+    "name": "Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "mezcla-para-apanar",
+    "name": "Mezcla para Apanar",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "romero",
+    "name": "Romero",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pabilo-y-papel-aluminio",
+    "name": "Pabilo y Papel Aluminio",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "kion-o-jengibre",
+    "name": "Kion o Jengibre",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "salsa-mensi",
+    "name": "Salsa Mensi",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vinagre-de-arroz",
+    "name": "Vinagre de Arroz",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "pavo",
+    "name": "Pavo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "aceite-de-ajonjoli",
+    "name": "Aceite de Ajonjoli",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "vainitas",
+    "name": "Vainitas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "papa-yungay",
+    "name": "Papa Yungay",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "betarraga",
+    "name": "Betarraga",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "brazuelo-o-pierna-de-cerdo",
+    "name": "Brazuelo o Pierna de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "mostaza-en-grano-mostaza-americana",
+    "name": "Mostaza En Grano Mostaza Americana",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cebolla-blanca",
+    "name": "Cebolla Blanca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pechuga-de-pavo",
+    "name": "Pechuga de Pavo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "filete-de-perico",
+    "name": "Filete de Perico",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "zapallo",
+    "name": "Zapallo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "leche-fresca",
+    "name": "Leche Fresca",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "pierna-de-pollo",
+    "name": "Pierna de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "mostaza",
+    "name": "Mostaza",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "mote",
+    "name": "Mote",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pellejo-de-cerdo-con-grasa",
+    "name": "Pellejo de cerdo con grasa",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "manteca-vegetal",
+    "name": "Manteca Vegetal",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "sazonador-de-aji-panca-sin-picante",
+    "name": "Sazonador de ají panca sin picante",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-panca-en-pasta",
+    "name": "Ají panca en pasta",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-amarillo-en-pasta",
+    "name": "Ají amarillo en pasta",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aceitunas-negras",
+    "name": "Aceitunas negras",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hojas-de-platano",
+    "name": "Hojas de Platano",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pabilo",
+    "name": "Pabilo",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "aji-en-polvo-opciona",
+    "name": "Ají En Polvo Opciona",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "papa-amarilla",
+    "name": "Papa Amarilla",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "mondongo",
+    "name": "Mondongo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hongo-seco",
+    "name": "Hongo Seco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "gaseosa-negra",
+    "name": "Gaseosa Negra",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "punta-de-pecho",
+    "name": "Punta de Pecho",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "frejol-verde",
+    "name": "Frejol Verde",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "maiz-mote-seco",
+    "name": "Maiz Mote Seco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "patas-de-res-y-o-chancho",
+    "name": "Patas de Res y o Chancho",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pecho-de-res",
+    "name": "Pecho de Res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "ketchup",
+    "name": "Ketchup",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "sriracha",
+    "name": "Sriracha",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "chorizo-parrillero",
+    "name": "Chorizo Parrillero",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "salchicha-tipo-huachana",
+    "name": "Salchicha Tipo Huachana",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "mollejas-de-pollo",
+    "name": "Mollejas de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "cabello-de-angel",
+    "name": "Cabello de Angel",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "huesos-y-patas-de-pollo",
+    "name": "Huesos y Patas de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "langostino",
+    "name": "Langostino",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "conchas-de-abanico",
+    "name": "Conchas de Abanico",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "calamar",
+    "name": "Calamar",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "frejol-chino",
+    "name": "Frejol Chino",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "rodajas-de-esparragos",
+    "name": "Rodajas de Esparragos",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "brocoli",
+    "name": "Brocoli",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "holantao",
+    "name": "Holantao",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "champinones",
+    "name": "Champiñones",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pepino",
+    "name": "Pepino",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "arroz-integral",
+    "name": "Arroz Integral",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "romero-en-polvo",
+    "name": "Romero En Polvo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-panca-en-polvo",
+    "name": "Ají Panca En Polvo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cerveza",
+    "name": "Cerveza",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "papa-coctel",
+    "name": "Papa Coctel",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "caldo-de-carne",
+    "name": "Caldo de carne",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "sillao",
+    "name": "Sillao",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "tocino",
+    "name": "Tocino",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pasas-rubias",
+    "name": "Pasas Rubias",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "panceta-de-cerdo-sin-costillas",
+    "name": "Panceta de Cerdo Sin Costillas",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "fettuccine",
+    "name": "Fettuccine",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "crema-de-leche",
+    "name": "Crema de Leche",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "jamon",
+    "name": "Jamon",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "lechon",
+    "name": "Lechon",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "sal-gruesa",
+    "name": "Sal Gruesa",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "trigo",
+    "name": "Trigo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-seco",
+    "name": "Ají Seco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vinagre-balsamico",
+    "name": "Vinagre Balsamico",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cangrejo",
+    "name": "Cangrejo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cabeza-de-pescado",
+    "name": "Cabeza de Pescado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "choros",
+    "name": "Choros",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "yuyo",
+    "name": "Yuyo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vongole",
+    "name": "Vongole",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "lapas-precocidas",
+    "name": "Lapas Precocidas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pulpo-precocido",
+    "name": "Pulpo Precocido",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cocona",
+    "name": "Cocona",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "aji-charapita",
+    "name": "Ají Charapita",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "platano-bellaco-verde",
+    "name": "Platano Bellaco Verde",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pulpo",
+    "name": "Pulpo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pan",
+    "name": "Pan",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "semola",
+    "name": "Semola",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "huevos-de-codorniz",
+    "name": "Huevos de Codorniz",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "bonito",
+    "name": "Bonito",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "filete-de-pescado",
+    "name": "Filete de Pescado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "mixtura-de-mariscos",
+    "name": "Mixtura de Mariscos",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "fecula-de-maiz",
+    "name": "Fécula de Maíz",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "polvo-de-hornear",
+    "name": "Polvo de Hornear",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "leche",
+    "name": "Leche",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "huesos-de-cerdo",
+    "name": "Huesos de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "col-china",
+    "name": "Col China",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "fideos-chinos",
+    "name": "Fideos Chinos",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "cerdo-asado",
+    "name": "Cerdo Asado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pato",
+    "name": "Pato",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-wantan",
+    "name": "Pasta Wantan",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "carne-de-cerdo",
+    "name": "Carne de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "salsa-inglesa",
+    "name": "Salsa Inglesa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vinagre-de-manzana",
+    "name": "Vinagre de Manzana",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "costillas-de-cerdo",
+    "name": "Costillas de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pasta-corta",
+    "name": "Pasta Corta",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "durazno-en-conserva",
+    "name": "Durazno En Conserva",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pina-en-conserva",
+    "name": "Pina En Conserva",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "zucchini",
+    "name": "Zucchini",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "alcachofa",
+    "name": "Alcachofa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "espinazo-de-pescado",
+    "name": "Espinazo de Pescado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pescado",
+    "name": "Pescado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "canchita",
+    "name": "Canchita",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "yogur-natural",
+    "name": "Yogur Natural",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "corazones-de-pollo",
+    "name": "Corazones de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "higados-de-pollo",
+    "name": "Higados de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pescuezos-y-alas-de-pollo",
+    "name": "Pescuezos y Alas de Pollo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pescado-cortado",
+    "name": "Pescado Cortado",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "yuca",
+    "name": "Yuca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "vino-de-arroz-o-pisco",
+    "name": "Vino de Arroz o Pisco",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "nabo",
+    "name": "Nabo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "sal-tostada-y-tamizada",
+    "name": "Sal Tostada y Tamizada",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "atun-en-conserva",
+    "name": "Atún En Conserva",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "chifles",
+    "name": "Chifles",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pejerrey",
+    "name": "Pejerrey",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "lomo-de-cerdo-con-huesos-y-piel",
+    "name": "Lomo de Cerdo con Huesos y Piel",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "salsa-hoisin",
+    "name": "Salsa Hoisin",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "guindones",
+    "name": "Guindones",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cabrilla",
+    "name": "Cabrilla",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "achiote-en-polvo",
+    "name": "Achiote En Polvo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "algas",
+    "name": "Algas",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "platano-bellaco-maduro",
+    "name": "Platano Bellaco Maduro",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "manteca-de-cerdo",
+    "name": "Manteca de Cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "cecina",
+    "name": "Cecina",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-para-lasana",
+    "name": "Pasta Para Lasana",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "queso-mozzarella",
+    "name": "Queso Mozzarella",
+    "category": "Lácteos y huevos",
+    "pantry": false
+  },
+  {
+    "id": "carne-molida-de-res",
+    "name": "Carne molida de res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "carne-molida-de-cerdo",
+    "name": "Carne molida de cerdo",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "pulmon-de-res",
+    "name": "Pulmon de Res",
+    "category": "Proteínas",
+    "pantry": false
+  },
+  {
+    "id": "kion",
+    "name": "Kion",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "ajo-picado",
+    "name": "Ajo picado",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "fecula-de-papa",
+    "name": "Fécula de papa",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pasta-de-tamarindo",
+    "name": "Pasta de tamarindo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "fideos-de-arroz",
+    "name": "Fideos de Arroz",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "choclo-seco",
+    "name": "Choclo Seco",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "chinguirito",
+    "name": "Chinguirito",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "palillo-o-curcuma",
+    "name": "Palillo o Curcuma",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "lentejas",
+    "name": "Lentejas",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "chincho",
+    "name": "Chincho",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pancas-de-choclo",
+    "name": "Pancas de Choclo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "ajo-en-polvo",
+    "name": "Ajo En Polvo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "col-o-repollo",
+    "name": "Col o Repollo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "pimienta-cayena",
+    "name": "Pimienta Cayena",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "semillas-de-sesamo",
+    "name": "Semillas de Sesamo",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "cabrito",
+    "name": "Cabrito",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "frejoles",
+    "name": "Frejoles",
+    "category": "Abarrotes",
+    "pantry": false
+  },
+  {
+    "id": "gallina",
+    "name": "Gallina",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "linguini",
+    "name": "Linguini",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "papa-seca",
+    "name": "Papa Seca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "rigatoni",
+    "name": "Rigatoni",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "hojas-de-albahaca",
+    "name": "Hojas de Albahaca",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "canela-china",
+    "name": "Canela China",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "tausi",
+    "name": "Tausi",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "ajonjoli",
+    "name": "Ajonjolí",
+    "category": "Verduras y otros",
+    "pantry": false
+  },
+  {
+    "id": "agua-mineral-con-gas",
+    "name": "Agua Mineral con Gas",
+    "category": "Verduras y otros",
+    "pantry": true
+  },
+  {
+    "id": "tortillas",
+    "name": "Tortillas",
+    "category": "Verduras y otros",
+    "pantry": false
+  }
+]

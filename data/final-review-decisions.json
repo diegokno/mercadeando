@@ -1,0 +1,85 @@
+{
+  "version": "2026-10-07",
+  "retire": ["old:fetuccini-en-salsa-roja", "acomer:660", "acomer:1402", "acomer:1102"],
+  "overrides": {
+    "old:porotos": {
+      "source": "Componente de frejoles de A Comer: Seco de carne con frejoles",
+      "sourceUrl": "https://acomer.pe/seco-de-carne-con-frejoles/",
+      "note": "Solo se usa el componente de frejoles, sin mezclarlo con el seco. La fuente no declara rendimiento: cantidades adaptadas editorialmente para dos, no una conversión exacta certificada.",
+      "ingredients": [["Frejol Canario", "250 g"], ["Pellejo de Cerdo", "cantidad necesaria"], ["Cebolla", "1 unid"], ["Ajo", "1 cdta"], ["Arroz", "180 g"]],
+      "steps": ["Remoja los frejoles la noche anterior. Al día siguiente, escurre y lava.", "Cubre con agua y cocina 30 minutos a fuego medio. Cambia el agua, agrega pellejo de cerdo y cocina 60–90 minutos, hasta ablandar; reserva el líquido.", "En otra olla, sofríe cebolla picada con aceite cinco minutos. Añade ajo y sofríe cinco minutos más.", "Incorpora los frejoles cocidos y parte del líquido reservado. Cocina diez minutos a fuego bajo; sazona con orégano, sal y pimienta.", "Sirve con arroz graneado preparado por separado."]
+    },
+    "old:tarwi": {
+      "source": "INIA: El Tarwi, alternativa para la lucha contra la desnutrición infantil, puré tradicional, p. 39 impresa",
+      "sourceUrl": "https://repositorio.inia.gob.pe/server/api/core/bitstreams/2f41e31a-c636-4432-9d1e-7a743c601dda/content",
+      "note": "Preparación tradicional con papa y carne seca, no ensalada. La descripción de INIA no fija cantidades: estas cantidades para dos son editoriales y se identifican como estimadas. Comprar tarwi ya desamargado y cocido; no usar grano crudo sin desamargar.",
+      "estimatedQuantities": true,
+      "ingredients": [["Tarwi", "350 g"], ["Carne Seca", "80 g"], ["Papa", "250 g"], ["Cebolla", "1 unid"], ["Tomate", "1 unid"], ["Ajo", "2 dientes"], ["Pasta de Ají Panca", "1 cda"], ["Pimentón", "1 cdta"], ["Arroz", "180 g"]],
+      "steps": ["Usa tarwi cocido y desamargado. Pela y licúa con un poco de agua hasta formar una crema.", "Remoja la carne seca, enjuaga y corta. Sancocha las papas, pela y aplasta.", "Sofríe cebolla y ajo; agrega tomate picado, ají panca y pimentón. Cocina el aderezo.", "Añade la carne y agua para guisarla hasta que esté tierna. Incorpora tarwi molido y papa aplastada.", "Cocina removiendo hasta integrar y espesar; ajusta agua y sal. Sirve con arroz preparado aparte."]
+    },
+    "old:lawa-de-chuno": {
+      "source": "En Perú: Chuño cola o lawa de chuño",
+      "sourceUrl": "https://enperu.org/cusco/gastronomia-cusco/chuno-cola-o-lawa-de-chuno",
+      "sourcePortions": 4,
+      "note": "La fuente declara 4–6 porciones; se utiliza su extremo de cuatro para dividir entre dos. Chuño negro molido, no fécula de maíz. Arroz de acompañamiento mínimo: estimación 20 g crudos para dos.",
+      "ingredients": [["Harina de Chuño", "1.5 taza"], ["Papa", "1.5 unid"], ["Habas", "250 g"], ["Cebolla", "1/2 unid"], ["Ajo", "1 cda"], ["Carne de Res", "150 g"], ["Perejil", "al gusto"], ["Arroz", "20 g"]],
+      "steps": ["Limpia el chuño negro molido y disuélvelo en agua fría, sin grumos.", "Hierve la carne en agua con sal; retira y conserva el caldo.", "En otra olla, sofríe cebolla y ajo; sazona con pimienta y orégano.", "Añade papa cruda en trozos, habas, carne y caldo. Hierve hasta que la carne, papa y habas estén cocidas.", "Vierte el chuño disuelto poco a poco, removiendo. Cocina a fuego bajo hasta cocerlo y obtener una sopa espesa, no pastosa.", "Ajusta sal; termina con perejil. Sirve con una pequeña guarnición de arroz cocido por separado."]
+    },
+    "old:malaya-dorada": {
+      "source": "USIL: Perú Sabor&Saber, Malaya arequipeña, p. 232; sarsa criolla, p. 99",
+      "sourceUrl": "https://fliphtml5.com/ncnuf/bljx/Peru%CC%81_Sabor&Saber/",
+      "sourcePortions": 4,
+      "note": "Cantidades de malaya y guarnición divididas entre dos. Arroz agregado como guarnición de la app: 180 g crudos para dos. La sarsa se desglosa según la técnica del mismo libro.",
+      "ingredients": [["Malaya", "400 g"], ["Pasta de Ají Panca", "50 g"], ["Ajo", "15 g"], ["Papa", "250 g"], ["Cebolla", "64 g"], ["Ají Limo", "16 g"], ["Culantro", "0.8 g"], ["Limón", "0.32 unid"], ["Arroz", "180 g"]],
+      "steps": ["Sancocha la malaya en agua hasta que esté tierna. Retira del caldo y corta en porciones.", "Unta con ají panca, ajo, comino, sal y pimienta. Refrigera 30 minutos.", "Sancocha las papas, escurre y dóralas en aceite. Fríe la malaya sazonada hasta dorarla.", "Para la sarsa, corta cebolla en pluma, lava y deja en agua fría 30 minutos. Escurre y mezcla con ají limo, culantro, limón y sal.", "Prepara el arroz en otra olla. Sirve separado de la malaya, con papas doradas y sarsa."]
+    },
+    "old:locro-de-zapallo": {
+      "source": "USIL: Perú Sabor&Saber, Locro de zapallo, p. 302; base amarilla, p. 69",
+      "sourceUrl": "https://fliphtml5.com/ncnuf/bljx/Peru%CC%81_Sabor&Saber/",
+      "sourcePortions": 4,
+      "note": "Fuente dividida entre dos. Base amarilla desglosada según sus técnicas. Arroz criollo cocido: 250 g; compra estimada 83.33 g crudos usando rendimiento 3:1. Este rendimiento varía con la cocción.",
+      "ingredients": [["Zapallo", "500 g"], ["Cebolla", "96 g"], ["Ajo", "3.2 g"], ["Pasta de Ají Amarillo", "25 g"], ["Papa", "375 g"], ["Arvejas", "40 g"], ["Choclo", "1/2 unid"], ["Leche Fresca", "100 ml"], ["Queso Fresco", "125 g"], ["Huacatay", "5 g"], ["Arroz", "83.333 g"]],
+      "pantry": [["Agua", "400 ml", "Caldo de carne"], ["Orégano", "2.5 g"], ["Aceite", "cantidad necesaria"], ["Sal", "al gusto"], ["Pimienta", "al gusto"]],
+      "steps": ["Sofríe cebolla picada hasta dorarla; agrega ajo y cocina a fuego bajo. Incorpora la pasta de ají amarillo y cocina hasta integrar el aderezo. Aromatiza con orégano, sal y pimienta.", "Añade zapallo en cubos y caldo de carne; tapa y cocina a fuego bajo hasta ablandar el zapallo, controlando el líquido.", "Sancocha por separado papa en cubos, choclo y arvejas. Escurre y desgrana el choclo.", "Agrega leche y queso en cubos al zapallo cocido; cocina un minuto. Mezcla con papa, choclo y arvejas.", "Termina con huacatay picado. Sirve con arroz blanco cocido por separado."]
+    },
+    "old:rocoto-relleno-con-pastel-de-papa": {
+      "source": "USIL: Perú Sabor&Saber, Rocoto relleno, p. 316; Pastel de papa, p. 312; blanqueado, p. 97; base roja, p. 75",
+      "sourceUrl": "https://fliphtml5.com/ncnuf/bljx/Peru%CC%81_Sabor&Saber/",
+      "sourcePortions": 4,
+      "note": "Ambas recetas del mismo libro divididas entre dos. Base roja desglosada; caldo reutilizable se conserva como básico. Vinagre y azúcar para blanquear no tienen cantidad especificada por la fuente.",
+      "ingredients": [["Rocoto", "2 unid"], ["Carne Molida", "200 g"], ["Cebolla", "57.6 g"], ["Ajo", "1.92 g"], ["Pasta de Ají Panca", "15 ml"], ["Huevo", "5 unid"], ["Pasas", "20 g"], ["Aceituna", "20 g"], ["Maní", "20 g"], ["Queso Paria", "40 g"], ["Papa", "500 g"], ["Queso Cremoso", "250 g"], ["Leche Evaporada", "410 ml"], ["Mantequilla", "50 g"], ["Vinagre", "cantidad necesaria"], ["Azúcar", "cantidad necesaria"]],
+      "pantry": [["Agua", "100 ml", "Fondo oscuro de res"], ["Orégano", "al gusto"], ["Comino", "4 g"], ["Nuez Moscada", "1 g"], ["Sal", "al gusto"], ["Pimienta", "al gusto"], ["Aceite", "cantidad necesaria"]],
+      "steps": ["Retira la tapa, venas y semillas de los rocotos. Blanquéalos en agua hirviendo con vinagre y azúcar, cambiando el agua tres veces. Enfría en agua helada y escurre.", "Para la base roja, sofríe cebolla y luego ajo hasta formar un aderezo. Añade ají panca y cocina hasta integrar; agrega comino y cocina dos minutos.", "Añade carne molida, sella y aromatiza con orégano. Incorpora el fondo de res para mantener el relleno húmedo; cocina la carne completamente.", "A fuego mínimo, incorpora pasas, aceitunas, maní y un huevo duro picado. Ajusta sal y pimienta.", "Rellena los rocotos; cubre con queso paria y coloca sus tapas. Reserva para gratinar.", "Para el pastel, enmantequilla un molde. Alterna capas de papa cruda cortada muy fina y queso cremoso rallado.", "Licúa leche evaporada con los cuatro huevos restantes, sal, pimienta y nuez moscada. Vierte sobre el pastel y distribuye mantequilla en cubitos.", "Hornea el pastel a 180 °C unos 45 minutos, hasta que la papa esté cocida y la mezcla cuajada.", "Gratina los rocotos a 200 °C hasta fundir y dorar el queso. Sirve junto al pastel."]
+    },
+    "old:locro-de-pecho": {
+      "source": "MINSA: Almuerzos familiares saludables, Arequipa, Locro de pecho, p. 52 del PDF",
+      "sourceUrl": "https://cdn.www.gob.pe/uploads/document/file/4552046/4221503-17-almuerzos-familiares-saludables-arequipa-2024.pdf",
+      "sourcePortions": 4,
+      "note": "Fuente dividida entre dos: guiso de papa y res, no zapallo. La fuente especifica filete de res sin imponer un corte. 200 g de res para dos es la cantidad de la fuente, no una promesa nutricional.",
+      "ingredients": [["Carne de Res", "200 g"], ["Papa", "250 g"], ["Cebolla", "1/2 unid"], ["Ajo", "3/4 cdta"], ["Pasta de Ají Panca", "1/2 cda"], ["Hierbabuena", "al gusto"], ["Perejil", "al gusto"], ["Arroz", "0.625 taza"]],
+      "steps": ["Corta la carne en trozos pequeños y sancóchala en agua con sal. Reserva la carne y su caldo.", "Sofríe cebolla picada, ají panca y ajo. Añade papa cruda en cubos, carne cocida y caldo de su cocción.", "Cocina hasta que la papa esté tierna y se deshaga ligeramente, manteniendo el guiso jugoso.", "Termina con hierbabuena y perejil. Sirve con arroz graneado preparado en otra olla."]
+    },
+    "old:croquetas-de-atun-con-arroz": {
+      "source": "Recetas Nestlé: Croquetas de atún, adaptación sin marcas",
+      "sourceUrl": "https://www.recetasnestle.com.pe/recetas/croquetas-de-atun",
+      "sourcePortions": 4,
+      "note": "Cantidades divididas entre dos; harina recuperada del procedimiento. Arroz agregado para el plato de la app. La fuente utiliza media lata para dos; se conserva y se señala, sin inventar una equivalencia de peso por lata.",
+      "ingredients": [["Atún", "1/2 lata"], ["Huevo", "1 unid"], ["Mezcla para Apanar", "1/4 sobre"], ["Perejil", "1/4 taza"], ["Cebolla", "1/4 unid"], ["Harina de Trigo", "1/2 cda"], ["Lechuga", "5 hojas"], ["Tomate", "1 unid"], ["Arroz", "180 g"]],
+      "steps": ["Escurre el atún. Mezcla con huevo, cebolla picada, harina, perejil, sal y pimienta; forma croquetas.", "Pasa las croquetas por la mezcla para apanar.", "Fríe con aceite caliente hasta dorarlas por ambos lados y cocinar el huevo del interior. Escurre.", "Lava y corta lechuga y tomate. Sirve con esa ensalada y arroz preparado por separado."]
+    },
+    "old:chancho-a-la-olla": {
+      "source": "Base antigua; aderezo definido por Diego en la revisión final",
+      "note": "Aderezo explícito del usuario para dos; camote eliminado.",
+      "ingredients": [["Cerdo", "550 g"], ["Papa", "3 unid"], ["Arroz", "350 g"], ["Pasta de Ají Panca", "3 cda"], ["Ajo", "4 dientes"], ["Vinagre", "3 cda"]],
+      "pantry": [["Comino", "1 cdta"], ["Orégano", "1/2 cdta"], ["Aceite", "2 cda"], ["Sal", "al gusto"], ["Pimienta", "al gusto"], ["Agua", "cantidad necesaria"]],
+      "steps": ["Mezcla ají panca, ajo picado, comino, orégano, vinagre, sal y pimienta. Integra el aceite y unta el cerdo en trozos con este adobo.", "Dora el cerdo en una olla. Añade el adobo restante y agua; cocina tapado a fuego bajo hasta que empiece a ablandar.", "Incorpora papa cruda pelada en trozos. Cocina hasta que la carne y la papa estén tiernas; repón agua si se seca.", "Ajusta la sal y sirve con su jugo y arroz cocido aparte."]
+    },
+    "old:chuleta-de-chancho-al-horno": {
+      "source": "Adobo adaptado de A Comer: Chanchito al horno; cocción de chuletas de la base antigua",
+      "sourceUrl": "https://acomer.pe/pierna-de-cerdo-navidena/",
+      "note": "Solo el adobo se toma de la preparación original y se escala por 550 g / 3 kg de carne, no por porciones. No se trasladan las dos horas de cocción de una pierna a las chuletas.",
+      "ingredients": [["Chuleta de Chancho", "550 g"], ["Papa", "3 unid"], ["Arroz", "350 g"], ["Pasta de Ají Panca", "11 ml"], ["Pasta de Ají Mirasol", "5.5 ml"], ["Salsa de Soya", "22 ml"], ["Cerveza Negra", "22 ml"], ["Chicha de Jora", "22 ml"], ["Ajo", "5.5 ml"], ["Canela China Polvo", "0.458 ml"]],
+      "steps": ["Mezcla ají panca, ají mirasol, ajo, sillao, cerveza negra, chicha de jora, canela china, comino, orégano, sal y pimienta.", "Unta las chuletas con ese adobo y refrigera tapadas toda la noche.", "Acomoda las chuletas y papas peladas en una fuente con el adobo. Hornea a 180 °C; controla la cocción según el grosor y baña con los jugos sin dejar secar la fuente.", "Retira cuando la carne y las papas estén cocidas. Sirve con arroz cocido aparte. No uses el tiempo de cocción de una pierna entera para estas chuletas."]
+    }
+  }
+}

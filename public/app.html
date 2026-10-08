@@ -1636,12 +1636,245 @@
         scroll-behavior:auto!important;
       }
     }
+
+    /* Internal responsive shell: tablet and desktop without disturbing the phone layout. */
+    @media (min-width:760px){
+      body{
+        display:grid!important;
+        place-items:center!important;
+        min-height:100vh;
+        min-height:100dvh;
+        padding:18px!important;
+        background:#ececea!important;
+        overflow:hidden!important;
+      }
+      .phone{
+        position:relative!important;
+        left:auto!important;
+        top:auto!important;
+        width:min(calc(100vw - 36px),760px)!important;
+        max-width:none!important;
+        height:min(calc(var(--vvh,100dvh) - 36px),980px)!important;
+        max-height:none!important;
+        min-height:720px!important;
+        border-radius:28px;
+        overflow:hidden!important;
+        box-shadow:0 22px 60px rgba(32,34,53,.16)!important;
+        isolation:isolate;
+      }
+      .screen,
+      .detail{
+        width:100%!important;
+        max-width:none!important;
+        height:100%!important;
+        max-height:none!important;
+      }
+      .content,
+      .login-block,
+      .swipe-screen .content,
+      .loader-screen > *,
+      .ready-screen > *{
+        max-width:430px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      .login-block{
+        left:50%!important;
+        right:auto!important;
+        width:min(382px,calc(100% - 48px));
+        transform:translate(-50%,-50%)!important;
+      }
+      .bottom-stack{
+        left:50%!important;
+        right:auto!important;
+        width:min(382px,calc(100% - 48px))!important;
+        transform:translateX(-50%);
+      }
+      .app-head,
+      .scroll-list,
+      .shop-list,
+      .settings-list{
+        left:max(32px,calc((100% - 680px)/2))!important;
+        right:max(32px,calc((100% - 680px)/2))!important;
+      }
+      .app-head{
+        top:42px!important;
+      }
+      .app-title{
+        font-size:32px!important;
+        line-height:38px!important;
+      }
+      .summary-grid{
+        grid-template-columns:repeat(4,minmax(0,1fr));
+      }
+      .app-screen:not(.shop-screen):not(.settings-screen) .scroll-list{
+        top:226px!important;
+      }
+      .day-slide{
+        grid-template-columns:90px minmax(0,1fr);
+        gap:16px;
+      }
+      .meal-title{
+        max-width:none!important;
+        white-space:normal!important;
+        overflow:visible!important;
+        text-overflow:clip!important;
+      }
+      .shop-screen:before{
+        left:max(32px,calc((100% - 680px)/2))!important;
+        right:max(32px,calc((100% - 680px)/2))!important;
+      }
+      .shop-screen .shop-list{
+        top:258px!important;
+      }
+      .settings-screen .settings-list{
+        top:126px!important;
+        bottom:104px!important;
+        left:50%!important;
+        right:auto!important;
+        width:min(calc(100% - 64px),680px)!important;
+        transform:translateX(-50%);
+      }
+      .settings-screen .home-summary{
+        display:none!important;
+      }
+      .settings-group{
+        background:#fff!important;
+      }
+      .nav{
+        width:340px!important;
+        left:50%!important;
+        right:auto!important;
+        bottom:26px!important;
+        transform:translateX(-50%)!important;
+      }
+      .nav-indicator{
+        width:calc((340px - 8px)/3)!important;
+        transform:translateX(calc(var(--active-index) * ((340px - 8px)/3)))!important;
+      }
+      .nav button{
+        width:calc((340px - 8px)/3)!important;
+        flex-basis:calc((340px - 8px)/3)!important;
+      }
+      .detail{
+        padding-left:max(32px,calc((100% - 680px)/2))!important;
+        padding-right:max(32px,calc((100% - 680px)/2))!important;
+      }
+      .detail .subhead,
+      .save-floating{
+        left:max(32px,calc((100% - 680px)/2))!important;
+        right:max(32px,calc((100% - 680px)/2))!important;
+      }
+      .detail-img{
+        height:min(320px,34dvh)!important;
+      }
+      .drawer{
+        position:absolute!important;
+        left:0!important;
+        right:0!important;
+        bottom:0!important;
+        width:auto!important;
+        max-width:none!important;
+        max-height:min(82%,760px)!important;
+        border-radius:28px 28px 0 0!important;
+      }
+      .drawer .list,
+      .drawer-list,
+      .setting-drawer{
+        max-width:620px;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      .drawer h3,
+      .drawer > .search,
+      .drawer > .drawer-note,
+      .drawer-controls,
+      .drawer-primary,
+      .new-dish-form{
+        max-width:620px;
+        width:100%;
+        margin-left:auto!important;
+        margin-right:auto!important;
+      }
+      .x{
+        right:max(24px,calc((100% - 620px)/2))!important;
+      }
+    }
+
+    @media (min-width:1024px){
+      body{
+        padding:24px!important;
+      }
+      .phone{
+        width:min(calc(100vw - 48px),1060px)!important;
+        height:min(calc(var(--vvh,100dvh) - 48px),900px)!important;
+        min-height:720px!important;
+      }
+      .app-head,
+      .app-screen:not(.shop-screen):not(.settings-screen) .scroll-list{
+        left:max(48px,calc((100% - 920px)/2))!important;
+        right:max(48px,calc((100% - 920px)/2))!important;
+      }
+      .app-screen:not(.shop-screen):not(.settings-screen) .scroll-list{
+        display:grid!important;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:16px 18px;
+        align-content:start;
+        top:226px!important;
+      }
+      .app-screen:not(.shop-screen):not(.settings-screen) .day-row{
+        margin-bottom:0!important;
+      }
+      .app-screen:not(.shop-screen):not(.settings-screen) .day-slide{
+        grid-template-columns:72px minmax(0,1fr);
+        gap:12px;
+      }
+      .app-screen:not(.shop-screen):not(.settings-screen) .meal-card{
+        min-height:104px;
+      }
+      .shop-screen .app-head,
+      .shop-screen .shop-list,
+      .settings-screen .app-head,
+      .settings-screen .settings-list{
+        left:max(48px,calc((100% - 760px)/2))!important;
+        right:max(48px,calc((100% - 760px)/2))!important;
+      }
+      .settings-screen .app-head,
+      .settings-screen .settings-list{
+        left:50%!important;
+        right:auto!important;
+        width:min(calc(100% - 96px),760px)!important;
+        transform:translateX(-50%);
+      }
+      .shop-screen:before{
+        left:max(48px,calc((100% - 760px)/2))!important;
+        right:max(48px,calc((100% - 760px)/2))!important;
+      }
+      .detail{
+        padding-left:max(48px,calc((100% - 760px)/2))!important;
+        padding-right:max(48px,calc((100% - 760px)/2))!important;
+      }
+      .detail .subhead,
+      .save-floating{
+        left:max(48px,calc((100% - 760px)/2))!important;
+        right:max(48px,calc((100% - 760px)/2))!important;
+      }
+    }
+    .detail.compact .detail-img{height:0!important;min-height:0!important;aspect-ratio:auto!important;opacity:0!important;margin:0!important}
+    .qty span{min-width:0;overflow-wrap:anywhere;font-size:14px;line-height:1.3;padding:4px}
+    .qty:has(button[disabled]){display:flex;justify-content:center;min-height:32px}
+    .qty button[disabled]{display:none}
+    .qty:has(button[disabled]) span{max-width:118px}
   </style>
 </head>
 <body>
 <main class="phone" id="phone"></main>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="data/catalog.final.js"></script>
+<script src="lib/recipe-core.js"></script>
+<script src="lib/meal-planner.js"></script>
 <script>
 const $phone=document.getElementById('phone');
 document.addEventListener('gesturestart',e=>e.preventDefault(),{passive:false});
@@ -1653,69 +1886,70 @@ const SUPABASE_PUBLISHABLE_KEY='sb_publishable_OZca_lyldUIuNEC5RBXcDw_eWJ1PetS';
 const sbClient=window.supabase?.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
 const imgBase='imagenes-platos/webp/';
 const dishes=[
-{n:'Ají de gallina',img:'imagenes-platos/webp/aji-de-gallina.webp',base:'Pollo',prep:'Crema',cat:'pollo',p:'crema'},
-{n:'Lomo saltado',img:'imagenes-platos/webp/lomo-saltado.webp',base:'Res',prep:'Saltado',cat:'res',p:'saltado'},
-{n:'Tallarín saltado',img:'imagenes-platos/webp/tallarin-saltado.webp',base:'Res',prep:'Saltado',cat:'res',p:'saltado'},
-{n:'Pollo al horno',img:'imagenes-platos/webp/pollo-al-horno.webp',base:'Pollo',prep:'Horno',cat:'pollo',p:'horno'},
-{n:'Salpicón de pollo',img:'imagenes-platos/webp/salpicon-de-pollo.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
-{n:'Lentejas',img:'imagenes-platos/webp/lentejas.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
-{n:'Porotos',img:'imagenes-platos/webp/porotos.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
-{n:'Saltado de atún',img:'imagenes-platos/webp/saltado-de-atun.webp',base:'Pescado',prep:'Saltado',cat:'pescado',p:'saltado'},
-{n:'Lawa de chuño',img:'imagenes-platos/webp/lawa-de-chuno.webp',base:'Res',prep:'Sopa',cat:'res',p:'sopa'},
-{n:'Tarwi',img:'imagenes-platos/webp/tarwi.webp',base:'Menestra',prep:'Frío',cat:'menestra',p:'frio'},
-{n:'Caldo de pollo',img:'imagenes-platos/webp/caldo-de-pollo.webp',base:'Pollo',prep:'Sopa',cat:'pollo',p:'sopa'},
-{n:'Torrejas de verduras arequipeñas con arroz',img:'imagenes-platos/webp/torrejas-de-verduras-arequipenas-con-arroz.webp',base:'Vegetariano',prep:'Frito',cat:'vegetariano',p:'frito'},
-{n:'Soltero de queso',img:'imagenes-platos/webp/soltero-de-queso.webp',base:'Vegetariano',prep:'Frío',cat:'vegetariano',p:'frio'},
-{n:'Pastel de berenjena',img:'imagenes-platos/webp/pastel-de-berenjena.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
-{n:'Fetuccini en salsa roja',img:'imagenes-platos/webp/fetuccini-en-salsa-roja.webp',base:'Res',prep:'Pasta',cat:'res',p:'pasta'},
-{n:'Arroz chaufa de pollo',img:'imagenes-platos/webp/arroz-chaufa-de-pollo.webp',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
-{n:'Ají de fideos / fideitos',img:'imagenes-platos/webp/aji-de-fideos-fideitos.webp',base:'Vegetariano',prep:'Pasta',cat:'vegetariano',p:'pasta'},
-{n:'Matasca',img:'imagenes-platos/webp/matasca.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
-{n:'Estofado de pollo',img:'imagenes-platos/webp/estofado-de-pollo.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
-{n:'Palta rellena',img:'imagenes-platos/webp/palta-rellena.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
-{n:'Tallarín al pesto',img:'imagenes-platos/webp/tallarin-al-pesto.webp',base:'Vegetariano',prep:'Pasta',cat:'vegetariano',p:'pasta'},
-{n:'Hígado frito con arroz',img:'imagenes-platos/webp/higado-frito-con-arroz.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
-{n:'Bistec a lo pobre',img:'imagenes-platos/webp/bistec-a-lo-pobre.webp',base:'Res',prep:'Plancha',cat:'res',p:'plancha'},
-{n:'Arroz a la cubana',img:'imagenes-platos/webp/arroz-a-la-cubana.webp',base:'Vegetariano',prep:'Arroz',cat:'vegetariano',p:'arroz'},
-{n:'Locro de zapallo',img:'imagenes-platos/webp/locro-de-zapallo.webp',base:'Vegetariano',prep:'Guiso',cat:'vegetariano',p:'guiso'},
-{n:'Ocopa arequipeña',img:'imagenes-platos/webp/ocopa-arequipena.webp',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
-{n:'Arroz tapado',img:'imagenes-platos/webp/arroz-tapado.webp',base:'Res',prep:'Arroz',cat:'res',p:'arroz'},
-{n:'Seco de res',img:'imagenes-platos/webp/seco-de-res.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
-{n:'Olluquito con carne',img:'imagenes-platos/webp/olluquito-con-carne.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
-{n:'Arroz con pollo',img:'imagenes-platos/webp/arroz-con-pollo.webp',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
-{n:'Caigua rellena',img:'imagenes-platos/webp/caigua-rellena.webp',base:'Res',prep:'Relleno',cat:'res',p:'relleno'},
-{n:'Guiso de quinua',img:'imagenes-platos/webp/guiso-de-quinua.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
-{n:'Pepián de choclo',img:'imagenes-platos/webp/pepian-de-choclo.webp',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
-{n:'Tallarín rojo con pollo',img:'imagenes-platos/webp/tallarin-rojo-con-pollo.webp',base:'Pollo',prep:'Pasta',cat:'pollo',p:'pasta'},
-{n:'Arroz a la jardinera',img:'imagenes-platos/webp/arroz-a-la-jardinera.webp',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
-{n:'Arroz con chancho',img:'imagenes-platos/webp/arroz-con-chancho.webp',base:'Cerdo',prep:'Arroz',cat:'cerdo',p:'arroz'},
-{n:'Asado al vino',img:'imagenes-platos/webp/asado-al-vino.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
-{n:'Asado de res con puré',img:'imagenes-platos/webp/asado-de-res-con-pure.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
-{n:'Cau cau de pollo',img:'imagenes-platos/webp/cau-cau-de-pollo.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
-{n:'Cauche de queso',img:'imagenes-platos/webp/cauche-de-queso.webp',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
-{n:'Chaque',img:'imagenes-platos/webp/chaque.webp',base:'Res',prep:'Sopa',cat:'res',p:'sopa'},
-{n:'Escabeche de pollo',img:'imagenes-platos/webp/escabeche-de-pollo.webp',base:'Pollo',prep:'Escabeche',cat:'pollo',p:'escabeche'},
-{n:'Causa rellena de pollo',img:'imagenes-platos/webp/causa-rellena-de-pollo.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
-{n:'Escabeche de pescado',img:'imagenes-platos/webp/escabeche-de-pescado.webp',base:'Pescado',prep:'Escabeche',cat:'pescado',p:'escabeche'},
-{n:'Malaya dorada',img:'imagenes-platos/webp/malaya-dorada.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
-{n:'Estofado de carne',img:'imagenes-platos/webp/estofado-de-carne.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
-{n:'Frejoles con seco de res',img:'imagenes-platos/webp/frejoles-con-seco-de-res.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
-{n:'Garbanzos con acelga',img:'imagenes-platos/webp/garbanzos-con-acelga.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
-{n:'Guiso de coliflor',img:'imagenes-platos/webp/guiso-de-coliflor.webp',base:'Vegetariano',prep:'Guiso',cat:'vegetariano',p:'guiso'},
-{n:'Locro de pecho',img:'imagenes-platos/webp/locro-de-pecho.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
-{n:'Matasquita de pollo',img:'imagenes-platos/webp/matasquita-de-pollo.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
-{n:'Milanesa de pollo',img:'imagenes-platos/webp/milanesa-de-pollo.webp',base:'Pollo',prep:'Frito',cat:'pollo',p:'frito'},
-{n:'Papa rellena con arroz',img:'imagenes-platos/webp/papa-rellena-con-arroz.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
-{n:'Rocoto relleno con pastel de papa',img:'imagenes-platos/webp/rocoto-relleno-con-pastel-de-papa.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
-{n:'Seco de pollo',img:'imagenes-platos/webp/seco-de-pollo.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
-{n:'Tallarines a la boloñesa',img:'imagenes-platos/webp/tallarines-a-la-bolonesa.webp',base:'Res',prep:'Pasta',cat:'res',p:'pasta'},
-{n:'Chuleta de chancho al horno',img:'imagenes-platos/webp/chuleta-de-chancho-al-horno.webp',base:'Cerdo',prep:'Horno',cat:'cerdo',p:'horno'},
-{n:'Chuleta de chancho frita con arroz y ensalada',img:'imagenes-platos/webp/chuleta-de-chancho-frita-con-arroz-y-ensalada.webp',base:'Cerdo',prep:'Frito',cat:'cerdo',p:'frito'},
-{n:'Chancho a la olla',img:'imagenes-platos/webp/chancho-a-la-olla.webp',base:'Cerdo',prep:'Guiso',cat:'cerdo',p:'guiso'},
-{n:'Seco de cerdo',img:'imagenes-platos/webp/seco-de-cerdo.webp',base:'Cerdo',prep:'Guiso',cat:'cerdo',p:'guiso'},
-{n:'Croquetas de atún con arroz',img:'imagenes-platos/webp/croquetas-de-atun-con-arroz.webp',base:'Pescado',prep:'Frito',cat:'pescado',p:'frito'},
-{n:'Tallarines rojos con atún',img:'imagenes-platos/webp/tallarines-rojos-con-atun.webp',base:'Pescado',prep:'Pasta',cat:'pescado',p:'pasta'}
+{n:'Ají de gallina',img:'imagenes-platos/webp/aji-de-gallina.f3131d1bcc.webp',base:'Pollo',prep:'Crema',cat:'pollo',p:'crema'},
+{n:'Lomo saltado',img:'imagenes-platos/webp/lomo-saltado.ffaad91517.webp',base:'Res',prep:'Saltado',cat:'res',p:'saltado'},
+{n:'Tallarín saltado',img:'tallarin-saltado.png',base:'Res',prep:'Saltado',cat:'res',p:'saltado'},
+{n:'Pollo al horno',img:'imagenes-platos/webp/pollo-al-horno.eab01a9cf3.webp',base:'Pollo',prep:'Horno',cat:'pollo',p:'horno'},
+{n:'Salpicón de pollo',img:'imagenes-platos/webp/salpicon-de-pollo.36cfca3c09.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
+{n:'Lentejas',img:'lentejas.png',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
+{n:'Porotos',img:'imagenes-platos/webp/porotos.b1cb61bc69.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
+{n:'Saltado de atún',img:'imagenes-platos/webp/saltado-de-atun.9ed77fccb3.webp',base:'Pescado',prep:'Saltado',cat:'pescado',p:'saltado'},
+{n:'Lawa de chuño',img:'imagenes-platos/webp/lawa-de-chuno.87578a6651.webp',base:'Res',prep:'Sopa',cat:'res',p:'sopa'},
+{n:'Tarwi',img:'imagenes-platos/webp/tarwi.2313504853.webp',base:'Menestra',prep:'Frío',cat:'menestra',p:'frio'},
+{n:'Caldo de pollo',img:'imagenes-platos/webp/caldo-de-pollo.249e3aa756.webp',base:'Pollo',prep:'Sopa',cat:'pollo',p:'sopa'},
+{n:'Torrejas de verduras arequipeñas con arroz',img:'imagenes-platos/webp/torrejas-de-verduras-arequipenas-con-arroz.8231e6a596.webp',base:'Vegetariano',prep:'Frito',cat:'vegetariano',p:'frito'},
+{n:'Soltero de queso',img:'imagenes-platos/webp/soltero-de-queso.eeb31776de.webp',base:'Vegetariano',prep:'Frío',cat:'vegetariano',p:'frio'},
+{n:'Pastel de berenjena',img:'imagenes-platos/webp/pastel-de-berenjena.b574ae9e4e.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
+{n:'Fetuccini en salsa roja',img:'fetuccini-rojo.png',base:'Res',prep:'Pasta',cat:'res',p:'pasta'},
+{n:'Arroz chaufa de pollo',img:'arroz-chaufa-pollo.png',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
+{n:'Ají de fideos / fideitos',img:'imagenes-platos/webp/aji-de-fideos-fideitos.797985bac3.webp',base:'Vegetariano',prep:'Pasta',cat:'vegetariano',p:'pasta'},
+{n:'Matasca',img:'imagenes-platos/webp/matasca.5dab4a7d06.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
+{n:'Estofado de pollo',img:'imagenes-platos/webp/estofado-de-pollo.bc2c08e7a0.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
+{n:'Palta rellena',img:'imagenes-platos/webp/palta-rellena.5df76d5a4f.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
+{n:'Tallarín al pesto',img:'imagenes-platos/webp/tallarin-al-pesto.a09602431d.webp',base:'Vegetariano',prep:'Pasta',cat:'vegetariano',p:'pasta'},
+{n:'Hígado frito con arroz',img:'imagenes-platos/webp/higado-frito-con-arroz.00fac8e218.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
+{n:'Bistec a lo pobre',img:'imagenes-platos/webp/bistec-a-lo-pobre.265d10870a.webp',base:'Res',prep:'Plancha',cat:'res',p:'plancha'},
+{n:'Arroz a la cubana',img:'imagenes-platos/webp/arroz-a-la-cubana.d9c71ffc14.webp',base:'Vegetariano',prep:'Arroz',cat:'vegetariano',p:'arroz'},
+{n:'Locro de zapallo',img:'imagenes-platos/webp/locro-de-zapallo.30dc3f545f.webp',base:'Vegetariano',prep:'Guiso',cat:'vegetariano',p:'guiso'},
+{n:'Ocopa arequipeña',img:'imagenes-platos/webp/ocopa-arequipena.aaf7ec5ac5.webp',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
+{n:'Arroz tapado',img:'imagenes-platos/webp/arroz-tapado.76b646afba.webp',base:'Res',prep:'Arroz',cat:'res',p:'arroz'},
+{n:'Seco de res',img:'seco-res.png',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
+{n:'Olluquito con carne',img:'imagenes-platos/webp/olluquito-con-carne.9cbc5228f6.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
+{n:'Arroz con pollo',img:'arroz-pollo.png',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
+{n:'Caigua rellena',img:'imagenes-platos/webp/caigua-rellena.3706c266a4.webp',base:'Res',prep:'Relleno',cat:'res',p:'relleno'},
+{n:'Guiso de quinua',img:'imagenes-platos/webp/guiso-de-quinua.953d7bcf42.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
+{n:'Pepián de choclo',img:'imagenes-platos/webp/pepian-de-choclo.79e20cb262.webp',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
+{n:'Tallarín rojo con pollo',img:'imagenes-platos/webp/tallarin-rojo-con-pollo.8d199c77ee.webp',base:'Pollo',prep:'Pasta',cat:'pollo',p:'pasta'},
+{n:'Arroz a la jardinera',img:'imagenes-platos/webp/arroz-a-la-jardinera.6cd1c3adcc.webp',base:'Pollo',prep:'Arroz',cat:'pollo',p:'arroz'},
+{n:'Arroz con chancho',img:'imagenes-platos/webp/arroz-con-chancho.d0439c797b.webp',base:'Cerdo',prep:'Arroz',cat:'cerdo',p:'arroz'},
+{n:'Asado al vino',img:'imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/asado-al-vino-sin-arroz.png',base:'Res',prep:'Horno',cat:'res',p:'horno'},
+{n:'Asado de res con puré',img:'imagenes-platos/webp/asado-de-res-con-pure.179387f655.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
+{n:'Cau cau de pollo',img:'imagenes-platos/webp/cau-cau-de-pollo.7ca39ac6da.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
+{n:'Cauche de queso',img:'imagenes-platos/nuevas-propuestas/correcciones-2026-08-04/cauche-de-queso.png',base:'Vegetariano',prep:'Crema',cat:'vegetariano',p:'crema'},
+{n:'Chaque',img:'imagenes-platos/webp/chaque.1d7380c2a7.webp',base:'Res',prep:'Sopa',cat:'res',p:'sopa'},
+{n:'Escabeche de pollo',img:'imagenes-platos/webp/escabeche-de-pollo.e032eee63e.webp',base:'Pollo',prep:'Escabeche',cat:'pollo',p:'escabeche'},
+{n:'Causa rellena de pollo',img:'imagenes-platos/webp/causa-rellena-de-pollo.69462d4539.webp',base:'Pollo',prep:'Frío',cat:'pollo',p:'frio'},
+{n:'Escabeche de pescado',img:'imagenes-platos/webp/escabeche-de-pescado.e822f30308.webp',base:'Pescado',prep:'Escabeche',cat:'pescado',p:'escabeche'},
+{n:'Malaya dorada',img:'imagenes-platos/webp/malaya-dorada.d39a21d3bb.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
+{n:'Estofado de carne',img:'imagenes-platos/webp/estofado-de-carne.84b0115e62.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
+{n:'Frejoles con seco de res',img:'imagenes-platos/webp/frejoles-con-seco-de-res.e13c0d0b3e.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
+{n:'Garbanzos con acelga',img:'imagenes-platos/webp/garbanzos-con-acelga.b79ca40563.webp',base:'Menestra',prep:'Guiso',cat:'menestra',p:'guiso'},
+{n:'Guiso de coliflor',img:'imagenes-platos/webp/guiso-de-coliflor.66b720bae0.webp',base:'Vegetariano',prep:'Guiso',cat:'vegetariano',p:'guiso'},
+{n:'Locro de pecho',img:'imagenes-platos/webp/locro-de-pecho.515b988b46.webp',base:'Res',prep:'Guiso',cat:'res',p:'guiso'},
+{n:'Matasquita de pollo',img:'imagenes-platos/webp/matasquita-de-pollo.f0848bc222.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
+{n:'Milanesa de pollo',img:'imagenes-platos/webp/milanesa-de-pollo.5d3b449ddb.webp',base:'Pollo',prep:'Frito',cat:'pollo',p:'frito'},
+{n:'Papa rellena con arroz',img:'imagenes-platos/webp/papa-rellena-con-arroz.98f1e01e40.webp',base:'Res',prep:'Frito',cat:'res',p:'frito'},
+{n:'Rocoto relleno con pastel de papa',img:'imagenes-platos/webp/rocoto-relleno-con-pastel-de-papa.65772c82ca.webp',base:'Res',prep:'Horno',cat:'res',p:'horno'},
+{n:'Seco de pollo',img:'imagenes-platos/webp/seco-de-pollo.3fe62f8a8a.webp',base:'Pollo',prep:'Guiso',cat:'pollo',p:'guiso'},
+{n:'Tallarines a la boloñesa',img:'imagenes-platos/webp/tallarines-a-la-bolonesa.cc2b89f467.webp',base:'Res',prep:'Pasta',cat:'res',p:'pasta'},
+{n:'Chuleta de chancho al horno',img:'imagenes-platos/webp/chuleta-de-chancho-al-horno.4edee1fca4.webp',base:'Cerdo',prep:'Horno',cat:'cerdo',p:'horno'},
+{n:'Chuleta de chancho frita con arroz y ensalada',img:'imagenes-platos/webp/chuleta-de-chancho-frita-con-arroz-y-ensalada.ff7dd5a7ec.webp',base:'Cerdo',prep:'Frito',cat:'cerdo',p:'frito'},
+{n:'Chancho a la olla',img:'imagenes-platos/webp/chancho-a-la-olla.e594176fe7.webp',base:'Cerdo',prep:'Guiso',cat:'cerdo',p:'guiso'},
+{n:'Seco de cerdo',img:'imagenes-platos/webp/seco-de-cerdo.b58025fede.webp',base:'Cerdo',prep:'Guiso',cat:'cerdo',p:'guiso'},
+{n:'Croquetas de atún con arroz',img:'imagenes-platos/webp/croquetas-de-atun-con-arroz.eb013029ea.webp',base:'Pescado',prep:'Frito',cat:'pescado',p:'frito'},
+{n:'Tallarines rojos con atún',img:'imagenes-platos/webp/tallarines-rojos-con-atun.192e2b9e14.webp',base:'Pescado',prep:'Pasta',cat:'pescado',p:'pasta'}
 ];
+if(globalThis.MercadeandoCatalog)dishes.splice(0,dishes.length,...MercadeandoCatalog.dishes.filter(d=>d.active).map(d=>structuredClone(d)));
 const img=d=>/^(imagenes-platos|assets|https?:)/.test(d.img)?d.img:imgBase+d.img;
 const state={route:'login',on:0,people:2,portion:'regular',market:null,noCook:[],quick:[],variety:'balanceada',sel:[],rej:[],deck:0,tab:'week',planWeek:0,day:null,detail:false,acc:null,fav:true,rations:2,dirty:false,shopFilter:'Todo',shopScope:null,bought:['Cebolla roja','Tomate'],closedGroups:[],activeDishes:null,shopAdjustments:{},expandedUses:[],onboardScroll:{}};
 const days=['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'];
@@ -1854,7 +2088,7 @@ const dishSteps={
 'Tallarines rojos con atún':['Sancocha los tallarines al dente.','Prepara salsa roja con tomate, cebolla y ajo.','Agrega el atún escurrido al final para que no se seque.','Sirve la salsa sobre los tallarines.']
 };
 function recipeSteps(d){if(!d)return [];if(d.steps?.length)return d.steps;if(dishSteps[d.n])return dishSteps[d.n];const ing=(dishRecipes[d.n]||[]).slice(0,3).map(x=>x[0].toLowerCase()).join(', ');const base=ing||String(d.base||'los ingredientes').toLowerCase();const byPrep={saltado:[`Corta y alista ${base}.`,`Saltea todo a fuego alto para conservar textura.`,`Sazona, integra y sirve caliente.`],frito:[`Sazona y prepara ${base}.`,`Fríe por tandas hasta dorar sin recargar la sartén.`,`Escurre y sirve con su acompañamiento.`],guiso:[`Haz un aderezo base con cebolla y ajo.`,`Agrega ${base} y cocina con poco líquido hasta que tome sabor.`,`Rectifica sal y sirve caliente.`],sopa:[`Prepara un caldo con ${base}.`,`Agrega verduras o tubérculos según la receta.`,`Cocina hasta que todo esté tierno y sirve caliente.`],pasta:[`Sancocha la pasta al dente.`,`Prepara la salsa con ${base}.`,`Mezcla o sirve la salsa sobre la pasta.`],arroz:[`Prepara el aderezo y dora ${base}.`,`Agrega arroz y líquido en proporción.`,`Cocina tapado hasta que granee.`],frio:[`Cocina lo necesario y deja enfriar.`,`Pica y mezcla ${base} con el aliño.`,`Sirve fresco.`]};return byPrep[d.p]||[`Alista los ingredientes de ${d.n}.`,`Cocina respetando el tipo de preparación: ${d.prep||'casera'}.`,`Ajusta sazón y sirve.`]}
-function recipeTemplate(d){const base={
+function recipeTemplate(d){if(d.ingredients)return RecipeCore.scale(d,d.rations??state.people,state.portion).map(i=>({...i,cat:shoppingCat(i.n,d.base)}));const base={
  Pollo:[['Pollo','presa',2],['Arroz','kg',.35],['Papa','unid',2],['Cebolla roja','unid',1],['Ajo','unidad',1]],
  Res:[['Carne de res','kg',.45],['Arroz','kg',.35],['Papa','unid',2],['Cebolla roja','unid',1],['Tomate','unid',1]],
  Cerdo:[['Cerdo','kg',.45],['Arroz','kg',.35],['Papa','unid',2],['Cebolla roja','unid',1]],
@@ -1868,9 +2102,10 @@ function recipeTemplate(d){const base={
 }
 function preparedDish(d,rations=state.people){const copy={...d,rations,custom:!!d.custom};if(!copy.ings)copy.ings=copy.custom?[]:recipeTemplate(copy);return copy}
 function fallbackDishes(){return dishes.filter(d=>!state.rej.includes(d.n))}
-function preferredDishes(){const names=state.activeDishes||state.sel;const pool=names.length?dishes.filter(d=>names.includes(d.n)):fallbackDishes();return pool.length?pool:fallbackDishes()}
+function canonicalDishName(name){return dishes.find(d=>d.n===name||d.aliases?.includes(name))?.n||name}
+function preferredDishes(){const names=(state.activeDishes||state.sel||[]).map(canonicalDishName);return names.length?dishes.filter(d=>names.includes(d.n)&&!state.rej.map(canonicalDishName).includes(d.n)):fallbackDishes()}
 function buildWeek(){buildMonth()}
-function buildMonth(){const source=preferredDishes();const quickTypes=['frio','saltado','arroz','frito'];let pool=[...source],cursor=0,globalPlanned=[];planMonth=Array.from({length:4},(_,w)=>days.map((day,i)=>{if(state.noCook.includes(day)){const free={n:'No se cocina',base:'Vegetariano',prep:'Libre',cat:'vegetariano',p:'frio',custom:true,skipShopping:true,rations:0,ings:[]};globalPlanned.push(free);return free}if(!pool.length)pool=[...source];let candidates=[...pool];if(state.quick.includes(i)){const fast=candidates.find(d=>quickTypes.includes(d.p));if(fast)candidates=[fast,...candidates.filter(d=>d.n!==fast.n)]}else if(state.variety==='variada'||state.variety==='balanceada'){const recent=new Set(globalPlanned.slice(-7).map(d=>d.base));const varied=candidates.find(d=>!recent.has(d.base));if(varied)candidates=[varied,...candidates.filter(d=>d.n!==varied.n)]}const picked=candidates[0]||source[cursor++%source.length]||dishes[0];pool=pool.filter(d=>d.n!==picked.n);const dish=preparedDish(picked,state.people);dish.weekIndex=w;globalPlanned.push(dish);return dish}));state.planWeek=Math.max(0,Math.min(state.planWeek,planMonth.length-1));week=planMonth[state.planWeek]||planMonth[0]||[];state.activeDishes=[...new Set(source.map(d=>d.n))];state.shopAdjustments={};state.bought=[]}
+function buildMonth(){const source=preferredDishes(),start=todayInfo(0).dates[0];const result=MealPlanner.plan(source,{people:state.people,portion:state.portion,startDate:start,noCook:state.noCook.map(d=>days.indexOf(d)),quickDays:state.quick,variety:state.variety,marketFrequency:state.market});planMonth=Array.from({length:4},(_,w)=>days.map((day,i)=>{const index=w*7+i,d=result.days[index];return d?{...preparedDish(d,state.people),weekIndex:w,planningReasons:result.reasons[index]}:{n:state.noCook.includes(day)?'No se cocina':'Sin plato disponible',base:'Vegetariano',prep:'Libre',cat:'vegetariano',p:'frio',custom:true,skipShopping:true,rations:0,ings:[]}}));state.planningWarnings=result.warnings;state.planWeek=Math.max(0,Math.min(state.planWeek,3));week=planMonth[state.planWeek];state.activeDishes=[...new Set(source.map(d=>d.n))];state.shopAdjustments={};state.bought=[]}
 function ensurePlan(){if(!planMonth.length||!week.length)buildMonth();week=planMonth[state.planWeek]||planMonth[0]||[]}
 function rescalePlan(){ensurePlan();planMonth.flat().forEach((d)=>{if(!d||d.skipShopping)return;if(!d.custom){d.rations=state.people;if(!d.editedIngs)d.ings=recipeTemplate(d)}else if(d.rations!==0)d.rations=state.people});week=planMonth[state.planWeek]||[];state.shopAdjustments={};state.bought=[]}
 function marketOptions(){return ['1 vez por semana','Cada 2 semanas','Todos los días','1 vez al mes']}
@@ -1879,7 +2114,7 @@ function normalizeMarket(){if(state.market==='2 veces por semana'){state.market=
 function defaultShopScope(){normalizeMarket();if(state.market==='Todos los días')return 'Diario';if(state.market==='1 vez al mes')return 'Mensual';if(state.market==='Cada 2 semanas')return 'Quincenal';return 'Semanal'}
 function shopScope(){return state.shopScope||defaultShopScope()}
 function scopeDishes(scope=shopScope()){ensurePlan();if(scope==='Diario'){const idx=Math.max(0,todayInfo(state.planWeek).todayIndex);return week[idx]&&!week[idx].skipShopping?[week[idx]]:[]}if(scope==='Semanal')return week.filter(d=>!d.skipShopping);if(scope==='Quincenal')return planMonth.slice(state.planWeek,state.planWeek+2).flat().filter(d=>d&&!d.skipShopping);return planMonth.flat().filter(d=>d&&!d.skipShopping)}
-function shoppingItems(scope=shopScope()){ensurePlan();const map=new Map();scopeDishes(scope).forEach(d=>(d.ings||recipeTemplate(d)).forEach(x=>{const key=x.n+'|'+x.u;const prev=map.get(key)||{n:x.n,u:x.u,q:0,cat:x.cat||shoppingCat(x.n,d.base),uses:[]};prev.q+=x.q;if(!prev.uses.includes(d.n))prev.uses.push(d.n);map.set(key,prev)}));manualProducts.forEach(x=>{const key=x.n+'|'+x.u;const prev=map.get(key)||{n:x.n,u:x.u,q:0,cat:x.cat||'Abarrotes',uses:[]};prev.q+=x.q;prev.manual=true;if(!prev.uses.includes(x.use||'Agregado manualmente'))prev.uses.push(x.use||'Agregado manualmente');map.set(key,prev)});return [...map.values()].map(x=>({...x,q:state.shopAdjustments[x.n]??x.q,use:x.uses.join(' · ')}))}
+function shoppingItems(scope=shopScope()){ensurePlan();return RecipeCore.aggregate(scopeDishes(scope),state.people,state.portion,manualProducts).map(x=>{const override=state.shopAdjustments[x.key+'|'+x.u];return {...x,cat:shoppingCat(x.n),q:override??x.q,measureText:override===undefined?x.measureText:`${fmt(override)} ${x.u}`}})}
 function todayInfo(offset=0){const now=new Date(),d=new Date(now.getFullYear(),now.getMonth(),now.getDate()),monday=new Date(d);monday.setDate(d.getDate()-((d.getDay()+6)%7)+offset*7);const dates=days.map((_,i)=>{const x=new Date(monday);x.setDate(monday.getDate()+i);return x});return {now:d,dates,todayIndex:offset===0?dates.findIndex(x=>sameDay(x,d)):-1}}
 function sameDay(a,b){return a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate()}
 function weekLabel(offset=state.planWeek){const {dates}=todayInfo(offset),a=dates[0],b=dates[6];return `Del ${a.getDate()} al ${b.getDate()} de ${monthNames[b.getMonth()]}`}
@@ -1908,7 +2143,7 @@ const baseIngredients=[
 ];
 let manualProducts=[];
 function cls(d){return d.skipShopping?'':`<div class="badges"><span class="badge base-${d.cat}">${d.base}</span><span class="badge prep-${d.p}">${d.prep}</span></div>`}
-function render(){ if(state.route==='login') return login(); if(state.route==='onboard') return onboard(); if(state.route==='loading') return loading(); if(state.route==='ready') return ready(); app(); }
+function render(){if(state.route==='app')saveLocalPlan();if(state.route==='login')return login();if(state.route==='onboard')return onboard();if(state.route==='loading')return loading();if(state.route==='ready')return ready();app();}
 function login(){$phone.innerHTML=`<section class="screen active gradient login-screen"><div class="login-block"><img class="logo" src="assets/figma-logo.svg"><p class="login-copy">Olvídate del “¿Qué cocinamos?” y planifica tus almuerzos y tus compras de forma inteligente</p></div><div class="bottom-stack"><button class="btn google" disabled><span class="g">G</span>Continuar con Google</button><button class="btn ghost" onclick="startGuest()">Explorar como invitado</button></div></section>`}
 function head(step){return `<div class="progress-head"><small>Paso ${step} de 8</small><div class="progress"><i style="width:${step/8*100}%"></i></div></div>${step>1?'<button class="back-onboard" onclick="state.on=Math.max(0,state.on-1);render()" aria-label="Volver"></button>':''}`}
 function onboard(){const s=state.on+1;let body='',button='Siguiente',disabled=false;
@@ -2005,16 +2240,16 @@ function changeRations(delta){if(state.day===null)return;const d=week[state.day]
 function accordion(id,title,body){const open=state.acc===id;return `<div class="accordion ${open?'open':''}"><button class="acc-head" onclick="toggleAccordion('${id}')"><span>${title}</span><span class="acc-chevron ${open?'up':''}">${svg('<path d="M6 9l6 6 6-6"/>')}</span></button><div class="acc-body">${body}</div></div>`}
 function toggleAccordion(id){motionUpdate(()=>{state.acc=state.acc===id?null:id},'motion-accordion')}
 function currentRecipeIngs(){const d=week[state.day];if(!d)return [];return d.ings??(d.ings=d.custom?[]:recipeTemplate(d))}
-function ingredientsBody(){const list=currentRecipeIngs();return list.map((x,i)=>`<div class="ing-row"><span>${x.n} (${x.u})</span><div class="qty"><button onclick="adjustRecipeIng(${i},-.5)">−</button><span id="ingQty${i}">${fmt(x.q)}</span><button onclick="adjustRecipeIng(${i},.5)">+</button></div><button class="trash" onclick="removeRecipeIng(${i})">${uiIcon('trash')}</button></div>`).join('')+`<button class="add-line" onclick="openIngredientDrawer()">Agregar ingrediente&nbsp;&nbsp;+</button>`}
-function prepBody(d=week[state.day]){const steps=recipeSteps(d);return steps.map((s,i)=>`<div class="prep-row"><b>${i+1}</b><span>${s}</span></div>`).join('')}
-function fmt(n){if(n===0)return '0';const whole=Math.floor(n),frac=Math.round((n-whole)*4);if(frac===0)return String(whole);const parts={1:'1/4',2:'1/2',3:'3/4',4:''};return `${whole?whole+' ':''}${parts[frac]||String(n)}`.trim()}
+function ingredientsBody(){const list=currentRecipeIngs();return list.map((x,i)=>`<div class="ing-row"><span>${x.label||x.n}</span><div class="qty"><button ${x.q===null?'disabled':''} onclick="adjustRecipeIng(${i},-.5)" aria-label="Reducir cantidad">−</button><span id="ingQty${i}">${x.cooking||`${fmt(x.q)} ${x.u}`}</span><button ${x.q===null?'disabled':''} onclick="adjustRecipeIng(${i},.5)" aria-label="Aumentar cantidad">+</button></div><button class="trash" onclick="removeRecipeIng(${i})" aria-label="Eliminar ingrediente">${uiIcon('trash')}</button></div>`).join('')+`<button class="add-line" onclick="openIngredientDrawer()">Agregar ingrediente&nbsp;&nbsp;+</button>`}
+function prepBody(d=week[state.day]){return recipeSteps(d).map((s,i)=>`<div class="prep-row"><b>${i+1}</b><span>${s}</span></div>`).join('')}
+function fmt(n){return RecipeCore.format(n)}
 function markDirty(){state.dirty=true;const btn=document.querySelector('.save-floating');if(btn)btn.classList.add('show')}
-function adjustRecipeIng(i,delta){const list=currentRecipeIngs();if(!list[i])return;list[i].q=Math.max(.5,list[i].q+delta);week[state.day].editedIngs=true;state.shopAdjustments={};const el=document.getElementById('ingQty'+i);if(el)el.textContent=fmt(list[i].q);markDirty()}
+function adjustRecipeIng(i,delta){const x=currentRecipeIngs()[i];if(!x||x.q===null)return;const increment=x.u==='kg'?.05:x.u==='ml'?5:.5;const before=x.q;x.q=Math.max(0,x.q+Math.sign(delta)*increment);x.cooking='';week[state.day].editedIngs=true;state.shopAdjustments={};state.dirty=true;render()}
 function removeRecipeIng(i){const sc=document.querySelector('.detail-scroll'),top=sc?sc.scrollTop:0;currentRecipeIngs().splice(i,1);week[state.day].editedIngs=true;state.shopAdjustments={};state.dirty=true;render();requestAnimationFrame(()=>{const s=document.querySelector('.detail-scroll');if(s)s.scrollTop=top})}
 function catProgress(c){const list=shoppingItems().filter(i=>c==='Todo'||i.cat===c);return `${list.filter(i=>state.bought.includes(i.n)).length}/${list.length}`}
 function shopTab(){const scope=shopScope(),items=shoppingItems(scope);const baseCats=['Todo','Verduras','Abarrotes','Carnes','Avícola','Pescados'];const cats=baseCats.filter(c=>c==='Todo'||items.some(i=>i.cat===c));const visible=state.shopFilter==='Todo'?items:items.filter(i=>i.cat===state.shopFilter);const grouped={};visible.forEach(i=>(grouped[i.cat]??=[]).push(i));const boughtCount=items.filter(i=>state.bought.includes(i.n)).length;return `<section class="screen active app-screen shop-screen"><div class="app-head"><div class="app-head-row"><div><div class="app-title">Compras</div><button class="week-select" onclick="openShopScopeDrawer()"><span>${scope}</span><span class="chev">${svg('<path d="M6 9l6 6 6-6"/>')}</span></button></div><button class="icon-btn share-btn add-product" onclick="openProductDrawer()" aria-label="Agregar">${svg('<path d="M12 5v14M5 12h14"/>')}</button></div><div class="shopping-progress"><strong>${boughtCount} de ${items.length} comprados <span class="shop-scope">${scope}</span></strong><small>Te faltan ${items.length-boughtCount} productos</small><div class="mini-progress"><i style="width:${items.length?boughtCount/items.length*100:0}%"></i></div></div><div class="shop-tabs">${cats.map(c=>`<button class="${state.shopFilter===c?'active':''}" onclick="state.shopFilter='${c}';render()"><span>${c}</span><small>${catProgress(c)}</small></button>`).join('')}</div></div><div class="shop-list">${Object.entries(grouped).map(([c,items])=>{const open=!state.closedGroups.includes(c);return `<div class="group ${open?'open':''} ${state.motionGroup===c?'motion-target':''}"><button class="group-head" onclick="toggleGroup('${c}')"><b>${c}</b><span class="group-meta"><small>${items.length} PRODUCTOS</small><span class="acc-chevron ${open?'up':''}">${svg('<path d="M6 9l6 6 6-6"/>')}</span></span></button><div class="group-body">${items.map((it,i)=>shopRow(it)).join('')}</div></div>`}).join('')}</div></section>`}
-function shopRow(it){const checked=state.bought.includes(it.n),name=it.n.replace(/'/g,"\\'"),expanded=state.expandedUses.includes(it.n),long=it.use.length>24||it.uses?.length>1||it.use.includes(' · ');return `<div class="shop-row ${it.q===0?'zero':''}"><button class="box ${checked?'checked':''}" onclick="toggleArr(state.bought,'${name}');render()">${checked?uiIcon('check'):''}</button><div><b>${it.n}</b><small class="shop-use ${expanded?'expanded':''}"><span class="shop-use-text">${it.use}</span>${long?`<button onclick="event.stopPropagation();toggleUse('${name}')">${expanded?'Menos':'Más'}</button>`:''}</small></div><div class="qty"><button onclick="adjustShopQty('${name}',-1)">−</button><span>${fmt(it.q)} ${it.u}</span><button onclick="adjustShopQty('${name}',1)">+</button></div></div>`}
-function adjustShopQty(name,delta){const item=shoppingItems().find(i=>i.n===name);if(!item)return;state.shopAdjustments[name]=Math.max(0,(state.shopAdjustments[name]??item.q)+delta);render()}
+function shopRow(it){const checked=state.bought.includes(it.n),name=it.n.replace(/'/g,"\\'"),expanded=state.expandedUses.includes(it.n),long=it.use.length>24||it.uses?.length>1||it.use.includes(' · ');return `<div class="shop-row ${it.q===0?'zero':''}"><button class="box ${checked?'checked':''}" onclick="toggleArr(state.bought,'${name}');render()">${checked?uiIcon('check'):''}</button><div><b>${it.n}</b><small class="shop-use ${expanded?'expanded':''}"><span class="shop-use-text">${it.use}</span>${long?`<button onclick="event.stopPropagation();toggleUse('${name}')">${expanded?'Menos':'Más'}</button>`:''}</small></div><div class="qty"><button ${it.q===null?'disabled':''} onclick="adjustShopQty('${name}',-1)" aria-label="Reducir compra">−</button><span>${it.measureText||`${fmt(it.q)} ${it.u}`}</span><button ${it.q===null?'disabled':''} onclick="adjustShopQty('${name}',1)" aria-label="Aumentar compra">+</button></div></div>`}
+function adjustShopQty(name,delta){const item=shoppingItems().find(i=>i.n===name);if(!item||item.q===null)return;const step=item.u==='kg'?.1:item.u==='ml'?50:1;state.shopAdjustments[item.key+'|'+item.u]=Math.max(0,item.q+Math.sign(delta)*step);render()}
 function toggleGroup(c){motionUpdate(()=>{state.motionGroup=c;toggleArr(state.closedGroups,c)})}
 function toggleUse(n){preserveScroll('.shop-list',()=>toggleArr(state.expandedUses,n))}
 function planFreeDay(i){motionUpdate(()=>{const used=new Set(week.filter(d=>!d.skipShopping).map(d=>d.n));const pool=preferredDishes().filter(d=>!used.has(d.n));const source=pool.length?pool:preferredDishes();const day=days[i];state.noCook=state.noCook.filter(d=>d!==day);week[i]=preparedDish(source[0]||dishes[0],state.people);state.day=i;state.rations=week[i].rations;state.detail=true;state.acc=null;state.shopAdjustments={}})}
@@ -2044,7 +2279,7 @@ function selectDish(i,btn){btn.classList.add('selected');setTimeout(()=>{const r
 function openNewDishDrawer(){openDrawer(`<button class="x" onclick="closeDrawer()">×</button><h3>Nuevo Plato</h3><div class="new-dish-form"><input class="search" id="newDish" placeholder="Nombre del plato" onfocus="drawerKeyboard(true)" onblur="drawerKeyboard(false)"><p>Base</p><div class="pill-wrap">${['Pollo','Res','Cerdo','Pescado','Menestra','Vegetariano'].map(x=>`<button class="pill" onclick="pickPill(this,'base')">${x}</button>`).join('')}</div><p>Tipo</p><div class="pill-wrap">${['Guiso','Saltado','Frito','Frío','Arroz','Pasta'].map(x=>`<button class="pill" onclick="pickPill(this,'prep')">${x}</button>`).join('')}</div></div><button class="btn drawer-primary" onclick="createDish()">Crear Plato</button>`)}
 let tempBase='',tempPrep='';function pickPill(el,t){[...el.parentNode.children].forEach(b=>b.classList.remove('selected'));el.classList.add('selected');if(t==='base')tempBase=el.textContent;else tempPrep=el.textContent}
 function createDish(){const n=document.getElementById('newDish').value.trim();if(!n)return toast('Pon un nombre');const r=week[state.day]?.rations??state.rations??state.people;const d={n,base:tempBase||'Res',prep:tempPrep||'Guiso',cat:(tempBase||'res').toLowerCase(),p:(tempPrep||'guiso').toLowerCase(),custom:true,rations:r,ings:[]};week[state.day]=d;state.rations=r;state.acc='ings';state.shopAdjustments={};closeDrawer();render()}
-function shuffleDay(){const r=week[state.day]?.rations??state.rations??state.people;const pool=preferredDishes().filter(d=>d.n!==week[state.day]?.n);week[state.day]=preparedDish(pool[Math.floor(Math.random()*pool.length)]||preferredDishes()[0]||dishes[0],r);state.rations=r;state.shopAdjustments={};render()}
+function shuffleDay(){const r=week[state.day]?.rations??state.rations??state.people,date=todayInfo(state.planWeek).dates[state.day];const selected=MealPlanner.recommend(preferredDishes(),week.filter((d,i)=>i!==state.day&&!d.skipShopping),{people:r,portion:state.portion,date,exclude:week[state.day]?.n,quick:state.quick.includes(state.day)});if(!selected){toast('No hay otro plato disponible para este día');return}week[state.day]={...preparedDish(selected,r),weekIndex:state.planWeek};state.rations=r;state.shopAdjustments={};render()}
 function openIngredientDrawer(mode='recipe'){selectedIng=null;tempQty=1;tempCustom=false;tempMode=mode;openDrawer(`<button class="x" onclick="closeDrawer()" aria-label="Cerrar"></button><h3>${mode==='shop'?'Agregar a la lista':'Agregar ingrediente'}</h3><input class="search" id="ingSearch" placeholder="${mode==='shop'?'Nombre del producto':'Nombre del ingrediente'}" onfocus="drawerKeyboard(true)" onblur="drawerKeyboard(false)" oninput="filterIng(this.value)"><div class="list drawer-list" id="ingList">${ingList('',mode)}</div><div class="drawer-controls"><div class="qty drawer-qty"><button onclick="adjTemp(-.5)">−</button><span id="tempQty">1</span><button onclick="adjTemp(.5)">+</button></div><select class="unit-select" id="unit" disabled><option>unidad</option><option>unid</option><option>lata</option><option>taza</option><option>kg</option><option>g</option><option>ml</option><option>paquete</option><option>bolsa</option></select></div><button class="btn disabled drawer-primary" id="addIngBtn" disabled onclick="${mode==='shop'?'addProduct()':'addIngredient()'}">${mode==='shop'?'Aceptar':'Agregar'}</button>`)}
 let selectedIng=null,tempQty=1,tempCustom=false,tempMode='recipe';function ingList(q,mode=tempMode){const pool=['Ají amarillo','Ají panca','Ajo','Albahaca','Limón','Harina','Cebolla','Tomate','Papa','Huevo','Pan rallado','Atún','Arroz','Pollo','Carne de res'];const needle=foldText(q),found=pool.filter(x=>foldText(x).includes(needle));const clean=q.replace(/'/g,"\\'");return (q&&!found.length?`<button class="choice-row custom-choice" onclick="selectIng('${clean}',true)">“${q}”<span>Crear +</span></button>`:'')+found.map(x=>`<button class="choice-row" onclick="selectIng('${x}',false)"><span>${x}</span><em>${mode==='shop'&&shoppingItems().some(i=>i.n===x)?'En la lista ✓':'Agregar +'}</em></button>`).join('')}
 function filterIng(q){document.getElementById('ingList').innerHTML=ingList(q,tempMode)}
@@ -2080,12 +2315,17 @@ function openDeleteDrawer(){openDrawer(`<button class="x" onclick="closeDrawer()
 function sharePlan(){navigator.share?navigator.share({title:'Mi plan semanal',text:week.map((d,i)=>days[i]+': '+d.n).join('\\n')}):toast('Resumen copiado')}
 function toast(t){const old=document.querySelector('.toast');if(old)old.remove();const el=document.createElement('div');el.className='toast show';el.textContent=t;$phone.appendChild(el);setTimeout(()=>el.remove(),1500)}
 function drawerKeyboard(on){const d=document.getElementById('drawer');if(d)d.classList.toggle('keyboard',!!on);syncViewportHeight()}
+function localPlanKey(){return 'mercadeando:meal-plan:v2:'+(state.userId||'guest')}
+let planSyncTimer=null,planSyncUnavailable=false,lastSyncedPlan='';
+function saveLocalPlan(){if(!planMonth.length||hasDebug)return;try{const fields=['people','portion','market','noCook','quick','variety','sel','rej','activeDishes','bought','shopAdjustments','planWeek'];const prefs=Object.fromEntries(fields.map(k=>[k,state[k]]));const plan=planMonth.map(w=>w.map(d=>d.custom?d:{slug:d.slug,rations:d.rations,editedIngs:!!d.editedIngs,...(d.editedIngs?{ings:d.ings}:{}),planningReasons:d.planningReasons}));const payload={catalogVersion:MercadeandoCatalog.version,prefs,plan,manualProducts};const serialized=JSON.stringify(payload);localStorage.setItem(localPlanKey(),serialized);if(sbClient&&state.userId&&!planSyncUnavailable&&serialized!==lastSyncedPlan){clearTimeout(planSyncTimer);const userId=state.userId;planSyncTimer=setTimeout(async()=>{if(state.userId!==userId)return;try{const {error}=await sbClient.from('user_meal_plan_snapshots').upsert({user_id:userId,catalog_version:payload.catalogVersion,payload:JSON.parse(serialized),updated_at:new Date().toISOString()},{onConflict:'user_id'}).abortSignal(AbortSignal.timeout(6000));if(error){if(error.code==='PGRST205'||error.code==='42P01')planSyncUnavailable=true;console.warn('Plan saved locally; cloud sync pending',error);return}lastSyncedPlan=serialized}catch(err){console.warn('Plan saved locally; cloud sync unavailable',err)}},900)}}catch(err){console.warn('Local plan could not be saved',err)}}
+async function restoreCloudPlan(){if(!sbClient||!state.userId)return false;try{const {data,error}=await sbClient.from('user_meal_plan_snapshots').select('catalog_version,payload').eq('user_id',state.userId).maybeSingle().abortSignal(AbortSignal.timeout(6000));if(error){if(error.code==='PGRST205'||error.code==='42P01')planSyncUnavailable=true;return false}if(!data||data.catalog_version!==MercadeandoCatalog.version)return false;const key=localPlanKey(),prior=localStorage.getItem(key);localStorage.setItem(key,JSON.stringify(data.payload));if(restoreLocalPlan())return true;if(prior!==null)localStorage.setItem(key,prior);else localStorage.removeItem(key);return false}catch(err){console.warn('Cloud plan recovery unavailable; local backup retained',err);return false}}
+function restoreLocalPlan(){try{const saved=JSON.parse(localStorage.getItem(localPlanKey())||'null');if(!saved||saved.catalogVersion!==MercadeandoCatalog.version||saved.plan?.length!==4||saved.plan.some(w=>w.length!==7))return false;const revived=saved.plan.map((w,wi)=>w.map(d=>{if(d.custom)return d;const original=dishes.find(x=>x.slug===d.slug);if(!original)throw new Error('Retired or unavailable dish in saved plan');const rations=d.rations||saved.prefs.people;return {...original,rations,custom:false,ings:RecipeCore.scale(original,rations,saved.prefs.portion).map(i=>({...i,cat:shoppingCat(i.n,original.base)})),weekIndex:wi,planningReasons:d.planningReasons,...(d.editedIngs?{ings:d.ings,editedIngs:true}:{})}}));Object.assign(state,saved.prefs);planMonth=revived;week=planMonth[state.planWeek]||planMonth[0];manualProducts.splice(0,manualProducts.length,...(saved.manualProducts||[]));state.route='app';return true;}catch(err){console.warn('Saved plan recovery skipped without deleting the backup',err);return false}}
 async function currentUser(){if(!sbClient)return null;const {data}=await sbClient.auth.getSession();return data.session?.user||null}
 async function startGuest(){try{let user=await currentUser();if(!user&&sbClient){const {data,error}=await sbClient.auth.signInAnonymously();if(error)throw error;user=data.user}state.userId=user?.id||null;if(state.userId)await sbClient.from('profiles').upsert({id:state.userId,display_name:'Invitado'},{onConflict:'id'})}catch(err){console.warn('Guest auth fallback',err);state.userId=null;toast('Modo invitado local')}state.route='onboard';state.on=0;render()}
 async function saveOnboarding(){const user=await currentUser();if(!user||!sbClient)return false;state.userId=user.id;const prefs={user_id:user.id,onboarding_completed:true,people:state.people,portion:state.portion,market_frequency:state.market||'1 vez por semana',no_cook_days:state.noCook,quick_days:state.quick,variety:state.variety};const {error:prefError}=await sbClient.from('user_preferences').upsert(prefs,{onConflict:'user_id'});if(prefError)throw prefError;const choices=[...state.sel.map(n=>({name:n,status:'accepted'})),...state.rej.map(n=>({name:n,status:'rejected'}))].map(x=>{const d=dishes.find(d=>d.n===x.name);return d?.id?{user_id:user.id,dish_id:d.id,status:x.status,enabled:x.status==='accepted'}:null}).filter(Boolean);if(choices.length){const {error}=await sbClient.from('user_dishes').upsert(choices,{onConflict:'user_id,dish_id'});if(error)throw error}return true}
 async function restoreSession(){const user=await currentUser();if(!user||!sbClient)return false;state.userId=user.id;const {data:prefs,error:prefError}=await sbClient.from('user_preferences').select('*').eq('user_id',user.id).maybeSingle();if(prefError)throw prefError;if(!prefs?.onboarding_completed)return false;const {data:choices,error:choiceError}=await sbClient.from('user_dishes').select('status,enabled,dishes(name)').eq('user_id',user.id);if(choiceError)throw choiceError;state.people=prefs.people||2;state.portion=prefs.portion||'regular';state.market=prefs.market_frequency||'1 vez por semana';state.noCook=prefs.no_cook_days||[];state.quick=prefs.quick_days||[];state.variety=prefs.variety||'balanceada';state.sel=(choices||[]).filter(x=>x.status==='accepted').map(x=>x.dishes?.name).filter(Boolean);state.rej=(choices||[]).filter(x=>x.status==='rejected').map(x=>x.dishes?.name).filter(Boolean);state.activeDishes=state.sel.length?[...state.sel]:null;state.deck=0;state.route='app';state.tab='week';state.detail=false;state.acc=null;buildWeek();return true}
-async function supabaseTable(path){if(!SUPABASE_URL||!SUPABASE_PUBLISHABLE_KEY)return null;const res=await fetch(`${SUPABASE_URL}/rest/v1/${path}`,{headers:{apikey:SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${SUPABASE_PUBLISHABLE_KEY}`}});if(!res.ok)throw new Error(`Supabase ${res.status}: ${path}`);return res.json()}
-async function loadSupabaseCatalog(){try{const [remoteDishes,remoteIngs,remoteSteps]=await Promise.all([
+async function supabaseTable(path){if(!SUPABASE_URL||!SUPABASE_PUBLISHABLE_KEY)return null;const res=await fetch(`${SUPABASE_URL}/rest/v1/${path}`,{signal:AbortSignal.timeout(6000),headers:{apikey:SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${SUPABASE_PUBLISHABLE_KEY}`}});if(!res.ok)throw new Error(`Supabase ${res.status}: ${path}`);return res.json()}
+async function loadSupabaseCatalog(){if(globalThis.MercadeandoCatalog){state.catalogSource='final-human-review';try{const remote=await supabaseTable('dishes?select=id,slug,name&is_active=eq.true');for(const row of remote||[]){const d=dishes.find(d=>d.slug===row.slug||d.n===row.name||d.aliases?.includes(row.name));if(d)d.id=row.id}}catch(err){console.warn('Catalog stays local; remote IDs unavailable',err)}return;}try{const [remoteDishes,remoteIngs,remoteSteps]=await Promise.all([
  supabaseTable('dishes?select=id,slug,name,base,preparation,category,preparation_key,image_path&is_active=eq.true&order=created_at.asc'),
  supabaseTable('dish_ingredients?select=quantity,unit,sort_order,dishes(slug,name),ingredients(name,category)&order=sort_order.asc'),
  supabaseTable('recipe_steps?select=step_number,body,dishes(slug,name)&order=step_number.asc')
@@ -2105,7 +2345,7 @@ if(debug==='shop'){state.route='app';state.tab='shop'}
 if(debug==='settings'){state.route='app';state.tab='settings'}
 }
 loadSupabaseCatalog().finally(async()=>{
-if(hasDebug)applyDebugRoute();else{try{await restoreSession()}catch(err){console.warn('Session restore fallback',err)}}
+if(hasDebug)applyDebugRoute();else{try{await restoreSession()}catch(err){console.warn('Session restore fallback',err)}if(!restoreLocalPlan())await restoreCloudPlan()}
 render();
 if(debug==='shopdrawer')setTimeout(()=>{state.route='app';state.tab='shop';render();openProductDrawer()},0)
 if(debug==='ingdrawer')setTimeout(()=>{state.route='app';state.tab='week';state.detail=true;state.acc='ings';render();openIngredientDrawer()},0)

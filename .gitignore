@@ -32,3 +32,8 @@ conversacion_planificador_almuerzos_peru.md
 .DS_Store
 Thumbs.db
 *.log
+
+# Private final review, voice feedback and local transcription runtime.
+/research/final-integration-2026-10-07/
+/research/final-dish-review/revision-2026-10-05/user-review-original.json
+/research/final-dish-review/source-dish-stack-curation-export.json

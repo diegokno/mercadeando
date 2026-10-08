@@ -2,6 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const html = fs.readFileSync("app.html", "utf8");
+if (fs.existsSync('data/catalog.final.json')) {
+  throw new Error('The human-reviewed catalog is authoritative. Use scripts/integrate-final-review.py; legacy extraction would overwrite it.');
+}
 
 function readConst(name, nextMarker) {
   const pattern = new RegExp(`const ${name}=([\\s\\S]*?)\\n${nextMarker}`);
