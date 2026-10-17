@@ -7558,12 +7558,15 @@
     {
       "slug": "matasquita-de-pollo",
       "winnerId": "old:matasquita-de-pollo",
-      "n": "Picante de pollo (mataska)",
+      "n": "Picante de pollo (matasquita)",
       "aliases": [
         "Matasquita de pollo",
         "Picante de pollo",
         "Mataskita de pollo",
-        "Mataska de pollo"
+        "Mataska de pollo",
+        "Picante de pollo (mataska)",
+        "Picante de pollo (matasca)",
+        "Matasca de pollo"
       ],
       "active": true,
       "portions": 2,

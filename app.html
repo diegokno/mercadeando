@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <title>Mercadeando</title>
   <link rel="icon" type="image/svg+xml" href="assets/brand-mark.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-color.png">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#3C4624">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1875,6 +1875,7 @@
     .dish-photo .dish-count{top:12px;right:12px;bottom:auto;z-index:2}
     .dish-photo .dish-name{left:14px;right:14px;bottom:14px;font-size:18px;line-height:23px;white-space:normal;text-overflow:clip;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;letter-spacing:0}
     .dish-photo .dish-name.long-name{font-size:16px;line-height:21px}
+    .dish-card[data-dish="causa-rellena-de-pollo"] .dish-photo img{transform:scale(1.25)}
     .swipe-actions{grid-template-columns:minmax(0,1fr) 48px minmax(0,1fr);gap:12px;align-items:center}
     .swipe-actions button{height:54px}
     .swipe-actions .undo-dish{width:48px;height:48px;aspect-ratio:1;padding:0;gap:0}
@@ -2207,7 +2208,7 @@ function swipeStep(){
  const progress=`<div class="dish-top"><h1 class="title" style="margin-top:24px">Ahora elige tus platos</h1><p class="intro copy" style="font-size:16px">Desliza derecha para incluir en tu plan, y a la izquierda para descartarlo.</p><div class="dish-progress-card"><strong>${selected}/20 platos elegidos</strong>${selected>=20&&!done?'<button class="skip-link" onclick="nextOnboard()">Saltar</button>':''}<small>${selected<20?'falta seleccionar '+(20-selected)+' platos como mínimo':'mínimo listo, puedes seguir eligiendo'}</small><div class="mini-progress"><i style="width:${pct}%"></i></div></div></div>`;
  const content=done
   ? `<div class="done-card show"><h2>Selección lista</h2><p>Elegiste ${selected} platos. Luego podrás agregar más desde ajustes.</p><div class="swipe-actions"><button class="undo-dish" onclick="undoDish()" ${swipeHistory.length?'':'disabled'} title="Volver a la tarjeta anterior" aria-label="Deshacer última elección"><img src="assets/icon-swipe-undo.svg" alt=""></button></div></div>`
-  : `<div class="deck">${selectionDeck().slice(state.deck,state.deck+3).map((d,i)=>`<article class="dish-card" style="z-index:${3-i}" data-i="${i}"><span class="stamp si">SÍ</span><span class="stamp no">NO</span><div class="dish-photo"><img src="${img(d)}"><b class="dish-name ${d.n.length>45?'long-name':''}">${d.n}</b><span class="dish-count">${state.deck+i+1}/${dishes.length}</span></div><div class="swipe-actions"><button class="no" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(false)"><img src="assets/icon-xmark.svg" alt="">No</button><button class="undo-dish" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();undoDish()" ${swipeHistory.length?'':'disabled'} title="Volver a la tarjeta anterior" aria-label="Deshacer última elección"><img src="assets/icon-swipe-undo.svg" alt=""></button><button class="yes" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(true)"><img src="assets/icon-checkmark.svg" alt="">Sí</button></div></article>`).join('')}</div>`;
+  : `<div class="deck">${selectionDeck().slice(state.deck,state.deck+3).map((d,i)=>`<article class="dish-card" style="z-index:${3-i}" data-i="${i}" data-dish="${d.slug}"><span class="stamp si">SÍ</span><span class="stamp no">NO</span><div class="dish-photo"><img src="${img(d)}"><b class="dish-name ${d.n.length>45?'long-name':''}">${d.n}</b><span class="dish-count">${state.deck+i+1}/${dishes.length}</span></div><div class="swipe-actions"><button class="no" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(false)"><img src="assets/icon-xmark.svg" alt="">No</button><button class="undo-dish" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();undoDish()" ${swipeHistory.length?'':'disabled'} title="Volver a la tarjeta anterior" aria-label="Deshacer última elección"><img src="assets/icon-swipe-undo.svg" alt=""></button><button class="yes" onpointerdown="event.stopPropagation()" onclick="event.stopPropagation();animatePick(true)"><img src="assets/icon-checkmark.svg" alt="">Sí</button></div></article>`).join('')}</div>`;
  return `${head(8)}${progress}${content}`;
 }
 async function nextOnboard(){if(state.on<7){state.on++;render()}else{buildWeek();try{if(!hasDebug)await saveOnboarding()}catch(err){console.warn('Onboarding save fallback',err);toast('Seguimos en modo local')}state.route='loading';render();startLoader()}}

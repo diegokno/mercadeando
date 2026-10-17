@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const core = require('../lib/recipe-core');
 const catalog = require('../data/catalog.final.json');
 assert.equal(catalog.dishes.filter(d=>d.active).length,135);
-assert.equal(catalog.dishes.find(d=>d.slug==='matasquita-de-pollo').n,'Picante de pollo (mataska)');
+assert.equal(catalog.dishes.find(d=>d.slug==='matasquita-de-pollo').n,'Picante de pollo (matasquita)');
 for(const slug of ['higado-frito-con-arroz','caldo-de-pollo'])assert.equal(catalog.dishes.find(d=>d.slug===slug).active,false);
 assert.equal(catalog.dishes.find(d=>d.slug==='pollo-a-la-gaseosa-negra').n,'Pollo a la Coca-Cola');
 assert.equal(core.category('Espaguetis'),'Abarrotes');

@@ -162,7 +162,7 @@ def main():
             for i in items:
                 if 'coca' in norm(i['name']): i['name'] = i['recipe_name'] = 'Gaseosa Negra'
             steps = [re.sub(r'gaseosa negra|Coca[ -]?Cola', 'Coca-Cola', s, flags=re.I) for s in steps]
-        if rid == 'old:matasquita-de-pollo': title = 'Picante de pollo (mataska)'
+        if rid == 'old:matasquita-de-pollo': title = 'Picante de pollo (matasquita)'
         if rid == 'acomer:1778':
             steps = [re.sub(r'\bKikko(?:man)?\b', '', s, flags=re.I) for s in steps]
             for i in items:
@@ -197,7 +197,7 @@ def main():
         if generated.exists(): d.update(img=generated.relative_to(ROOT).as_posix(), imageStatus='generated')
         if rid == 'acomer:1720': d['aliases'] += ['Hígado frito con arroz', 'higado-frito-con-arroz']
         if rid == 'acomer:1696': d['aliases'] += ['Caldo de pollo', 'caldo-de-pollo']
-        if rid == 'old:matasquita-de-pollo': d['aliases'] += ['Picante de pollo', 'Mataskita de pollo', 'Mataska de pollo']
+        if rid == 'old:matasquita-de-pollo': d['aliases'] += ['Picante de pollo', 'Mataskita de pollo', 'Mataska de pollo', 'Picante de pollo (mataska)', 'Picante de pollo (matasca)', 'Matasca de pollo']
         if rid == 'acomer:1709': d['aliases'] += ['Pollo a la Gaseosa Negra', 'Pollo a la Coca-Cola']
         if active and (d['imageStatus'] == 'reference_pending' or (rid == 'old:seco-de-res' and d['imageStatus'] != 'generated')):
             image_jobs.append({'slug': d['slug'], 'name': title, 'reference': photo, 'status': d['imageStatus'], 'ingredients': [i['recipe_name'] if i.get('recipe_name') else i['name'] for i in items if not i.get('pantry')], 'instruction': 'Eliminar frejoles; conservar el resto' if rid == 'old:seco-de-res' else 'Generar imagen original con la guía de estilo y la referencia aprobada'})

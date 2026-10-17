@@ -7899,7 +7899,7 @@
     },
     {
       "slug": "matasquita-de-pollo",
-      "name": "Picante de pollo (mataska)",
+      "name": "Picante de pollo (matasquita)",
       "base": "Pollo",
       "preparation": "Guiso",
       "category": "pollo",
@@ -7908,12 +7908,15 @@
       "recipe_payload": {
         "slug": "matasquita-de-pollo",
         "winnerId": "old:matasquita-de-pollo",
-        "n": "Picante de pollo (mataska)",
+        "n": "Picante de pollo (matasquita)",
         "aliases": [
           "Matasquita de pollo",
           "Picante de pollo",
           "Mataskita de pollo",
-          "Mataska de pollo"
+          "Mataska de pollo",
+          "Picante de pollo (mataska)",
+          "Picante de pollo (matasca)",
+          "Matasca de pollo"
         ],
         "active": true,
         "portions": 2,

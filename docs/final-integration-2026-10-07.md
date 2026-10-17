@@ -2,6 +2,8 @@
 
 ## Ajustes del 16 de octubre
 
+Nombre final: Picante de pollo (matasquita); alias antiguos conservados para recuperar preferencias y planes. Auditoria raster de las 135 imagenes: solo Causa Limena tiene margen transparente (86 px por lado en su WebP de 900 px). Encuadre 1.25 exclusivamente en su tarjeta, sin cambiar las imagenes ni el CSS de las otras 134. Icono de instalacion usa el SVG con degradado suministrado por el usuario, con derivados PNG de 180 y 512 px. Favicon solido independiente; nuevos nombres de archivo evitan reutilizar el icono anterior en cache.
+
 Arranque no bloqueante: pantalla inicial en HTML, SDK Supabase UMD y licencia incluidos localmente, fuentes no bloqueantes, render inicial antes de consultar servicios remotos. Recuperacion inmediata del plan local en el espacio del propietario cacheado; el identificador cacheado solo elige el respaldo local, no concede autorizacion remota. Recuperacion remota acotada y con guardia de interaccion para no sobrescribir pasos ya iniciados. Deshacer tarjetas anima tanto el regreso de la tarjeta anterior como el retroceso de la pila; respeta movimiento reducido. Solo el boton central usa 48x48.
 
 Tarjetas en orden Fisher-Yates aleatorio por nueva seleccion, estable mientras se responde/deshace. Control de deshacer centrado entre No y Si segun Figma 12469:25048, con su SVG local original. Cambios aleatorios del plan: primeras dos opciones ordenadas por variedad, repeticion, familia de plato y vecinos de ambos lados (tambien al cruzar semanas); siguientes aleatorias sin repetir hasta agotar el conjunto elegible. Las preferencias, temporada y dias rapidos se mantienen. Las sesiones de alternativas se reinician si cambia el contexto del dia.
