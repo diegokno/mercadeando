@@ -7,7 +7,7 @@ const review = JSON.parse(fs.readFileSync('research/final-integration-2026-10-07
 assert.equal(cat.dishes.length,141);
 assert.equal(review.reviews.filter(r=>r.verified).length,141);
 assert.equal(new Set(cat.dishes.map(d=>d.slug)).size,141);
-assert.equal(cat.dishes.filter(d=>d.active).length,137);
+assert.equal(cat.dishes.filter(d=>d.active).length,135);
 const allowed = new Set(['acomer:1193','acomer:761','acomer:1709','acomer:1419','acomer:1778','acomer:628','acomer:845']);
 for (const r of review.reviews) {
   const d=cat.dishes.find(d=>d.winnerId===r.winnerId);

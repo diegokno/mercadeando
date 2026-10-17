@@ -44,13 +44,13 @@
   {
     "id": "pasta-de-aji-mirasol",
     "name": "Pasta de Ají Mirasol",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "pasta-de-aji-panca",
     "name": "Pasta de Ají Panca",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -128,19 +128,19 @@
   {
     "id": "salsa-de-soya",
     "name": "Salsa de Soya",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "salsa-de-ostion",
     "name": "Salsa de Ostion",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "vinagre",
     "name": "Vinagre",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -188,7 +188,7 @@
   {
     "id": "mayonesa",
     "name": "Mayonesa",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -416,7 +416,7 @@
   {
     "id": "galleta-de-vainilla",
     "name": "Galleta de Vainilla",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -446,13 +446,13 @@
   {
     "id": "pasta-de-aji-amarillo",
     "name": "Pasta de Ají Amarillo",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "chicha-de-jora",
     "name": "Chicha de Jora",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -464,7 +464,7 @@
   {
     "id": "pasta-de-tomate",
     "name": "Pasta de Tomate",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -542,7 +542,7 @@
   {
     "id": "vino-tinto",
     "name": "Vino Tinto",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -602,7 +602,7 @@
   {
     "id": "vinagre-tinto",
     "name": "Vinagre Tinto",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -668,13 +668,13 @@
   {
     "id": "chuno-o-fecula-de-papa",
     "name": "Chuno o Fecula de Papa",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "azucar",
     "name": "Azúcar",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -710,7 +710,7 @@
   {
     "id": "cerveza-negra",
     "name": "Cerveza Negra",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -752,7 +752,7 @@
   {
     "id": "salsa-mensi",
     "name": "Salsa Mensi",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -800,7 +800,7 @@
   {
     "id": "mostaza-en-grano-mostaza-americana",
     "name": "Mostaza En Grano Mostaza Americana",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -842,7 +842,7 @@
   {
     "id": "mostaza",
     "name": "Mostaza",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -878,13 +878,13 @@
   {
     "id": "aji-panca-en-pasta",
     "name": "Ají panca en pasta",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "aji-amarillo-en-pasta",
     "name": "Ají amarillo en pasta",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -932,7 +932,7 @@
   {
     "id": "gaseosa-negra",
     "name": "Gaseosa Negra",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1088,7 +1088,7 @@
   {
     "id": "cerveza",
     "name": "Cerveza",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "id": "fettuccine",
     "name": "Fettuccine",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1172,7 +1172,7 @@
   {
     "id": "vinagre-balsamico",
     "name": "Vinagre Balsamico",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1280,7 +1280,7 @@
   {
     "id": "fecula-de-maiz",
     "name": "Fécula de Maíz",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1328,7 +1328,7 @@
   {
     "id": "pasta-wantan",
     "name": "Pasta Wantan",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1340,13 +1340,13 @@
   {
     "id": "salsa-inglesa",
     "name": "Salsa Inglesa",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "vinagre-de-manzana",
     "name": "Vinagre de Manzana",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1358,7 +1358,7 @@
   {
     "id": "pasta-corta",
     "name": "Pasta Corta",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1484,7 +1484,7 @@
   {
     "id": "salsa-hoisin",
     "name": "Salsa Hoisin",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1532,7 +1532,7 @@
   {
     "id": "pasta-para-lasana",
     "name": "Pasta Para Lasana",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
@@ -1574,13 +1574,13 @@
   {
     "id": "fecula-de-papa",
     "name": "Fécula de papa",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {
     "id": "pasta-de-tamarindo",
     "name": "Pasta de tamarindo",
-    "category": "Verduras y otros",
+    "category": "Abarrotes",
     "pantry": false
   },
   {

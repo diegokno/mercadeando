@@ -147,7 +147,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -163,7 +163,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Aceituna",
@@ -492,7 +492,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -508,7 +508,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Vinagre",
@@ -524,7 +524,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Tomate",
@@ -739,7 +739,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -755,7 +755,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Vinagre",
@@ -771,7 +771,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla China",
@@ -1080,7 +1080,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -1323,7 +1323,7 @@
             "inferred": true,
             "source": "revisión final",
             "inferred_reason": "Cantidad editorial, no especificada por la fuente",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -1601,7 +1601,7 @@
             "inferred": true,
             "source": "revisión final",
             "inferred_reason": "Cantidad editorial, no especificada por la fuente",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pimentón",
@@ -1644,195 +1644,6 @@
         "prep": "Frío",
         "p": "frio",
         "cat": "menestra"
-      }
-    },
-    {
-      "slug": "caldo-de-pollo",
-      "name": "Caldo de pollo",
-      "base": "Pollo",
-      "preparation": "Sopa",
-      "category": "pollo",
-      "preparation_key": "sopa",
-      "image_path": "imagenes-platos/webp/caldo-de-pollo.249e3aa756.webp",
-      "recipe_payload": {
-        "slug": "caldo-de-pollo",
-        "winnerId": "old:caldo-de-pollo",
-        "n": "Caldo de pollo",
-        "aliases": [
-          "Caldo de pollo"
-        ],
-        "active": true,
-        "portions": 2,
-        "ingredients": [
-          {
-            "name": "Pollo",
-            "recipe_name": "Pollo",
-            "quantity": "2 presas",
-            "shopping_quantity": "2 presas",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Proteínas"
-          },
-          {
-            "name": "Ajo",
-            "recipe_name": "Ajo",
-            "quantity": "0.5 cucharadita",
-            "shopping_quantity": "0.5 cucharadita",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Cebolla",
-            "recipe_name": "Cebolla",
-            "quantity": "0.25 unid",
-            "shopping_quantity": "0.25 unid",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Apio",
-            "recipe_name": "Apio",
-            "quantity": "0.25 taza",
-            "shopping_quantity": "0.25 taza",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Zanahoria",
-            "recipe_name": "Zanahoria",
-            "quantity": "1 unid",
-            "shopping_quantity": "1 unid",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Papa",
-            "recipe_name": "Papa",
-            "quantity": "1 unid",
-            "shopping_quantity": "1 unid",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Fideo",
-            "recipe_name": "Fideo",
-            "quantity": "62.5 g",
-            "shopping_quantity": "62.5 g",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Abarrotes"
-          },
-          {
-            "name": "Perejil",
-            "recipe_name": "Perejil",
-            "quantity": "al gusto",
-            "shopping_quantity": "al gusto",
-            "cooking_quantity": "",
-            "pantry": false,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Agua",
-            "recipe_name": "Agua",
-            "quantity": "1 litro",
-            "shopping_quantity": "1 litro",
-            "cooking_quantity": "",
-            "pantry": true,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Sal",
-            "recipe_name": "Sal",
-            "quantity": "al gusto",
-            "shopping_quantity": "al gusto",
-            "cooking_quantity": "",
-            "pantry": true,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Pimienta",
-            "recipe_name": "Pimienta",
-            "quantity": "al gusto",
-            "shopping_quantity": "al gusto",
-            "cooking_quantity": "",
-            "pantry": true,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Orégano",
-            "recipe_name": "Orégano",
-            "quantity": "al gusto",
-            "shopping_quantity": "al gusto",
-            "cooking_quantity": "",
-            "pantry": true,
-            "optional": false,
-            "inferred": false,
-            "source": "revisión final",
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          }
-        ],
-        "steps": [
-          "Hierve el agua. Agrega el pollo, orégano, sal y pimienta; tapa y cocina 10 minutos. Retira la espuma que aparezca.",
-          "Añade ajo, cebolla, apio, zanahoria y papa cortados. Cocina unos 30 minutos, hasta que el pollo y las verduras estén cocidos.",
-          "Agrega los fideos y cocina hasta que estén tiernos. Sirve con perejil picado."
-        ],
-        "img": "imagenes-platos/webp/caldo-de-pollo.249e3aa756.webp",
-        "imageStatus": "kept",
-        "quick": false,
-        "base": "Pollo",
-        "prep": "Sopa",
-        "p": "sopa",
-        "cat": "pollo"
       }
     },
     {
@@ -2135,7 +1946,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           }
         ],
         "steps": [
@@ -2497,7 +2308,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -2513,7 +2324,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Laurel",
@@ -2794,7 +2605,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -3053,120 +2864,6 @@
         "prep": "Pasta",
         "p": "pasta",
         "cat": "vegetariano"
-      }
-    },
-    {
-      "slug": "higado-frito-con-arroz",
-      "name": "Hígado frito con arroz",
-      "base": "Res",
-      "preparation": "Frito",
-      "category": "res",
-      "preparation_key": "frito",
-      "image_path": "imagenes-platos/webp/higado-frito-con-arroz.00fac8e218.webp",
-      "recipe_payload": {
-        "slug": "higado-frito-con-arroz",
-        "winnerId": "old:higado-frito-con-arroz",
-        "n": "Hígado frito con arroz",
-        "aliases": [
-          "Hígado frito con arroz"
-        ],
-        "active": true,
-        "portions": 2,
-        "ingredients": [
-          {
-            "name": "Hígado de Res",
-            "quantity": "0.45 kg",
-            "shopping_quantity": "0.45 kg",
-            "cooking_quantity": "",
-            "display": "Hígado de res - 0.45 kg",
-            "source": "",
-            "original_quantity": "",
-            "portion_scaled": false,
-            "pantry": false,
-            "optional": false,
-            "optional_reason": "",
-            "inferred": false,
-            "inferred_reason": "",
-            "category": "Proteínas"
-          },
-          {
-            "name": "Papa",
-            "quantity": "3 unid",
-            "shopping_quantity": "3 unid",
-            "cooking_quantity": "",
-            "display": "Papa - 3 unid",
-            "source": "",
-            "original_quantity": "",
-            "portion_scaled": false,
-            "pantry": false,
-            "optional": false,
-            "optional_reason": "",
-            "inferred": false,
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Arroz",
-            "quantity": "0.35 kg",
-            "shopping_quantity": "0.35 kg",
-            "cooking_quantity": "aprox. 2 tazas",
-            "display": "Arroz - 0.35 kg",
-            "source": "",
-            "original_quantity": "",
-            "portion_scaled": false,
-            "pantry": false,
-            "optional": false,
-            "optional_reason": "",
-            "inferred": false,
-            "inferred_reason": "",
-            "category": "Abarrotes"
-          },
-          {
-            "name": "Cebolla",
-            "quantity": "1 unid",
-            "shopping_quantity": "1 unid",
-            "cooking_quantity": "",
-            "display": "Cebolla roja - 1 unid",
-            "source": "",
-            "original_quantity": "",
-            "portion_scaled": false,
-            "pantry": false,
-            "optional": false,
-            "optional_reason": "",
-            "inferred": false,
-            "inferred_reason": "",
-            "category": "Verduras y otros"
-          },
-          {
-            "name": "Ajo",
-            "quantity": "2 dientes",
-            "shopping_quantity": "2 dientes",
-            "cooking_quantity": "",
-            "display": "Ajo - 2 dientes",
-            "source": "inferido",
-            "original_quantity": "",
-            "portion_scaled": false,
-            "pantry": false,
-            "optional": false,
-            "optional_reason": "",
-            "inferred": true,
-            "inferred_reason": "mencionado en la preparación",
-            "category": "Verduras y otros"
-          }
-        ],
-        "steps": [
-          "Sazona el hígado con ajo, sal y pimienta.",
-          "Fríe o dora las papas.",
-          "Cocina el hígado rápido para que no se endurezca.",
-          "Sirve con arroz y cebolla salteada."
-        ],
-        "img": "imagenes-platos/webp/higado-frito-con-arroz.00fac8e218.webp",
-        "imageStatus": "kept",
-        "quick": false,
-        "base": "Res",
-        "prep": "Frito",
-        "p": "frito",
-        "cat": "res"
       }
     },
     {
@@ -3574,7 +3271,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Leche Evaporada",
@@ -3792,7 +3489,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -3809,7 +3506,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasas Morenas",
@@ -4368,7 +4065,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chicha de Jora",
@@ -4384,7 +4081,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arroz",
@@ -4748,7 +4445,7 @@
             "optional_reason": "",
             "inferred": true,
             "inferred_reason": "Cantidad editorial estimada para dos; pendiente de confirmación humana.",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají Panca",
@@ -5009,7 +4706,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huacatay",
@@ -5878,7 +5575,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -6255,7 +5952,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Harina Sin Preparar",
@@ -7038,7 +6735,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Harina Sin Preparar",
@@ -7362,7 +7059,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -7556,7 +7253,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -7624,7 +7321,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -8143,7 +7840,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Hierbabuena",
@@ -8202,7 +7899,7 @@
     },
     {
       "slug": "matasquita-de-pollo",
-      "name": "Matasquita de pollo",
+      "name": "Picante de pollo (mataska)",
       "base": "Pollo",
       "preparation": "Guiso",
       "category": "pollo",
@@ -8211,9 +7908,12 @@
       "recipe_payload": {
         "slug": "matasquita-de-pollo",
         "winnerId": "old:matasquita-de-pollo",
-        "n": "Matasquita de pollo",
+        "n": "Picante de pollo (mataska)",
         "aliases": [
-          "Matasquita de pollo"
+          "Matasquita de pollo",
+          "Picante de pollo",
+          "Mataskita de pollo",
+          "Mataska de pollo"
         ],
         "active": true,
         "portions": 2,
@@ -8642,7 +8342,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají Amarillo",
@@ -8676,7 +8376,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chuño o fecula de papa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -8693,7 +8393,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Mayonesa",
@@ -8710,7 +8410,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Aceituna",
@@ -8931,7 +8631,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -9061,7 +8761,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -9074,7 +8774,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Agua",
@@ -9273,7 +8973,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -9307,7 +9007,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chicha de Jora",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arvejas",
@@ -9641,7 +9341,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -9654,7 +9354,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Soya",
@@ -9667,7 +9367,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cerveza Negra",
@@ -9680,7 +9380,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chicha de Jora",
@@ -9693,7 +9393,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -9932,7 +9632,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -9958,7 +9658,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Comino",
@@ -10867,7 +10567,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa Mensi",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Soya",
@@ -10884,7 +10584,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Sillao",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Vinagre de Arroz",
@@ -11054,7 +10754,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -11088,7 +10788,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre Blanco o Tinto",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pollo",
@@ -11207,7 +10907,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arroz",
@@ -11393,7 +11093,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Soya",
@@ -11410,7 +11110,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cerveza Negra",
@@ -11427,7 +11127,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza Negra",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chicha de Jora",
@@ -11444,7 +11144,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chicha de Jora",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -11477,7 +11177,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pimienta",
@@ -11647,7 +11347,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mostaza en Grano / Mostaza Americana",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Poro",
@@ -11766,7 +11466,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vino Blanco Seco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pimienta",
@@ -11938,7 +11638,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chuño (Fécula de papa)",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají Amarillo",
@@ -12179,7 +11879,7 @@
             "inferred": false,
             "source": "revisión final",
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Papa",
@@ -12455,7 +12155,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla China",
@@ -12489,7 +12189,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pierna de Pollo",
@@ -12557,7 +12257,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mostaza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Harina Sin Preparar",
@@ -12591,7 +12291,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chuño (Fécula de papa)",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Paprika",
@@ -12625,7 +12325,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -12910,7 +12610,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají amarillo en pasta",
@@ -12926,7 +12626,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -13143,7 +12843,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Sillao Claro",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Canela China Polvo",
@@ -13258,7 +12958,9 @@
         "winnerId": "acomer:1720",
         "n": "Hígado Encebollado con Puré",
         "aliases": [
-          "Hígado Encebollado con Puré"
+          "Hígado Encebollado con Puré",
+          "Hígado frito con arroz",
+          "higado-frito-con-arroz"
         ],
         "active": true,
         "portions": 2,
@@ -13278,7 +12980,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Vinagre",
@@ -13295,7 +12997,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre Tinto o Blanco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cerveza Negra",
@@ -13312,7 +13014,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza Negra",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -13668,7 +13370,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de tomate",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Hongo Seco",
@@ -13858,7 +13560,7 @@
     },
     {
       "slug": "pollo-a-la-gaseosa-negra",
-      "name": "Pollo a la Gaseosa Negra",
+      "name": "Pollo a la Coca-Cola",
       "base": "Pollo",
       "preparation": "Guiso",
       "category": "pollo",
@@ -13867,9 +13569,11 @@
       "recipe_payload": {
         "slug": "pollo-a-la-gaseosa-negra",
         "winnerId": "acomer:1709",
-        "n": "Pollo a la Gaseosa Negra",
+        "n": "Pollo a la Coca-Cola",
         "aliases": [
-          "Pollo a la Coca Cola"
+          "Pollo a la Coca Cola",
+          "Pollo a la Gaseosa Negra",
+          "Pollo a la Coca-Cola"
         ],
         "active": true,
         "portions": 2,
@@ -13957,7 +13661,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Tomate",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Gaseosa Negra",
@@ -13974,7 +13678,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Coca Cola",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chuno o Fecula de Papa",
@@ -13991,7 +13695,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chuño diluído en agua fría",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pimentón",
@@ -14082,7 +13786,7 @@
         "steps": [
           "Salpimienta el pollo y dóralo por ambos lados en una olla con aceite. Retíralo temporalmente.",
           "Sofríe la cebolla blanca picada en esa olla 12 minutos. Incorpora ajo y cocina 3 minutos; añade pasta de tomate y cocina otros 3.",
-          "Vierte la gaseosa negra, devuelve las presas y cocina unos 20 minutos, hasta que el pollo esté cocido. Ajusta la sal.",
+          "Vierte la Coca-Cola, devuelve las presas y cocina unos 20 minutos, hasta que el pollo esté cocido. Ajusta la sal.",
           "Añade pimiento en tiras. Disuelve chuño en agua fría y agrégalo poco a poco hasta espesar la salsa; hierve unos 3 minutos.",
           "Sancocha la papa aparte, córtala en rodajas y dórala en una sartén unos 3 minutos por lado. Sirve junto al pollo y su salsa."
         ],
@@ -14179,7 +13883,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mostaza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -14196,7 +13900,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Mantequilla",
@@ -14230,7 +13934,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chuño diluído en agua",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Papa Amarilla",
@@ -14943,7 +14647,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -14960,7 +14664,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Mirasol",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -15162,7 +14866,9 @@
         "winnerId": "acomer:1696",
         "n": "Sopa de Pollo",
         "aliases": [
-          "Sopa de Pollo"
+          "Sopa de Pollo",
+          "Caldo de pollo",
+          "caldo-de-pollo"
         ],
         "active": true,
         "portions": 2,
@@ -15489,7 +15195,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara (Siyao)",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Kion o Jengibre",
@@ -15557,7 +15263,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -15574,7 +15280,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Frejol Chino",
@@ -15864,7 +15570,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Soya",
@@ -15881,7 +15587,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Holantao",
@@ -16035,7 +15741,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de soya clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají Limo",
@@ -16376,7 +16082,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -16664,7 +16370,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza Negra",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ají Panca En Polvo",
@@ -16715,7 +16421,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Leche Entera",
@@ -16749,7 +16455,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mostaza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -16990,7 +16696,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -17424,7 +17130,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Sillao",
@@ -17622,7 +17328,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Gaseosa Negra",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cabello de Angel",
@@ -17741,7 +17447,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pecanas",
@@ -17967,7 +17673,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -17984,7 +17690,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -18001,7 +17707,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají mirasol",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -18052,7 +17758,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre Tinto",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Aceituna",
@@ -18512,7 +18218,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fettuccine",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Crema de Leche",
@@ -18956,7 +18662,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -19109,7 +18815,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arroz",
@@ -19295,7 +19001,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huacatay",
@@ -19534,7 +19240,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Puré o Pasta de Tomate",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Romero",
@@ -19636,7 +19342,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre Bálsamico",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -19653,7 +19359,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Berenjena",
@@ -19943,7 +19649,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -19960,7 +19666,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají mirasol",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Vongole",
@@ -20079,7 +19785,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Almidón o fécula de papa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -20710,7 +20416,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya Clara",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Kion o Jengibre",
@@ -20761,7 +20467,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azucar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla China",
@@ -21014,7 +20720,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -21031,7 +20737,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arvejas",
@@ -21099,7 +20805,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -21933,7 +21639,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pechuga de Pollo",
@@ -21967,7 +21673,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -22240,7 +21946,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -22257,7 +21963,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Leche Evaporada",
@@ -22612,7 +22318,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de papa o de maiz",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Polvo de Hornear",
@@ -22680,7 +22386,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -23206,7 +22912,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta wantán",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Carne de Cerdo",
@@ -23240,7 +22946,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de maiz o chuño",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -23376,7 +23082,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Jamon",
@@ -23478,7 +23184,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Sal",
@@ -23886,7 +23592,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vino Tinto",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Tomate",
@@ -23903,7 +23609,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Tomate",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Zanahoria",
@@ -24938,7 +24644,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -25379,7 +25085,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -25396,7 +25102,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -25430,7 +25136,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chicha de Jora",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cerveza Negra",
@@ -25447,7 +25153,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza negra",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Zapallo Loche",
@@ -25618,7 +25324,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mayonesa",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -25805,7 +25511,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de papa o de maiz",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Polvo de Hornear",
@@ -25958,7 +25664,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Canela China Polvo",
@@ -26026,7 +25732,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de papa o de maiz",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Nabo",
@@ -26060,7 +25766,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -26231,7 +25937,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Tomate",
@@ -26638,7 +26344,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -27011,7 +26717,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vino Blanco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pan Blanco Sin Corteza",
@@ -27045,7 +26751,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa Hoisin",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -27062,7 +26768,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Kion o Jengibre",
@@ -27096,7 +26802,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Canela China Polvo",
@@ -27269,7 +26975,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",
@@ -27303,7 +27009,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cerveza",
@@ -27320,7 +27026,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -27505,7 +27211,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -27522,7 +27228,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huacatay",
@@ -27792,7 +27498,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -27809,7 +27515,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají mirasol",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Achiote En Polvo",
@@ -28385,7 +28091,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar Rubia",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Romero",
@@ -28436,7 +28142,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vino Tinto Seco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Mantequilla",
@@ -28521,7 +28227,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta para Lasaña",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Queso Mozzarella",
@@ -28726,7 +28432,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vino Tinto Seco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -28794,7 +28500,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Tomate",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Zanahoria",
@@ -29069,7 +28775,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -29086,7 +28792,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Papa",
@@ -29354,7 +29060,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -29386,7 +29092,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pollo",
@@ -29418,7 +29124,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Durazno En Conserva",
@@ -29482,7 +29188,7 @@
             "optional_reason": "",
             "inferred": false,
             "inferred_reason": "",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ketchup",
@@ -29699,7 +29405,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -29767,7 +29473,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -29989,7 +29695,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de papa o de maiz",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Fideos de Arroz",
@@ -30210,7 +29916,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azúcar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Cebolla",
@@ -30518,7 +30224,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -30535,7 +30241,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -30722,7 +30428,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Amarillo",
@@ -30739,7 +30445,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chincho",
@@ -31267,7 +30973,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Col o Repollo",
@@ -31301,7 +31007,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Mostaza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Soya",
@@ -31318,7 +31024,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Papa",
@@ -31525,7 +31231,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Soya",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -31542,7 +31248,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Azúcar",
@@ -31559,7 +31265,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Azucar",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Kion o Jengibre",
@@ -32089,7 +31795,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chicha de Jora",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Amarillo",
@@ -32106,7 +31812,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -32123,7 +31829,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Aji Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Frejoles",
@@ -32395,7 +32101,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Panca",
@@ -32412,7 +32118,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Culantro",
@@ -32446,7 +32152,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Cerveza",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Chicha de Jora",
@@ -32463,7 +32169,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Chicha de Jora",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Arroz",
@@ -32922,7 +32628,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají panca",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Pasta de Ají Mirasol",
@@ -32939,7 +32645,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de ají mirasol",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Canela Entera",
@@ -33520,7 +33226,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Fécula de Papa o de Maiz",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Tausi",
@@ -33554,7 +33260,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa Hoisin",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Salsa de Ostion",
@@ -33571,7 +33277,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Salsa de Ostión",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Huevo",
@@ -33760,7 +33466,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Pasta de Ají Amarillo",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Limón",
@@ -34322,7 +34028,7 @@
             "inferred": false,
             "inferred_reason": "",
             "recipe_name": "Vinagre blanco",
-            "category": "Verduras y otros"
+            "category": "Abarrotes"
           },
           {
             "name": "Ajo",

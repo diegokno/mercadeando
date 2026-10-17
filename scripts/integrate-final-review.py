@@ -158,10 +158,11 @@ def main():
             for i in items:
                 if 'pabilo' in norm(i['name']): i['pantry'] = True
         if rid == 'acomer:1709':
-            title = 'Pollo a la Gaseosa Negra'
+            title = 'Pollo a la Coca-Cola'
             for i in items:
                 if 'coca' in norm(i['name']): i['name'] = i['recipe_name'] = 'Gaseosa Negra'
-            steps = [re.sub(r'Coca[ -]?Cola', 'gaseosa negra', s, flags=re.I) for s in steps]
+            steps = [re.sub(r'gaseosa negra|Coca[ -]?Cola', 'Coca-Cola', s, flags=re.I) for s in steps]
+        if rid == 'old:matasquita-de-pollo': title = 'Picante de pollo (mataska)'
         if rid == 'acomer:1778':
             steps = [re.sub(r'\bKikko(?:man)?\b', '', s, flags=re.I) for s in steps]
             for i in items:
@@ -184,7 +185,8 @@ def main():
             photo = urlparse(photo).path.lstrip('/')
             photo = Path(photo).relative_to(ROOT).as_posix()
         active = r['active'] and rid not in decisions['retire']
-        d = {'slug': legacy or slug(title), 'winnerId': rid, 'groupId': r['groupId'], 'n': title,
+        if rid in {'old:caldo-de-pollo', 'old:higado-frito-con-arroz'}: active = False
+        d = {'slug': legacy or ('pollo-a-la-gaseosa-negra' if rid == 'acomer:1709' else slug(title)), 'winnerId': rid, 'groupId': r['groupId'], 'n': title,
              'aliases': list(dict.fromkeys([r['title']] + [x['title'] for x in group['dishes']])),
              'active': active, 'portions': 2, 'ingredients': items, 'steps': steps, 'provenance': provenance,
              'sourceUrl': url, 'img': photo, 'imageDecision': r['imageDecision'], 'imageStatus': 'reference_pending' if r['imageDecision'] != 'keep_local' else 'kept',
@@ -193,6 +195,10 @@ def main():
         if rid == 'acomer:970': d['season'] = {'start': 1208, 'end': 1231}
         generated = ROOT / f"imagenes-platos/final/{d['slug']}.png"
         if generated.exists(): d.update(img=generated.relative_to(ROOT).as_posix(), imageStatus='generated')
+        if rid == 'acomer:1720': d['aliases'] += ['Hígado frito con arroz', 'higado-frito-con-arroz']
+        if rid == 'acomer:1696': d['aliases'] += ['Caldo de pollo', 'caldo-de-pollo']
+        if rid == 'old:matasquita-de-pollo': d['aliases'] += ['Picante de pollo', 'Mataskita de pollo', 'Mataska de pollo']
+        if rid == 'acomer:1709': d['aliases'] += ['Pollo a la Gaseosa Negra', 'Pollo a la Coca-Cola']
         if active and (d['imageStatus'] == 'reference_pending' or (rid == 'old:seco-de-res' and d['imageStatus'] != 'generated')):
             image_jobs.append({'slug': d['slug'], 'name': title, 'reference': photo, 'status': d['imageStatus'], 'ingredients': [i['recipe_name'] if i.get('recipe_name') else i['name'] for i in items if not i.get('pantry')], 'instruction': 'Eliminar frejoles; conservar el resto' if rid == 'old:seco-de-res' else 'Generar imagen original con la guía de estilo y la referencia aprobada'})
         if rid.startswith('acomer:') and original != {'ingredients': r['selectedIngredients'] + r['pantryIngredients'] + r['optionalIngredients'], 'steps': steps}:
@@ -218,7 +224,7 @@ def category(name):
     n = norm(name)
     if any(s in n for s in ['queso', 'leche', 'huevo', 'mantequilla']): return 'Lácteos y huevos'
     if any(re.search(r'\b' + s + r'\b', n) for s in ['pollo', 'carne', 'cerdo', 'res', 'pescado', 'atun', 'pavo', 'malaya', 'pechuga', 'chuleta', 'higado', 'langostino', 'jamon', 'tocino', 'salchicha']): return 'Proteínas'
-    if any(s in n for s in ['arroz', 'harina', 'pan ', 'fideo', 'tallarin', 'mezcla', 'quinua', 'lenteja', 'frejol']): return 'Abarrotes'
+    if any(s in n for s in ['arroz', 'harina', 'pan ', 'fideo', 'tallarin', 'espagu', 'spaghe', 'macarr', 'fettu', 'pasta', 'mezcla', 'quinua', 'lenteja', 'frejol', 'vinagre', 'salsa', 'gaseosa', 'galleta', 'azucar', 'fecula', 'cerveza', 'vino', 'chicha', 'mayonesa', 'mostaza']): return 'Abarrotes'
     return 'Verduras y otros'
 
 

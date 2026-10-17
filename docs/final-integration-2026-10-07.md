@@ -1,5 +1,14 @@
 # Integracion de la revision final
 
+## Ajustes del 16 de octubre
+
+- 135 activos: se archivaron Caldo de pollo e Higado frito con arroz en favor de Sopa de Pollo e Higado Encebollado con Pure de A Comer. Los planes previos se redirigen mediante alias, sin mezclar ingredientes antiguos con la receta ganadora.
+- Matasquita se llama Picante de pollo (mataska). Picante de Carne es otro plato y permanece independiente. Pollo a la Coca-Cola recupera su nombre.
+- Compras excluye fechas pasadas y conserva el inicio del plan al refrescar. El check y los cambios de cantidad mantienen el scroll.
+- Presentacion de compras: una medida, redondeo hacia arriba para no comprar de menos, medios para cantidades pequenas por unidad y escalones de 50 g/ml. Recetas sin redondear. Liquidos: taza domestica de 240 ml. Unidades incompatibles no se convierten sin evidencia: se indica Por definir y el usuario puede editar; cantidades cualitativas: Al gusto.
+- Tarjetas: contador arriba a la derecha, titulo de dos lineas al fondo, deshacer ultima eleccion.
+- Favicon SVG basado en la M original e icono PNG para iPhone. Prototipo separado en /review-changes.html, sin alterar el progreso real.
+
 ## Estado local
 
 - Exportacion original conservada sin modificar: 141 revisiones verificadas.

@@ -15,6 +15,8 @@ if (finalCatalog?.dishes.some(d => d.active && d.imageStatus === 'reference_pend
 
 // Keep the existing checkout and files; overwrite owned build outputs only.
 fs.mkdirSync(publicDir, {recursive: true});
+fs.copyFileSync(path.join(root,'manifest.webmanifest'),path.join(publicDir,'manifest.webmanifest'));
+fs.copyFileSync(path.join(root,'previews/review-changes.html'),path.join(publicDir,'review-changes.html'));
 copyDir(path.join(root, "assets"), path.join(publicDir, "assets"));
 fs.mkdirSync(path.join(publicDir, "imagenes-platos", "webp"), { recursive: true });
 
