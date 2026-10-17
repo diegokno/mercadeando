@@ -2,6 +2,8 @@
 
 ## Ajustes del 16 de octubre
 
+Arranque no bloqueante: pantalla inicial en HTML, SDK Supabase UMD y licencia incluidos localmente, fuentes no bloqueantes, render inicial antes de consultar servicios remotos. Recuperacion inmediata del plan local en el espacio del propietario cacheado; el identificador cacheado solo elige el respaldo local, no concede autorizacion remota. Recuperacion remota acotada y con guardia de interaccion para no sobrescribir pasos ya iniciados. Deshacer tarjetas anima tanto el regreso de la tarjeta anterior como el retroceso de la pila; respeta movimiento reducido. Solo el boton central usa 48x48.
+
 Tarjetas en orden Fisher-Yates aleatorio por nueva seleccion, estable mientras se responde/deshace. Control de deshacer centrado entre No y Si segun Figma 12469:25048, con su SVG local original. Cambios aleatorios del plan: primeras dos opciones ordenadas por variedad, repeticion, familia de plato y vecinos de ambos lados (tambien al cruzar semanas); siguientes aleatorias sin repetir hasta agotar el conjunto elegible. Las preferencias, temporada y dias rapidos se mantienen. Las sesiones de alternativas se reinician si cambia el contexto del dia.
 
 - 135 activos: se archivaron Caldo de pollo e Higado frito con arroz en favor de Sopa de Pollo e Higado Encebollado con Pure de A Comer. Los planes previos se redirigen mediante alias, sin mezclar ingredientes antiguos con la receta ganadora.
