@@ -55,6 +55,7 @@ for (const [from, to] of replacements) {
   html = html.split(from).join(to);
 }
 html = html.replace("const imgBase='imagenes-platos/generadas/';", "const imgBase='imagenes-platos/webp/';");
+html = html.replace(/src="(lib\/[^"?]+\.js)"/g,(_,file)=>`src="${file}?v=${createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,10)}"`);
 
 fs.writeFileSync(path.join(publicDir, "app.html"), html);
 fs.writeFileSync(path.join(publicDir, "index.html"), html);

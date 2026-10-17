@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict');
+const engine=require('../lib/selection-engine');
+const planner=require('../lib/meal-planner');
+const catalog=require('../data/catalog.final.json').dishes.filter(d=>d.active);
+const order=engine.shuffle(catalog,()=>.37);
+assert.deepEqual(new Set(order.map(d=>d.slug)),new Set(catalog.map(d=>d.slug)));
+assert.notDeepEqual(order.map(d=>d.slug),catalog.map(d=>d.slug));
+assert.notDeepEqual(engine.shuffle(catalog,()=>.19),order);
+const pasta={slug:'pasta',n:'Tallarines saltados',p:'saltado',base:'Res',ingredients:[]};
+const green={...pasta,slug:'green',n:'Tallarines verdes',p:'pasta'};
+const chicken={slug:'chicken',n:'Pollo al horno',p:'horno',base:'Pollo',ingredients:[]};
+const fish={slug:'fish',n:'Pescado frito',p:'frito',base:'Pescado',ingredients:[]};
+assert.equal(planner.family(pasta),planner.family(green));
+const ranked=planner.rankRecommendations([green,chicken,fish],[pasta],{neighbors:[pasta],date:new Date(2026,9,16)});
+assert.notEqual(ranked[0].slug,'green');
+assert.notEqual(ranked[1].slug,'green');
+const cycle=engine.createReplacements(()=>.8);
+const pool=[chicken,fish,green,pasta];let current=pasta;
+const seen=new Set([current.slug]);
+for(let i=0;i<3;i++){current=cycle.next('day',pool,current);assert.ok(!seen.has(current.slug));seen.add(current.slug);}
+assert.equal(seen.size,4);
+assert.notEqual(cycle.next('day',pool,current).slug,current.slug);
+assert.equal(engine.createReplacements().next('day',[pasta],pasta),null);
+assert.equal(engine.createReplacements().next('day',[],pasta),null);
+console.log('PASS: complete randomized deck, pasta-family adjacency, first two ranked choices, no repeated reroll until exhaustion, tiny pools.');

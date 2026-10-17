@@ -102,7 +102,15 @@
     const result = beam[0] || {days: [], reasons: [], score: 0};
     return {...result, warnings, assumptions: 'Heurística de búsqueda acotada; tamaños y conservación son configurables, no un óptimo global ni una garantía de conservación.'};
   }
-  function recommend(catalog, context = [], options = {}) {
+  function family(dish) {
+    const n=core.normalize(dish?.n||dish?.name||'');
+    if(/tallarin|fideo|espagu|spaghe|fettu|macarr|lasana|pasta/.test(n)||dish?.p==='pasta')return 'pasta';
+    if(/^arroz|chaufa|mostrito/.test(n))return 'arroz';
+    if(/sopa|caldo|aguadito|chupe|menestron|chilcano|parihuela/.test(n)||dish?.p==='sopa')return 'sopa';
+    if(/ensalada/.test(n))return 'ensalada';
+    return dish?.p||'otro';
+  }
+  function rankRecommendations(catalog, context = [], options = {}) {
     const date = options.date || new Date(), rejected = new Set(options.rejected || []);
     let pool = catalog.filter(d => available(d,date) && !rejected.has(d.n) && d.n !== options.exclude);
     if(options.quick && pool.some(d=>d.quick))pool=pool.filter(d=>d.quick);
@@ -110,8 +118,15 @@
     const existing = new Map(baseline.map(i=>[core.normalize(i.n),i]));
     const packages={...defaults,...options.packages};
     return pool.map(d=>{
-      let score=context.some(x=>x.n===d.n)?30:0;
+      let score=context.some(x=>x.n===d.n)?200:0;
       score+=context.filter(x=>x.base===d.base).length*3;
+      const kind=family(d);
+      score+=context.filter(x=>family(x)===kind).length*4;
+      for(const neighbor of (options.neighbors||[]).filter(x=>x&&!x.skipShopping)){
+        if(family(neighbor)===kind)score+=kind==='pasta'?100:35;
+        if(neighbor.base===d.base)score+=12;
+        if(neighbor.p===d.p)score+=8;
+      }
       for(const i of core.aggregate([d],options.people||2,options.portion||'regular')){
         const rule=packages[core.normalize(i.n)],old=existing.get(core.normalize(i.n));
         if(!rule||i.q===null||i.u!==rule.unit||!old||old.q===null||old.u!==rule.unit)continue;
@@ -119,7 +134,8 @@
         score-=Math.min(i.q,remaining)/rule.size*8;
       }
       return {d,score,tie:hash(date.toDateString()+d.slug)};
-    }).sort((a,b)=>a.score-b.score||a.tie-b.tie)[0]?.d||null;
+    }).sort((a,b)=>a.score-b.score||a.tie-b.tie).map(x=>x.d);
   }
-  return {plan, recommend, available, defaultPackages: defaults};
+  function recommend(catalog,context=[],options={}){return rankRecommendations(catalog,context,options)[0]||null;}
+  return {plan, recommend, rankRecommendations, family, available, defaultPackages: defaults};
 });
